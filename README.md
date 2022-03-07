@@ -9,7 +9,7 @@ labs, scratch, practice files
 
 Note: 
 1. package.json, package-lock.json can be different for different folders. Best to remove them before running anything. 
-2. And in VSCode terminal, run
+2. And then, in VSCode terminal, run
 
 (1) npm i -D webpack webpack.cli  (press Enter everytime if you just want the default vals for all the fields which is usually the case :)
   
