@@ -11,7 +11,7 @@ Note:
 1. package.json, package-lock.json can be different for different folders. Best to remove them before running anything. 
 2. And then, in VSCode terminal, run
 
-(1) npm i -D webpack webpack.cli  (press Enter everytime if you just want the default values for all the fields. This is usually the case :)
+(1) npm i -D webpack webpack-cli  (press Enter everytime if you just want the default values for all the fields. This is usually the case :)
   
 (2) npm init (press yes for everything)
 
