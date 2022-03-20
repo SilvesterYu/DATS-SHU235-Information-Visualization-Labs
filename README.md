@@ -22,7 +22,7 @@ run:
 
 npx webpack server
 
-and then in the terminal, click and enter the link appeared: <i> [webpack-dev-server] Loopback: http://localhost:9000/
+and then in the terminal, click and enter the link appeared: <i> [webpack-dev-server] Loopback: [go to this link in your VSCode terminal]
   
 If error appears saying that "address already in use :::9000", for Windows users, please search for your command prompt, right click on it, and run as administrator. Then run this line here:
   
