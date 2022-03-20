@@ -15,3 +15,21 @@ Note:
   
 (2) npm init (press Enter everytime if you just want the default values for all the fields. This is usually the case :)
 
+## Week 4
+using webpack live server
+
+run:
+
+npx webpack server
+
+and then in the terminal, click and enter the link appeared: <i> [webpack-dev-server] Loopback: http://localhost:9000/
+  
+If error appears saying that "address already in use :::9000", for Windows users, please search for your command prompt, right click on it, and run as administrator. Then run this line here:
+  
+netstat -ano|findstr "PID :9000"
+  
+Then you will see a list of ports and their PID's. Let's now kill all the ports with those PID's. Replace the "xxxxx" below with your PID's, and run it.
+  
+taskkill /pid xxxxx /f
+  
+Now go back to VSCode terminal and do again npx webpack server
