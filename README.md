@@ -16,6 +16,8 @@ Note:
 (2) npm init (press Enter everytime if you just want the default values for all the fields. This is usually the case :)
 
 ## Week 4
+
+### src: a lift state up example using a smiley face
 using webpack live server
 
 run:
