@@ -11,6 +11,32 @@ const HEIGHT = 600;
 
 class Face extends Component {
 
+    // add a state
+    constructor(pros){
+        super(props);
+        this.state = {
+            color:"yellow"
+        }
+    }
+
+    isOn = () => {
+        // setState is built-in for a state
+        this.setState(
+            {
+                color:"lightgreen"
+            }
+        )
+    }
+
+    isOut = () =>{
+        this.setState(
+            {
+                color:"yellow"
+            }
+        )
+    }
+
+
     render() {
         return <svg width={WIDTH} height={HEIGHT}>
             <g transform={`translate(${WIDTH / 2},${HEIGHT / 2})`}>
