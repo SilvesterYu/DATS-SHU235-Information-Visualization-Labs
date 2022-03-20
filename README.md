@@ -17,8 +17,8 @@ Note:
 
 ## Week 4
 
-### src: a lift state up example using a smiley face
-using webpack live server
+### src/
+a lift state up example using a smiley face using webpack live server
 
 run:
 
