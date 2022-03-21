@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Old faithful geyser dataset!
+        </title>
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+    </head>
+    <body>
+        <h1>Old faithful Geyser Dataset</h1>
+        <script>
+            d3.csv("https://gist.githubusercontent.com/hogwild/c2704a1ae38c0a36983bc13121050dac/raw/7fd577be21752939375d92cd3a808558106e903b/oldFaithfulGeyserDataset.csv")
+            .then(function(data){
+                // define a callback function
+                // forEach is a built-in method for array
+                // convert the data
+                data.forEach(d => {
+                    // convert all index string into float number
+                    d.index = parseFloat(d.index);
+                    // also we can use + to convert string into float
+                    d.eruption = +d.eruption;
+                    d.waiting = +d.waiting;
+                });
+                // show result
+                console.log(data);
+
+                // width and height for the svg below
+                const WIDTH = 800;
+                const HEIGHT = 600;
+
+                // whatever we like to draw we do it in <body> section, we want to attach them to svg so create an svg variable, by this way below
+                // now we are still in then()
+                const svg = d3.select('body').append('svg')
+                    .attr("width", WIDTH)
+                    .attr("height", HEIGHT);
+
+                // in svg the coordinates of the left-up corner is (0, 0)
+                // all around, there are top margin, bottom margin, left margin, and right margin, we draw marks in the middle
+                let margin = {top: 120, bottom: 120, left: 120, right: 120};
+
+                // set width and height of the region where we put our marks
+                let width = WIDTH - margin.left;
+                let height = HEIGHT - margin.top;
+
+                // set scale for axes
+                // d3.scaleLinear().domain([a, b]).range([x, y]), creates a linear scale, domain and range are both continuous.
+                // domain: range of the actual values in the dataset.range(): the locations to draw, on the svg
+                // d3.scaleBand().domain([a, b, c, ...]).range([x, y]), now domain is discrete, output is discrete
+
+                // d => d.eruption: specify which value to take the max, a simple arrow function. It's a callback, returns eruptions of d element
+                // nice() will make a nice little tick at the end of the axis to make it look nice :)
+                let xScale = d3.scaleLinear().domain([0, d3.max(data, d =>d.eruptions)]).range([0, width]).nice();
+                let yScale = d3.scaleLinear().domain([0, d3.max(data, d => d.waiting)]).range([height, 0]).nice();
+
+                // Set up the axes. x axis is best at the bottom. just throw into it xScale
+                let xAxis = d3.axisBottom(xScale);
+                let yAxis = d3.axisLeft(yScale);
+
+                // each axis is wrapped by a <g>
+                // draw things on a "layer", so we can easily group them
+                // append a group. Give an id so we can identify it. Transform it to the position we want it to be
+                let g = svg.append('g')
+                    .attr("id", "backgroud")
+                    .attr("transform", "translate(" + 100 + "," + 100 + ")");
+
+                // give it and arbitrary class name, or an id, both are fine
+                // for y axis, origin is at the top. We need to move it down by height
+                g.append("g")
+                    .attr("transform", "translate(0, " + (height) + ")")
+                    .attr("class", "x-axis")
+                    .call(xAxis);
+                
+                g.append("g")
+                    .attr("class", "y-axis")
+                    .call(yAxis);
+                
+                // selectAll is a css selector of all objects with class name "point"
+                // data() binds points to the data
+                // enter() associates object to dataW
+                // we give the circles a class name "point"
+                // attr('r') specifies radius
+                g.selectAll(".point")
+                    .data(data)
+                    .enter()
+                    .append('circle')
+                    .attr('class', 'point')
+                    .attr('cx', d => xScale(d.eruptions))
+                    .attr('cy', d => yScale(d.waiting))
+                    .attr('r', 5)
+                    .style("fill", "steelblue")
+                    .style("stroke", "black");
+
+
+
+                
+            });
+
+            
+
+
+        </script>
+
+
+    </body>
+
+
+
+</html>

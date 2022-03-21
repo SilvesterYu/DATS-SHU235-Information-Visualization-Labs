@@ -1,0 +1,35 @@
+
+body {
+    font-size:3em;
+    font-family: monospace;
+}
+
+h1 {
+    color: green
+}
+
+#mychoice {
+    background-color: skyblue;
+    color: red;
+    box-sizing:content-box;
+    width: 400px;
+}
+
+.lines {
+    stroke:#328c4a;
+    stroke-width: 5;
+    stroke-linejoin: round;
+
+}
+
+.lines line {
+    stroke: black;
+}
+
+.bar {
+    fill: steelblue;
+}
+
+.axis-lable {
+    font-size: 0.4em;
+}

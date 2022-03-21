@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chart and Plot</title>
+        <link rel="stylesheet" href='styles.css'> 
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+    </head>
+    <body>
+        <h1>Old Faithful</h1>
+        <svg width="800" height="600"></svg>
+        <script>
+            d3.csv('faithful.csv').then(function(data){
+                //console.log(data);
+                // the data is an array-like object
+                data.forEach(d => {
+                    d.index = parseFloat(d.index);
+                    d.eruptions = +d.eruptions;
+                    d.waiting = +d.waiting;
+                });
+                // console.log(data);
+                const svg = d3.select('svg');
+                let margin = { top: 120, bottom: 120, left: 120, right: 120 };
+                let width = svg.attr("width") - margin.left ;
+                let height = svg.attr("height") - margin.top;
+               
+                let xScale = d3.scaleLinear()
+                        .range([0, width])
+                        .domain([0, d3.max(data, (d)=> d.eruptions)])
+                        .nice();
+
+                let yScale = d3.scaleLinear()
+                        .range([height, 0])
+                        .domain([0, d3.max(data, (d)=> d.waiting)])
+                        .nice();
+
+                let g = svg.append("g")
+                        .attr("id", "background")
+                        .attr("transform", "translate(" + 100 + "," + 100 + ")");
+                
+                let xAxis = d3.axisBottom(xScale);
+                let yAxis = d3.axisLeft(yScale)
+                            .ticks(10);
+
+                g.append('g')
+                .attr("transform", "translate(0," + (height) + ")")
+                .attr('class', 'x-axis')
+                .call(xAxis);
+                g.append('g')
+                .attr('class', 'y-axis')
+                .call(yAxis);
+
+                g.selectAll('.point')
+                .data(data)
+                .enter().append('circle')
+                .attr('class', "point")
+                .attr("cx", d => xScale(d.eruptions))
+                .attr('cy', d =>yScale(d.waiting))
+                .attr('r', '5')
+                .style('fill', 'steelblue')
+                .style('stroke', 'black')
+                .on('mouseover', function(d){
+                    d3.select("#background").append("rect")
+                    .attr("id", "cover")
+                    .attr("x", 0)
+                    .attr("y", 0)
+                    .attr("width", width)
+                    .attr("height", height)
+                    .style("fill", "lightgreen")
+                    .style("opacity", 0.6);
+                    d3.select(this).style('fill', 'red').raise();
+                })
+                .on('mouseout', function(d){
+                    d3.select(this).style('fill', 'steelblue');
+                    d3.select("#cover").remove();
+                }) 
+
+                //adding axis-lables
+                g.append('g')
+                .attr("class", 'axis-lable')
+                .attr('transform', 'translate(0,' + (-20) + ')')
+                .append("text")
+                .style("text-anchor", 'middle')
+                .text("Waiting")
+
+                g.append('g')
+                .attr("class", 'axis-lable')
+                .attr('transform', 'translate(' + (width-30) + ',' +(height-10) + ')')
+                .append("text")
+                .style("text-anchor", 'middle')
+                .text("Eruption")
+
+            });
+        </script>
+    </body>
+</html>
