@@ -24,6 +24,8 @@ a lift state up example using a smiley face using webpack live server
 
 run:
 
+npm install
+
 npx webpack server
 
 and then in the VSCode terminal, click and enter the link appeared at this line: [webpack-dev-server] Loopback: http://blablablablabla
