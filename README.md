@@ -18,7 +18,7 @@ Note:
 ## Week4/
 
 ### src/
-a lift state up example using a smiley face using webpack live server
+a lift state up example using a smiley face using webpack live server. Includes example of hook. (in index.js, useState())
 
 (the order of implementation is marked in the comments using (1), (2), ...)
 
