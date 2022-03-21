@@ -60,7 +60,7 @@
                 // draw things on a "layer", so we can easily group them
                 // append a group. Give an id so we can identify it. Transform it to the position we want it to be
                 let g = svg.append('g')
-                    .attr("id", "backgroud")
+                    .attr("id", "background")
                     .attr("transform", "translate(" + 100 + "," + 100 + ")");
 
                 // give it and arbitrary class name, or an id, both are fine
@@ -79,6 +79,17 @@
                 // enter() associates object to dataW
                 // we give the circles a class name "point"
                 // attr('r') specifies radius
+
+                // --- about the selection and binding ---//
+                // if there is only one item with "point" in group g, but if we have hundreds of data item, it will create 99 placeholders in the selection array, each placeholder associated with one item in the data items.
+                // then append() will fill the placeholders with data
+                // Here with the Geyser data, no objects have class name "point". selection returns empty array, but we have 200+ items in dataset, and need to associate array with the whole data
+                // enter() will create 272 placeholders in selection array, each associated with one data item accordingly, it returns the placeholders
+                // append("circle") will replace placeholders with circle tag.
+                // attr("class", "point") adds classname point to the circles
+                // then set attributes for the cirdles
+                // on('mouseover') add mouse event, for each html tag, event is built-in, use on for svg tag.
+                // what happens when mouse is on can be defined using a callback. Should use keyword function. Arrow function will not work
                 g.selectAll(".point")
                     .data(data)
                     .enter()
@@ -86,9 +97,37 @@
                     .attr('class', 'point')
                     .attr('cx', d => xScale(d.eruptions))
                     .attr('cy', d => yScale(d.waiting))
-                    .attr('r', 5)
-                    .style("fill", "steelblue")
-                    .style("stroke", "black");
+                    .attr('r', 10)
+                    .style("fill", "lightgreen")
+                    .style("stroke", "black")
+                    .on('mouseover', function(d){
+                        console.log(d);
+                        d3.select("#background").append("rect")
+                            .attr("id", "cover")
+                            .attr("x", 0)
+                            .attr("y", 0)
+                            .attr("width", width)
+                            .attr("height", height)
+                            .style("fill", "lightgreen")
+                            .style("opacity", 0.5);
+                        d3.select(this).style('fill', 'cyan').raise();
+                    }
+                    )
+                    .on('mouseout', function(d){
+                        d3.select(this).style("fill", "lightgreen");
+                        d3.select("#cover").remove()
+                    }
+                    )
+                
+                // --- d3 method raise --- //
+                // this will put the object selected on top of all others
+                // above we put raise() in the mouseover callback function
+
+                // --- isolate points --- //
+                // draw a rectangle covering all other points, only let the selected point be above the rectangle
+                // we need to select it first. Use .select("#[id here]")
+                // better to specify it using an id so we can locate it in later operations
+
 
 
 
