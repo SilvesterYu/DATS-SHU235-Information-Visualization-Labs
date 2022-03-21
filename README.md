@@ -1,4 +1,4 @@
-labs and practice files and loads of comments explaining what's going on
+labs, practice files and loads of comments explaining what's going on
 # Folders and what's inside
 
 ## Week3/
