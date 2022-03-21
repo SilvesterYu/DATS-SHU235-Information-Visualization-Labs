@@ -39,3 +39,9 @@ Then you will see a list of ports and their PID's. Let's now kill all the ports 
 taskkill /pid xxxxx /f
   
 Now go back to VSCode terminal and do again npx webpack server
+
+### scatter_plot/
+
+Drawing scatterplot. How to load data, associate data with points, draw axes, add mouse events and isolate the points, etc.
+
+to run: directly click "go live" for old_faithful.html
