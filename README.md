@@ -44,3 +44,14 @@ Now go back to VSCode terminal and do again npx webpack server
 Drawing scatterplot. How to load data, associate data with points, draw axes, add mouse events and isolate the points, etc.
 
 to run: directly click "go live" for old_faithful.html
+
+## Week5
+
+### src/
+
+to run:
+
+npm install
+
+npx webpack server
+
