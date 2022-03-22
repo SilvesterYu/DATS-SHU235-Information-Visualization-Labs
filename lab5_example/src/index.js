@@ -28,26 +28,7 @@ function Charts(){
     const height = HEIGHT - margin.top - margin.bottom;
     const width = WIDTH - margin.left - margin.right;
     const data = useData(csvUrl);
-
-    const [selectedPoint, setSelectedPoint] = React.useState(null);
-    const [tooltipX, setTooltipX] = React.useState(null);
-    const [tooltipY, setTooltipY] = React.useState(null);
-
-    const mouseOver = (d) => {
-        setSelectedPoint(d);
-        console.log("mouseOver here");
-        console.log(d);
-        console.log("---")
-        setTooltipX(xScale(d.waiting));
-        setTooltipY(yScale(d.eruptions));
-    };
-    const mouseOut = () => {
-        setSelectedPoint(null);
-        console.log("mouseOut here");
-        setTooltipX(null);
-        setTooltipY(null);
-    };
-
+    
         if (!data) {
             return <pre>Loading...</pre>;
         };
@@ -58,8 +39,7 @@ function Charts(){
         <svg width={WIDTH} height={HEIGHT}>
             <ScatterPlot data={data} offsetX={margin.left} offsetY={margin.right} height={height} width={width}/>
         </svg>
-        <Tooltip d={selectedPoint} left={tooltipX} top={tooltipY}/>
-
+        
     </div>
 
 }
