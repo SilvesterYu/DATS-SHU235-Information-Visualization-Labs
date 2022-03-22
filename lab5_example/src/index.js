@@ -32,7 +32,7 @@ function Charts(){
         if (!data) {
             return <pre>Loading...</pre>;
         };
-    console.log(data);
+    //console.log(data);
 
     return <div>
         <h1>Scatter Plot</h1>

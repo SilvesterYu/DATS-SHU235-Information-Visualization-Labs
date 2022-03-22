@@ -19,8 +19,6 @@ export function Points(props) {
     const mouseOver = (d) => {
         setSelectedPoint(d);
         console.log("mouseOver here");
-        console.log(d);
-        console.log("---")
         setTooltipX(xScale(d.waiting));
         setTooltipY(yScale(d.eruptions));
     };
@@ -48,8 +46,8 @@ export function Points(props) {
                 cy={yScale(d.eruptions)} r={radius(d)} fill={color(d)} stroke={"black"}
                 onMouseOver={() => mouseOver(d)} onMouseOut={mouseOut}/>
             })}
-            <rect x={0} y={0} width={100} height={100} fill={"lightgreen"} opacity={0.6}/>
-            {data.filter(d => d.index === selectedPoint).map( d => {
+            <rect x={0} y={0} width={width} height={height} fill={"lightgreen"} opacity={0.6}/>
+            {data.filter(d => d.index === selectedPoint.index).map( d => {
                 return <circle key={d.index} cx={xScale(d.waiting)} 
                 cy={yScale(d.eruptions)} r={radius(d)} fill={color(d)} stroke={"black"}
                 onMouseOver={()=>{mouseOver(d)}} onMouseOut={mouseOut}/>
