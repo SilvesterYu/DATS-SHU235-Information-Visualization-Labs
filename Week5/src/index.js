@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { csv } from 'd3';
 import { ScatterPlot } from "./scatterplot";
+import { Tooltip } from "./tooltip";
 
 const csvUrl = "https://gist.githubusercontent.com/hogwild/c2704a1ae38c0a36983bc13121050dac/raw/7fd577be21752939375d92cd3a808558106e903b/oldFaithfulGeyserDataset.csv"
 
@@ -28,23 +29,44 @@ function Charts(){
     const width = WIDTH - margin.left - margin.right;
     const data = useData(csvUrl);
 
-    const[selectedPoint, setSelectPoint] = 
+    //(1) moved these up from points.js
+    const [selectedPoint, setSelectedPoint] = React.useState(null);
+    const [tooltipX, setTooltipX] = React.useState(null);
+    const [tooltipY, setTooltipY] = React.useState(null);
 
-    // (1) lift state up
-
-
-
+ 
+    
         if (!data) {
             return <pre>Loading...</pre>;
         };
     console.log(data);
 
+    //(1) moved up from point.js
+    // this mouse handeler has 2 arguments
+    const mouseOver = (event, d) => {
+        setSelectedPoint(d);
+        console.log("mouseOver here");
+        console.log(d);
+        console.log("---")
+        setTooltipX(event.pageX);
+        setTooltipY(event.pageY);
+    };
+    const mouseOut = () => {
+        setSelectedPoint(null);
+        console.log("mouseOut here");
+        setTooltipX(null);
+        setTooltipY(null);
+    };
+
+    //(1) moved tooltip up from points.jss
     return <div>
         <h1>Scatter Plot</h1>
         <svg width={WIDTH} height={HEIGHT}>
-            <ScatterPlot data={data} offsetX={margin.left} offsetY={margin.right} height={height} width={width}/>
+            <ScatterPlot data={data} offsetX={margin.left} offsetY={margin.right} height={height} width={width}
+                selectedPoint={selectedPoint} mouseOver={mouseOver} mouseOut={mouseOut}/>
         </svg>
         <Tooltip d={selectedPoint} left={tooltipX} top={tooltipY}/>
+
     </div>
 
 }
