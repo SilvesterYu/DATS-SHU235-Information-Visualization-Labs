@@ -6,6 +6,7 @@ export function Legend(props) {
         const h = 20;
         return <g transform = {`translate(${x}, ${y})`}>
             {incomeLevels.map( (d,idx) => {
+                // -- each level, represented by a rect -- //
                 return <rect key={idx+"legend"} x={0} y={idx*h} width={w} height={h} 
                 style={{fill:colormap(d)}} />
             } )}

@@ -7,7 +7,6 @@ import { geoPath, geoEqualEarth, geoMercator } from "d3-geo";
 export function WorldMap(props){
     const {map, colormap, projection, width, height, data} = props;
     
-    // -- and replace the map here -- //
     let path = geoPath(geoEqualEarth()); // the default projection
     if (projection==="geoEqualEath"){
         path = geoPath(geoEqualEarth().fitSize([width, height], map));
@@ -15,14 +14,17 @@ export function WorldMap(props){
     if (projection==="geoMercator"){
         path = geoPath(geoMercator().fitSize([width, height], map));
     }
-    // console.log(path({type:"Sphere"}));
+    console.log(path({type:"Sphere"}));
     
     // -- convert feature to a path -- //
     // -- "key" is not a real attribute of svg element, it is just required by react. -- //
     // -- react needs a key for html object generated for its idntification, if we remove it, webpage still works but there will be warning, and if any of the path is changed, then all paths will be regenerated and re-rendered, this is a way to increase efficiency for the webpage -- //
     // -- classname: react takes use of it. We use css for color and style of our objects -- //
+    
+    // -- why we need if? not all country in map can we find data item in data -- //
     return <g>
             <path className={'sphere'} d={path({type: 'Sphere'})} />
+
             {map.features.map( feature => 
                  <path key={feature.properties.name+"boundary"} className={"boundary"} 
                     d={path(feature)}
