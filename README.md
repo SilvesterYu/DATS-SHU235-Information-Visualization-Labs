@@ -58,10 +58,10 @@ npx webpack server
 
 ## Week7
 
-### lab7_geomap_html
+### lab7_geomap_html/
 
 map in html
 
-### lab7_geomap_webpack
+### lab7_geomap_webpack/
 
 using geo libraries in JavaScript
