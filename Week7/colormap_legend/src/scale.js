@@ -1,3 +1,4 @@
+// -- use scaleband because x and y are both discrete -- //
 import { scaleLinear, scaleBand, scaleSequential, scaleDiverging } from "d3";
 
 export const Scales = {
