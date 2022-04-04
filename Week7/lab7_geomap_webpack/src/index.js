@@ -4,9 +4,11 @@ import { WorldMap } from "./worldmap";
 import { Legend } from "./legend";
 import { json, csv, scaleOrdinal, schemeOranges } from "d3";
 // import { geoEqualEarth } from "d3-geo";
+// -- import all the functions in topojson -- //
 import * as topojson from "topojson-client";
+// -- why css can be recognized as module, because in webpack config, we added ['style-loade', 'css-loader'] -- //
 import "./styles.css";
-// import { feature } from "topojson-client";
+import { feature } from "topojson-client";
 
 
 const mapUrl = "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json";
@@ -39,8 +41,14 @@ function Geomap() {
     const WIDTH = 1000;
     const HEIGHT = 600;
     const margin = {left: 50, right: 50, top: 50, bottom: 50};
+
+    // -- 2 datasets here -- //
     const rawData  = useData(csvUrl);
     const map = useMap(mapUrl);
+
+    console.log("this is raw data:");
+    console.log(rawData);
+
     if (!map || !rawData) {
             return <pre>Loading...</pre>;
         };
