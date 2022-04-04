@@ -47,6 +47,8 @@ to run: directly click "go live" for old_faithful.html
 
 ## Week5
 
+This folder contains code for Week 5-6, they are one project.
+
 ### src/
 
 to run:
