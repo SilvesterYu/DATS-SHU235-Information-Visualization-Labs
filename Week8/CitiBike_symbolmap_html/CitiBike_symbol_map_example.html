@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CitiBike Stations</title>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="https://d3js.org/d3-path.v2.min.js"></script>
+    <script src="https://d3js.org/d3-shape.v2.min.js"></script>
+    <script src="https://d3js.org/topojson.v1.min.js"></script>
+    <script src="https://d3js.org/d3-array.v2.min.js"></script>
+    <script src="https://d3js.org/d3-geo.v2.min.js"></script>
+    <script src="https://d3js.org/d3-geo-projection.v3.min.js"></script>
+    <script src="https://unpkg.com/react/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone/babel.js"></script>
+    <link rel="stylesheet" href="styles.css" > 
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel">
+    const csvUrl = 'https://gist.githubusercontent.com/hogwild/3b9aa737bde61dcb4dfa60cde8046e04/raw/citibike2020.csv';
+    const mapUrl = "https://gist.githubusercontent.com/hogwild/6784f0d85e8837b9926c184c65ca8ed0/raw/2040d6883cf822817e34b5bda885348ec6214572/jerseyCity_geojson.json";
+    function useData(csvPath){
+        const [dataAll, setData] = React.useState(null);
+        React.useEffect(() => {
+            d3.csv(csvPath).then(data => {
+                data.forEach(d => {
+                    d.start = +d.start;
+                    d.tripdurationS = +d.tripdurationS;
+                    d.end = +d.end;
+                    d.tripdurationE = +d.tripdurationE;
+                    d.latitude = +d.latitude;
+                    d.longitude = +d.longitude;
+                });
+                setData(data);
+            });
+        }, []);
+        return dataAll;
+    }
+
+    function useMap(jsonPath) {
+        const [data, setData] = React.useState(null);
+        React.useEffect(() => {
+            d3.json(jsonPath).then(geoJsonData => {
+                setData(geoJsonData);
+            })
+        }, []);
+        return data;
+    }
+
+    function TheMap(props) {
+        const [selectedStation, setSelectedStation] = React.useState(null);
+        const {map, data, width, height} = props;
+        const projection = d3.geoMercator().fitSize([width, height], map);
+        const path = d3.geoPath(projection);
+        const radius = d3.scaleLinear().range([2, 20])
+            .domain([d3.min(data, d => d.start), d3.max(data, d => d.start)]);
+        const getColor = (selectedStation, station) => {
+            return selectedStation&&station===selectedStation ? "steelblue" : "red";}
+        
+        //Todo: write a function to control the opacity
+
+        const mouseOver = (d) => {
+            setSelectedStation(d);
+        }
+        const mouseOut = () => {
+            setSelectedStation(null);
+        }
+
+        return <g>
+            {map.features.map((feature, idx) => {
+                return <path key={idx+"boundary"} className={"boundary"} d={path(feature)} />
+            })}
+            {data.map(d => {
+                const [x, y] =  projection([d.longitude, d.latitude]);
+                return <circle key={"station" + d.longitude+d.latitude} cx={x} cy={y} r={radius(d.start)} opacity={0.5} 
+                    fill={getColor(selectedStation, d)} onMouseEnter={()=>{mouseOver(d)}} onMouseOut={mouseOut} />
+            })}
+            </g>
+    }
+
+    function SymbolMap(props) {
+        const [month, setMonth] = React.useState(4);
+        const WIDTH = 800;
+        const HEIGHT = 600;
+        const margin = { top: 20, right: 40, bottom: 20, left: 40 };
+        const width = WIDTH - margin.right - margin.left;
+        const height = HEIGHT - margin.top - margin.bottom;
+        const rawData = useData(csvUrl);
+        const map = useMap(mapUrl);
+        const MONTH = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+        if (!map || !rawData) {
+                return <pre>Loading...</pre>;
+            };
+        const stations = rawData.filter( d => {
+            return d.month === MONTH[month];
+        });
+        const changeHandler = (event) => {
+                // console.log(event);
+                setMonth(event.target.value);
+            }
+        return <div>
+                <input key="slider" type='range' min='0' max='11' value={month} step='1' onChange={changeHandler}/>
+                <input key="monthText" type="text" value={MONTH[month]} readOnly/> 
+                <svg width={WIDTH} height={HEIGHT}>
+                    <g>
+                        <TheMap map={map} data={stations} width={width} height={height} />
+                    </g>
+                </svg>
+        </div>}
+
+    ReactDOM.render( <SymbolMap />, document.getElementById('root'));
+    </script>
+    </body>
+    </html>
