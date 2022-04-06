@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Force directed graph</title>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="https://d3js.org/d3-path.v2.min.js"></script>
+    <script src="https://d3js.org/d3-shape.v2.min.js"></script>
+    <script src="https://d3js.org/topojson.v1.min.js"></script>
+    <script src="https://d3js.org/d3-array.v2.min.js"></script>
+    <script src="https://d3js.org/d3-geo.v2.min.js"></script>
+    <script src="https://d3js.org/d3-geo-projection.v3.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v2.min.js"></script> 
+    <script src="https://unpkg.com/react/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone/babel.js"></script>
+</head>
+<body>
+    <h1>What is the main cause of stroke?</h1>
+    <p>This is sample for the in-class exercise in week 11, in which you can see the usage of d3.groups(). </p>
+    <p>I would like to mention that it is just an exercise for using d3.forceSimulation() and a bubble chart may not be the best design for this dataset. Besides, bubble chart is good at showing data items with extremly small values. (Do you know why?)</p>
+    <p>Anyway, it is interesting to see that <i>"ever married"</i> is the <b>third</b> largest bubble in the chart.</p>
+   
+    <div id="root"></div>
+    
+    <script type="text/babel">
+    const csvUrl = "https://gist.githubusercontent.com/hogwild/a716b6186d730c1d86962e9acaa1e59f/raw/aca017d18e2330668ef2765c5c049f89becda4ac/healthcare_stroke_data.csv";
+    function useData(csvPath){
+        const [dataAll, setData] = React.useState(null);
+        React.useEffect(() => {
+            d3.csv(csvPath).then(data => {
+                setData(data);
+            });
+        }, []);
+        return dataAll;
+    }
+    function NodeInGraph(props) {
+        const {x, y, r, color} = props;
+        return <g transform={`translate(${x}, ${y})`}>
+            <circle className={"node"} r={r} fill={color}/>
+            </g>
+    }
+    function Graph(props) {
+        const { x, y, width, height, data } = props;
+        const nodes = [];
+        const heartDiseaseStroke = d3.groups(data, d => d.heart_disease, d => d.stroke);
+        console.log(heartDiseaseStroke);
+        nodes.push({name: "heartDisease", value: heartDiseaseStroke[0][1][0][1].length/(heartDiseaseStroke[0][1][0][1].length+heartDiseaseStroke[0][1][1][1].length)})
+        nodes.push({name: "no_heartDisease", value: heartDiseaseStroke[1][1][0][1].length/(heartDiseaseStroke[1][1][0][1].length+heartDiseaseStroke[1][1][1][1].length)})
+        const marriedStroke = d3.groups(data, d => d.ever_married, d => d.stroke);
+        nodes.push({name: "ever_married", value: marriedStroke[0][1][0][1].length/(marriedStroke[0][1][0][1].length+marriedStroke[0][1][1][1].length)})
+        nodes.push({name: "never_married", value: marriedStroke[1][1][0][1].length/(marriedStroke[1][1][0][1].length+marriedStroke[1][1][1][1].length)})
+        console.log(marriedStroke);
+        const genderStroke = d3.groups(data, d => d.gender, d => d.stroke);
+        nodes.push({name: "male", value: genderStroke[0][1][0][1].length/(genderStroke[0][1][0][1].length+genderStroke[0][1][1][1].length)})
+        nodes.push({name: "femal", value: genderStroke[1][1][0][1].length/(genderStroke[1][1][0][1].length+genderStroke[1][1][1][1].length)})
+        console.log(genderStroke);
+        const hypertensionStroke = d3.groups(data, d => d.hypertension, d => d.stroke);
+        nodes.push({name: "no_hypertension", value: hypertensionStroke[0][1][0][1].length/(hypertensionStroke[0][1][0][1].length+hypertensionStroke[0][1][1][1].length)})
+        nodes.push({name: "hypertension", value: hypertensionStroke[1][1][0][1].length/(hypertensionStroke[1][1][0][1].length+hypertensionStroke[1][1][1][1].length)})
+        console.log(hypertensionStroke);
+        console.log(nodes);
+        const radius = d3.scaleLinear().range([10, 100])
+                .domain([d3.min(nodes, d => d.value), d3.max(nodes, d => d.value)]);
+        const color = d3.scaleOrdinal().range(d3.schemeCategory10).domain(nodes.map( d => d.name));
+        const simulation = d3.forceSimulation(nodes)
+                //.velocityDecay(0.2)
+                .force("x", d3.forceX([width/3]).strength(0.02))
+                .force("y", d3.forceY([height/2]).strength(0.02))
+                //.force("center", d3.forceCenter(width/2, height/2))
+                .force("charge", d3.forceManyBody())
+                .force("collide", d3.forceCollide().radius(d => radius(d.value)+15))
+                .tick(1000);
+        return <g transform={`translate(${x}, ${y})`}>
+            {nodes.map( d => {
+                return <g key={d.name}>
+                    <NodeInGraph  x={d.x} y={d.y} r={radius(d.value)} color={color(d.name)}/>
+                    <text style={{textAnchor:"middle"}} x={d.x} y={d.y}>{d.name}</text>
+                </g>
+            })}
+        </g>
+    };
+    const App = () => {
+        const WIDTH = 800;
+        const HEIGHT = 600;
+        const margin = { top: 20, right: 40, bottom: 20, left: 40 };
+        const width = WIDTH - margin.left - margin.right;
+        const height = HEIGHT - margin.top - margin.bottom;
+        const rawData = useData(csvUrl);
+        if (!rawData) {
+            return <p>Loading...</p>
+        }
+        console.log(rawData);
+        
+        return <svg width={WIDTH} height={HEIGHT}>
+            <Graph x={margin.left} y={margin.right} width={width} height={height} data={rawData}/>
+            </svg>
+    }
+    ReactDOM.render( <App />, document.getElementById('root'));
+    </script>
+</body>
+</html>

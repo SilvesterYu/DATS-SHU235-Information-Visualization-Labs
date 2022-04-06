@@ -47,30 +47,38 @@
         return data;
     }
 
+    // -- map component -- //
     function TheMap(props) {
+        // -- state hook for mouse event -- //
+        // -- in some other cases, we will put hook in parent component, e.g. SymbolMap and pass it -- //
         const [selectedStation, setSelectedStation] = React.useState(null);
         const {map, data, width, height} = props;
+        // -- make sure it fits inside our defined area -- //
         const projection = d3.geoMercator().fitSize([width, height], map);
         const path = d3.geoPath(projection);
+        // -- control size of circle we created -- //
         const radius = d3.scaleLinear().range([2, 20])
             .domain([d3.min(data, d => d.start), d3.max(data, d => d.start)]);
+        // -- for selected/not selected stations return different color -- //
         const getColor = (selectedStation, station) => {
             return selectedStation&&station===selectedStation ? "steelblue" : "red";}
         
         //Todo: write a function to control the opacity
-
+        // -- mouse event callbaks -- //
         const mouseOver = (d) => {
             setSelectedStation(d);
         }
         const mouseOut = () => {
             setSelectedStation(null);
         }
-
+        // -- return the map, draw each item in feature -- //
+        // -- each of the data item will be represented by a circle, first use projection to project longitude and latitude onto the map -- //
         return <g>
             {map.features.map((feature, idx) => {
                 return <path key={idx+"boundary"} className={"boundary"} d={path(feature)} />
             })}
             {data.map(d => {
+                // -- projection: find location of the items -- //
                 const [x, y] =  projection([d.longitude, d.latitude]);
                 return <circle key={"station" + d.longitude+d.latitude} cx={x} cy={y} r={radius(d.start)} opacity={0.5} 
                     fill={getColor(selectedStation, d)} onMouseEnter={()=>{mouseOver(d)}} onMouseOut={mouseOut} />
@@ -78,6 +86,7 @@
             </g>
     }
 
+    // -- component we render by reactDOM -- //
     function SymbolMap(props) {
         const [month, setMonth] = React.useState(4);
         const WIDTH = 800;

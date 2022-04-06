@@ -5,7 +5,12 @@ export function Legend(props) {
         const w = 15;
         const h = 20;
         // const opacity = hoveredLegend && d !== hoveredLegend ? 0.5:1;
+        // -- if hoverLegend is not null and the data we selected is not equal to the hoverLegend -- //
+        // -- meaning, set opacity of the region NOT selected to 0.5, so they look grey -- //
         const opacity = (d) => hoveredLegend && d !== hoveredLegend ? 0.5:1;
+        // -- each incomeLevels returned below will be a rectangle filled with color -- //
+        // -- y is flipped. h: height of small rect. incomLevels.length is the total number of rectangles we have. we put 1 on top. y starts drawing from the bottom -- //
+        // -- created a rect at the bottom representing unknown region -- //
         return <g transform = {`translate(${x}, ${y})`}>
             {incomeLevels.map( (d, idx) => {
                 return <rect key={idx+"legend"} x={0} y={h*(incomeLevels.length-1)-idx*h} width={w} height={h} 
@@ -18,6 +23,7 @@ export function Legend(props) {
                     {d}
                 </text>
             } )}
+
             <g key={"unknow_rect"} >
                 <rect x={0} y={h*incomeLevels.length} width={w} height={h} 
                 opacity={hoveredLegend && "6. Unknown" !== hoveredLegend ? 0.5 : 1}

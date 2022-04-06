@@ -12,7 +12,9 @@ export function WorldMap(props){
         path = geoPath(geoMercator().fitSize([width, height], map));
     }
     // console.log(path({type:"Sphere"}));
+    // -- use income level to filter out the data that belongs to this income level: filter the data with income level the same as the selected legend -- //
     const filteredData = data.filter(d => d.income_grp === hoveredLegend);
+    // -- control the opacity by hover legend -- //
     const opacity = hoveredLegend ? 0.5 : 1;
     console.log(hoveredLegend);
     console.log("opacity country", opacity);
@@ -43,7 +45,7 @@ export function WorldMap(props){
                         const country = data.filter( d => d.geounit === feature.properties.name);
                         if (!country[0]) {
                             return <path key={feature.properties.name+"boundary"} className={"boundary"} 
-                            d={path(feature)} style={{fill:"#9a9e9e"}}/>
+                            d={path(feature)} style={{fill:"blue"}}/>
                         }
                     }
                        return <g key={feature.properties.name+"boundary"}></g> 

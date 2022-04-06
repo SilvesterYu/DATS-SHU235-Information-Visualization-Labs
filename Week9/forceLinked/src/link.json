@@ -1,0 +1,7352 @@
+[
+    {
+        "source": "5 Corners Library",
+        "target": "5 Corners Library",
+        "frequency": 1
+    },
+    {
+        "source": "5 Corners Library",
+        "target": "Bergen Ave",
+        "frequency": 1
+    },
+    {
+        "source": "5 Corners Library",
+        "target": "Brunswick & 6th",
+        "frequency": 1
+    },
+    {
+        "source": "5 Corners Library",
+        "target": "Brunswick St",
+        "frequency": 2
+    },
+    {
+        "source": "5 Corners Library",
+        "target": "Dey St",
+        "frequency": 2
+    },
+    {
+        "source": "5 Corners Library",
+        "target": "Fairmount Ave",
+        "frequency": 2
+    },
+    {
+        "source": "5 Corners Library",
+        "target": "Grove St PATH",
+        "frequency": 2
+    },
+    {
+        "source": "5 Corners Library",
+        "target": "Hamilton Park",
+        "frequency": 1
+    },
+    {
+        "source": "5 Corners Library",
+        "target": "Harborside",
+        "frequency": 1
+    },
+    {
+        "source": "5 Corners Library",
+        "target": "Hilltop",
+        "frequency": 1
+    },
+    {
+        "source": "5 Corners Library",
+        "target": "Journal Square",
+        "frequency": 3
+    },
+    {
+        "source": "5 Corners Library",
+        "target": "Leonard Gordon Park",
+        "frequency": 2
+    },
+    {
+        "source": "5 Corners Library",
+        "target": "McGinley Square",
+        "frequency": 2
+    },
+    {
+        "source": "5 Corners Library",
+        "target": "Monmouth and 6th",
+        "frequency": 1
+    },
+    {
+        "source": "5 Corners Library",
+        "target": "Newark Ave",
+        "frequency": 2
+    },
+    {
+        "source": "5 Corners Library",
+        "target": "Paulus Hook",
+        "frequency": 1
+    },
+    {
+        "source": "5 Corners Library",
+        "target": "Pershing Field",
+        "frequency": 3
+    },
+    {
+        "source": "5 Corners Library",
+        "target": "Riverview Park",
+        "frequency": 2
+    },
+    {
+        "source": "5 Corners Library",
+        "target": "Sip Ave",
+        "frequency": 5
+    },
+    {
+        "source": "Astor Place",
+        "target": "Astor Place",
+        "frequency": 7
+    },
+    {
+        "source": "Astor Place",
+        "target": "Baldwin at Montgomery",
+        "frequency": 1
+    },
+    {
+        "source": "Astor Place",
+        "target": "Bergen Ave",
+        "frequency": 10
+    },
+    {
+        "source": "Astor Place",
+        "target": "City Hall",
+        "frequency": 1
+    },
+    {
+        "source": "Astor Place",
+        "target": "Columbus Dr at Exchange Pl",
+        "frequency": 3
+    },
+    {
+        "source": "Astor Place",
+        "target": "Communipaw & Berry Lane",
+        "frequency": 4
+    },
+    {
+        "source": "Astor Place",
+        "target": "Fairmount Ave",
+        "frequency": 3
+    },
+    {
+        "source": "Astor Place",
+        "target": "Jackson Square",
+        "frequency": 1
+    },
+    {
+        "source": "Astor Place",
+        "target": "Liberty Light Rail",
+        "frequency": 3
+    },
+    {
+        "source": "Astor Place",
+        "target": "Lincoln Park",
+        "frequency": 1
+    },
+    {
+        "source": "Astor Place",
+        "target": "McGinley Square",
+        "frequency": 2
+    },
+    {
+        "source": "Astor Place",
+        "target": "Montgomery St",
+        "frequency": 1
+    },
+    {
+        "source": "Astor Place",
+        "target": "Morris Canal",
+        "frequency": 1
+    },
+    {
+        "source": "Astor Place",
+        "target": "Newark Ave",
+        "frequency": 1
+    },
+    {
+        "source": "Astor Place",
+        "target": "Newport PATH",
+        "frequency": 1
+    },
+    {
+        "source": "Astor Place",
+        "target": "Paulus Hook",
+        "frequency": 4
+    },
+    {
+        "source": "Astor Place",
+        "target": "Sip Ave",
+        "frequency": 47
+    },
+    {
+        "source": "Astor Place",
+        "target": "Union St",
+        "frequency": 2
+    },
+    {
+        "source": "Astor Place",
+        "target": "Van Vorst Park",
+        "frequency": 2
+    },
+    {
+        "source": "Astor Place",
+        "target": "Warren St",
+        "frequency": 3
+    },
+    {
+        "source": "Astor Place",
+        "target": "York St",
+        "frequency": 2
+    },
+    {
+        "source": "Baldwin at Montgomery",
+        "target": "Baldwin at Montgomery",
+        "frequency": 24
+    },
+    {
+        "source": "Baldwin at Montgomery",
+        "target": "Bergen Ave",
+        "frequency": 6
+    },
+    {
+        "source": "Baldwin at Montgomery",
+        "target": "Brunswick & 6th",
+        "frequency": 1
+    },
+    {
+        "source": "Baldwin at Montgomery",
+        "target": "Brunswick St",
+        "frequency": 2
+    },
+    {
+        "source": "Baldwin at Montgomery",
+        "target": "City Hall",
+        "frequency": 8
+    },
+    {
+        "source": "Baldwin at Montgomery",
+        "target": "Columbus Dr at Exchange Pl",
+        "frequency": 11
+    },
+    {
+        "source": "Baldwin at Montgomery",
+        "target": "Columbus Drive",
+        "frequency": 5
+    },
+    {
+        "source": "Baldwin at Montgomery",
+        "target": "Communipaw & Berry Lane",
+        "frequency": 3
+    },
+    {
+        "source": "Baldwin at Montgomery",
+        "target": "Dey St",
+        "frequency": 1
+    },
+    {
+        "source": "Baldwin at Montgomery",
+        "target": "Fairmount Ave",
+        "frequency": 6
+    },
+    {
+        "source": "Baldwin at Montgomery",
+        "target": "Glenwood Ave",
+        "frequency": 1
+    },
+    {
+        "source": "Baldwin at Montgomery",
+        "target": "Grove St PATH",
+        "frequency": 16
+    },
+    {
+        "source": "Baldwin at Montgomery",
+        "target": "Harborside",
+        "frequency": 2
+    },
+    {
+        "source": "Baldwin at Montgomery",
+        "target": "Hilltop",
+        "frequency": 6
+    },
+    {
+        "source": "Baldwin at Montgomery",
+        "target": "JC Medical Center",
+        "frequency": 2
+    },
+    {
+        "source": "Baldwin at Montgomery",
+        "target": "Journal Square",
+        "frequency": 3
+    },
+    {
+        "source": "Baldwin at Montgomery",
+        "target": "Leonard Gordon Park",
+        "frequency": 3
+    },
+    {
+        "source": "Baldwin at Montgomery",
+        "target": "Liberty Light Rail",
+        "frequency": 8
+    },
+    {
+        "source": "Baldwin at Montgomery",
+        "target": "Lincoln Park",
+        "frequency": 2
+    },
+    {
+        "source": "Baldwin at Montgomery",
+        "target": "Manila & 1st",
+        "frequency": 4
+    },
+    {
+        "source": "Baldwin at Montgomery",
+        "target": "Marin Light Rail",
+        "frequency": 5
+    },
+    {
+        "source": "Baldwin at Montgomery",
+        "target": "McGinley Square",
+        "frequency": 9
+    },
+    {
+        "source": "Baldwin at Montgomery",
+        "target": "Montgomery St",
+        "frequency": 3
+    },
+    {
+        "source": "Baldwin at Montgomery",
+        "target": "Morris Canal",
+        "frequency": 5
+    },
+    {
+        "source": "Baldwin at Montgomery",
+        "target": "Newark Ave",
+        "frequency": 3
+    },
+    {
+        "source": "Baldwin at Montgomery",
+        "target": "Newport PATH",
+        "frequency": 1
+    },
+    {
+        "source": "Baldwin at Montgomery",
+        "target": "Newport Pkwy",
+        "frequency": 4
+    },
+    {
+        "source": "Baldwin at Montgomery",
+        "target": "Oakland Ave",
+        "frequency": 1
+    },
+    {
+        "source": "Baldwin at Montgomery",
+        "target": "Paulus Hook",
+        "frequency": 2
+    },
+    {
+        "source": "Baldwin at Montgomery",
+        "target": "Riverview Park",
+        "frequency": 1
+    },
+    {
+        "source": "Baldwin at Montgomery",
+        "target": "Sip Ave",
+        "frequency": 7
+    },
+    {
+        "source": "Baldwin at Montgomery",
+        "target": "Union St",
+        "frequency": 2
+    },
+    {
+        "source": "Baldwin at Montgomery",
+        "target": "Van Vorst Park",
+        "frequency": 12
+    },
+    {
+        "source": "Baldwin at Montgomery",
+        "target": "Washington St",
+        "frequency": 1
+    },
+    {
+        "source": "Baldwin at Montgomery",
+        "target": "York St",
+        "frequency": 2
+    },
+    {
+        "source": "Bergen Ave",
+        "target": "Astor Place",
+        "frequency": 8
+    },
+    {
+        "source": "Bergen Ave",
+        "target": "Baldwin at Montgomery",
+        "frequency": 3
+    },
+    {
+        "source": "Bergen Ave",
+        "target": "Bergen Ave",
+        "frequency": 12
+    },
+    {
+        "source": "Bergen Ave",
+        "target": "Brunswick & 6th",
+        "frequency": 1
+    },
+    {
+        "source": "Bergen Ave",
+        "target": "Columbus Drive",
+        "frequency": 3
+    },
+    {
+        "source": "Bergen Ave",
+        "target": "Communipaw & Berry Lane",
+        "frequency": 1
+    },
+    {
+        "source": "Bergen Ave",
+        "target": "Dixon Mills",
+        "frequency": 1
+    },
+    {
+        "source": "Bergen Ave",
+        "target": "Fairmount Ave",
+        "frequency": 6
+    },
+    {
+        "source": "Bergen Ave",
+        "target": "Glenwood Ave",
+        "frequency": 1
+    },
+    {
+        "source": "Bergen Ave",
+        "target": "Grove St PATH",
+        "frequency": 3
+    },
+    {
+        "source": "Bergen Ave",
+        "target": "Hamilton Park",
+        "frequency": 3
+    },
+    {
+        "source": "Bergen Ave",
+        "target": "Jackson Square",
+        "frequency": 3
+    },
+    {
+        "source": "Bergen Ave",
+        "target": "Journal Square",
+        "frequency": 3
+    },
+    {
+        "source": "Bergen Ave",
+        "target": "Lafayette Park",
+        "frequency": 1
+    },
+    {
+        "source": "Bergen Ave",
+        "target": "Liberty Light Rail",
+        "frequency": 4
+    },
+    {
+        "source": "Bergen Ave",
+        "target": "Lincoln Park",
+        "frequency": 12
+    },
+    {
+        "source": "Bergen Ave",
+        "target": "Manila & 1st",
+        "frequency": 1
+    },
+    {
+        "source": "Bergen Ave",
+        "target": "Marin Light Rail",
+        "frequency": 1
+    },
+    {
+        "source": "Bergen Ave",
+        "target": "McGinley Square",
+        "frequency": 5
+    },
+    {
+        "source": "Bergen Ave",
+        "target": "Montgomery St",
+        "frequency": 2
+    },
+    {
+        "source": "Bergen Ave",
+        "target": "Newport PATH",
+        "frequency": 4
+    },
+    {
+        "source": "Bergen Ave",
+        "target": "Newport Pkwy",
+        "frequency": 3
+    },
+    {
+        "source": "Bergen Ave",
+        "target": "Paulus Hook",
+        "frequency": 2
+    },
+    {
+        "source": "Bergen Ave",
+        "target": "Riverview Park",
+        "frequency": 2
+    },
+    {
+        "source": "Bergen Ave",
+        "target": "Sip Ave",
+        "frequency": 143
+    },
+    {
+        "source": "Bergen Ave",
+        "target": "Van Vorst Park",
+        "frequency": 1
+    },
+    {
+        "source": "Bergen Ave",
+        "target": "Warren St",
+        "frequency": 2
+    },
+    {
+        "source": "Brunswick & 6th",
+        "target": "Baldwin at Montgomery",
+        "frequency": 2
+    },
+    {
+        "source": "Brunswick & 6th",
+        "target": "Bergen Ave",
+        "frequency": 1
+    },
+    {
+        "source": "Brunswick & 6th",
+        "target": "Brunswick & 6th",
+        "frequency": 19
+    },
+    {
+        "source": "Brunswick & 6th",
+        "target": "Brunswick St",
+        "frequency": 3
+    },
+    {
+        "source": "Brunswick & 6th",
+        "target": "City Hall",
+        "frequency": 7
+    },
+    {
+        "source": "Brunswick & 6th",
+        "target": "Columbus Dr at Exchange Pl",
+        "frequency": 1
+    },
+    {
+        "source": "Brunswick & 6th",
+        "target": "Columbus Drive",
+        "frequency": 1
+    },
+    {
+        "source": "Brunswick & 6th",
+        "target": "Fairmount Ave",
+        "frequency": 1
+    },
+    {
+        "source": "Brunswick & 6th",
+        "target": "Grand St",
+        "frequency": 3
+    },
+    {
+        "source": "Brunswick & 6th",
+        "target": "Grove St PATH",
+        "frequency": 8
+    },
+    {
+        "source": "Brunswick & 6th",
+        "target": "Hamilton Park",
+        "frequency": 7
+    },
+    {
+        "source": "Brunswick & 6th",
+        "target": "Harborside",
+        "frequency": 1
+    },
+    {
+        "source": "Brunswick & 6th",
+        "target": "Hoboken Ave at Monmouth St",
+        "frequency": 2
+    },
+    {
+        "source": "Brunswick & 6th",
+        "target": "JC Medical Center",
+        "frequency": 2
+    },
+    {
+        "source": "Brunswick & 6th",
+        "target": "Jersey & 3rd",
+        "frequency": 1
+    },
+    {
+        "source": "Brunswick & 6th",
+        "target": "Jersey & 6th St",
+        "frequency": 2
+    },
+    {
+        "source": "Brunswick & 6th",
+        "target": "Liberty Light Rail",
+        "frequency": 1
+    },
+    {
+        "source": "Brunswick & 6th",
+        "target": "Manila & 1st",
+        "frequency": 8
+    },
+    {
+        "source": "Brunswick & 6th",
+        "target": "Marin Light Rail",
+        "frequency": 2
+    },
+    {
+        "source": "Brunswick & 6th",
+        "target": "McGinley Square",
+        "frequency": 2
+    },
+    {
+        "source": "Brunswick & 6th",
+        "target": "Monmouth and 6th",
+        "frequency": 10
+    },
+    {
+        "source": "Brunswick & 6th",
+        "target": "Montgomery St",
+        "frequency": 2
+    },
+    {
+        "source": "Brunswick & 6th",
+        "target": "Morris Canal",
+        "frequency": 5
+    },
+    {
+        "source": "Brunswick & 6th",
+        "target": "Newark Ave",
+        "frequency": 5
+    },
+    {
+        "source": "Brunswick & 6th",
+        "target": "Newport PATH",
+        "frequency": 1
+    },
+    {
+        "source": "Brunswick & 6th",
+        "target": "Newport Pkwy",
+        "frequency": 5
+    },
+    {
+        "source": "Brunswick & 6th",
+        "target": "Paulus Hook",
+        "frequency": 7
+    },
+    {
+        "source": "Brunswick & 6th",
+        "target": "Riverview Park",
+        "frequency": 1
+    },
+    {
+        "source": "Brunswick & 6th",
+        "target": "Van Vorst Park",
+        "frequency": 3
+    },
+    {
+        "source": "Brunswick & 6th",
+        "target": "Warren St",
+        "frequency": 7
+    },
+    {
+        "source": "Brunswick & 6th",
+        "target": "Washington St",
+        "frequency": 3
+    },
+    {
+        "source": "Brunswick & 6th",
+        "target": "York St",
+        "frequency": 2
+    },
+    {
+        "source": "Brunswick St",
+        "target": "5 Corners Library",
+        "frequency": 1
+    },
+    {
+        "source": "Brunswick St",
+        "target": "Brunswick & 6th",
+        "frequency": 2
+    },
+    {
+        "source": "Brunswick St",
+        "target": "Brunswick St",
+        "frequency": 37
+    },
+    {
+        "source": "Brunswick St",
+        "target": "Christ Hospital",
+        "frequency": 1
+    },
+    {
+        "source": "Brunswick St",
+        "target": "City Hall",
+        "frequency": 3
+    },
+    {
+        "source": "Brunswick St",
+        "target": "Columbus Dr at Exchange Pl",
+        "frequency": 9
+    },
+    {
+        "source": "Brunswick St",
+        "target": "Columbus Drive",
+        "frequency": 3
+    },
+    {
+        "source": "Brunswick St",
+        "target": "Communipaw & Berry Lane",
+        "frequency": 2
+    },
+    {
+        "source": "Brunswick St",
+        "target": "Dixon Mills",
+        "frequency": 1
+    },
+    {
+        "source": "Brunswick St",
+        "target": "Essex Light Rail",
+        "frequency": 2
+    },
+    {
+        "source": "Brunswick St",
+        "target": "Fairmount Ave",
+        "frequency": 1
+    },
+    {
+        "source": "Brunswick St",
+        "target": "Glenwood Ave",
+        "frequency": 1
+    },
+    {
+        "source": "Brunswick St",
+        "target": "Grove St PATH",
+        "frequency": 6
+    },
+    {
+        "source": "Brunswick St",
+        "target": "Hamilton Park",
+        "frequency": 5
+    },
+    {
+        "source": "Brunswick St",
+        "target": "Harborside",
+        "frequency": 3
+    },
+    {
+        "source": "Brunswick St",
+        "target": "Heights Elevator",
+        "frequency": 2
+    },
+    {
+        "source": "Brunswick St",
+        "target": "Hilltop",
+        "frequency": 4
+    },
+    {
+        "source": "Brunswick St",
+        "target": "Hoboken Ave at Monmouth St",
+        "frequency": 1
+    },
+    {
+        "source": "Brunswick St",
+        "target": "JC Medical Center",
+        "frequency": 4
+    },
+    {
+        "source": "Brunswick St",
+        "target": "Jackson Square",
+        "frequency": 2
+    },
+    {
+        "source": "Brunswick St",
+        "target": "Jersey & 3rd",
+        "frequency": 1
+    },
+    {
+        "source": "Brunswick St",
+        "target": "Lafayette Park",
+        "frequency": 1
+    },
+    {
+        "source": "Brunswick St",
+        "target": "Liberty Light Rail",
+        "frequency": 3
+    },
+    {
+        "source": "Brunswick St",
+        "target": "Lincoln Park",
+        "frequency": 1
+    },
+    {
+        "source": "Brunswick St",
+        "target": "Marin Light Rail",
+        "frequency": 1
+    },
+    {
+        "source": "Brunswick St",
+        "target": "Monmouth and 6th",
+        "frequency": 3
+    },
+    {
+        "source": "Brunswick St",
+        "target": "Montgomery St",
+        "frequency": 1
+    },
+    {
+        "source": "Brunswick St",
+        "target": "Newark Ave",
+        "frequency": 1
+    },
+    {
+        "source": "Brunswick St",
+        "target": "Newport Pkwy",
+        "frequency": 2
+    },
+    {
+        "source": "Brunswick St",
+        "target": "Pershing Field",
+        "frequency": 4
+    },
+    {
+        "source": "Brunswick St",
+        "target": "Riverview Park",
+        "frequency": 1
+    },
+    {
+        "source": "Brunswick St",
+        "target": "Sip Ave",
+        "frequency": 1
+    },
+    {
+        "source": "Brunswick St",
+        "target": "Union St",
+        "frequency": 1
+    },
+    {
+        "source": "Brunswick St",
+        "target": "Warren St",
+        "frequency": 1
+    },
+    {
+        "source": "Christ Hospital",
+        "target": "5 Corners Library",
+        "frequency": 1
+    },
+    {
+        "source": "Christ Hospital",
+        "target": "Brunswick & 6th",
+        "frequency": 1
+    },
+    {
+        "source": "Christ Hospital",
+        "target": "Brunswick St",
+        "frequency": 1
+    },
+    {
+        "source": "Christ Hospital",
+        "target": "Christ Hospital",
+        "frequency": 12
+    },
+    {
+        "source": "Christ Hospital",
+        "target": "City Hall",
+        "frequency": 5
+    },
+    {
+        "source": "Christ Hospital",
+        "target": "Dixon Mills",
+        "frequency": 8
+    },
+    {
+        "source": "Christ Hospital",
+        "target": "Essex Light Rail",
+        "frequency": 1
+    },
+    {
+        "source": "Christ Hospital",
+        "target": "Hamilton Park",
+        "frequency": 4
+    },
+    {
+        "source": "Christ Hospital",
+        "target": "Heights Elevator",
+        "frequency": 4
+    },
+    {
+        "source": "Christ Hospital",
+        "target": "Hilltop",
+        "frequency": 1
+    },
+    {
+        "source": "Christ Hospital",
+        "target": "Hoboken Ave at Monmouth St",
+        "frequency": 2
+    },
+    {
+        "source": "Christ Hospital",
+        "target": "JC Medical Center",
+        "frequency": 1
+    },
+    {
+        "source": "Christ Hospital",
+        "target": "Journal Square",
+        "frequency": 2
+    },
+    {
+        "source": "Christ Hospital",
+        "target": "Lafayette Park",
+        "frequency": 1
+    },
+    {
+        "source": "Christ Hospital",
+        "target": "Manila & 1st",
+        "frequency": 2
+    },
+    {
+        "source": "Christ Hospital",
+        "target": "Montgomery St",
+        "frequency": 13
+    },
+    {
+        "source": "Christ Hospital",
+        "target": "Morris Canal",
+        "frequency": 1
+    },
+    {
+        "source": "Christ Hospital",
+        "target": "Newark Ave",
+        "frequency": 5
+    },
+    {
+        "source": "Christ Hospital",
+        "target": "Oakland Ave",
+        "frequency": 1
+    },
+    {
+        "source": "Christ Hospital",
+        "target": "Pershing Field",
+        "frequency": 9
+    },
+    {
+        "source": "Christ Hospital",
+        "target": "Riverview Park",
+        "frequency": 3
+    },
+    {
+        "source": "Christ Hospital",
+        "target": "Sip Ave",
+        "frequency": 11
+    },
+    {
+        "source": "Christ Hospital",
+        "target": "Van Vorst Park",
+        "frequency": 2
+    },
+    {
+        "source": "Christ Hospital",
+        "target": "Warren St",
+        "frequency": 2
+    },
+    {
+        "source": "Christ Hospital",
+        "target": "Washington St",
+        "frequency": 3
+    },
+    {
+        "source": "City Hall",
+        "target": "5 Corners Library",
+        "frequency": 1
+    },
+    {
+        "source": "City Hall",
+        "target": "Astor Place",
+        "frequency": 2
+    },
+    {
+        "source": "City Hall",
+        "target": "Baldwin at Montgomery",
+        "frequency": 3
+    },
+    {
+        "source": "City Hall",
+        "target": "Bergen Ave",
+        "frequency": 1
+    },
+    {
+        "source": "City Hall",
+        "target": "Brunswick & 6th",
+        "frequency": 2
+    },
+    {
+        "source": "City Hall",
+        "target": "Brunswick St",
+        "frequency": 6
+    },
+    {
+        "source": "City Hall",
+        "target": "Christ Hospital",
+        "frequency": 2
+    },
+    {
+        "source": "City Hall",
+        "target": "City Hall",
+        "frequency": 38
+    },
+    {
+        "source": "City Hall",
+        "target": "Columbus Dr at Exchange Pl",
+        "frequency": 2
+    },
+    {
+        "source": "City Hall",
+        "target": "Columbus Drive",
+        "frequency": 4
+    },
+    {
+        "source": "City Hall",
+        "target": "Communipaw & Berry Lane",
+        "frequency": 1
+    },
+    {
+        "source": "City Hall",
+        "target": "Essex Light Rail",
+        "frequency": 3
+    },
+    {
+        "source": "City Hall",
+        "target": "Fairmount Ave",
+        "frequency": 2
+    },
+    {
+        "source": "City Hall",
+        "target": "Glenwood Ave",
+        "frequency": 2
+    },
+    {
+        "source": "City Hall",
+        "target": "Grand St",
+        "frequency": 11
+    },
+    {
+        "source": "City Hall",
+        "target": "Grove St PATH",
+        "frequency": 13
+    },
+    {
+        "source": "City Hall",
+        "target": "Hamilton Park",
+        "frequency": 22
+    },
+    {
+        "source": "City Hall",
+        "target": "Harborside",
+        "frequency": 17
+    },
+    {
+        "source": "City Hall",
+        "target": "JC Medical Center",
+        "frequency": 4
+    },
+    {
+        "source": "City Hall",
+        "target": "Jackson Square",
+        "frequency": 3
+    },
+    {
+        "source": "City Hall",
+        "target": "Jersey & 3rd",
+        "frequency": 3
+    },
+    {
+        "source": "City Hall",
+        "target": "Jersey & 6th St",
+        "frequency": 2
+    },
+    {
+        "source": "City Hall",
+        "target": "Lafayette Park",
+        "frequency": 3
+    },
+    {
+        "source": "City Hall",
+        "target": "Liberty Light Rail",
+        "frequency": 2
+    },
+    {
+        "source": "City Hall",
+        "target": "Lincoln Park",
+        "frequency": 2
+    },
+    {
+        "source": "City Hall",
+        "target": "Manila & 1st",
+        "frequency": 2
+    },
+    {
+        "source": "City Hall",
+        "target": "Marin Light Rail",
+        "frequency": 21
+    },
+    {
+        "source": "City Hall",
+        "target": "Montgomery St",
+        "frequency": 3
+    },
+    {
+        "source": "City Hall",
+        "target": "Morris Canal",
+        "frequency": 3
+    },
+    {
+        "source": "City Hall",
+        "target": "Newark Ave",
+        "frequency": 3
+    },
+    {
+        "source": "City Hall",
+        "target": "Newport PATH",
+        "frequency": 10
+    },
+    {
+        "source": "City Hall",
+        "target": "Newport Pkwy",
+        "frequency": 8
+    },
+    {
+        "source": "City Hall",
+        "target": "Paulus Hook",
+        "frequency": 10
+    },
+    {
+        "source": "City Hall",
+        "target": "Sip Ave",
+        "frequency": 1
+    },
+    {
+        "source": "City Hall",
+        "target": "Van Vorst Park",
+        "frequency": 6
+    },
+    {
+        "source": "City Hall",
+        "target": "Warren St",
+        "frequency": 5
+    },
+    {
+        "source": "City Hall",
+        "target": "York St",
+        "frequency": 2
+    },
+    {
+        "source": "Columbus Dr at Exchange Pl",
+        "target": "Astor Place",
+        "frequency": 1
+    },
+    {
+        "source": "Columbus Dr at Exchange Pl",
+        "target": "Baldwin at Montgomery",
+        "frequency": 5
+    },
+    {
+        "source": "Columbus Dr at Exchange Pl",
+        "target": "Bergen Ave",
+        "frequency": 3
+    },
+    {
+        "source": "Columbus Dr at Exchange Pl",
+        "target": "Brunswick & 6th",
+        "frequency": 1
+    },
+    {
+        "source": "Columbus Dr at Exchange Pl",
+        "target": "Brunswick St",
+        "frequency": 3
+    },
+    {
+        "source": "Columbus Dr at Exchange Pl",
+        "target": "City Hall",
+        "frequency": 3
+    },
+    {
+        "source": "Columbus Dr at Exchange Pl",
+        "target": "Columbus Dr at Exchange Pl",
+        "frequency": 16
+    },
+    {
+        "source": "Columbus Dr at Exchange Pl",
+        "target": "Columbus Drive",
+        "frequency": 11
+    },
+    {
+        "source": "Columbus Dr at Exchange Pl",
+        "target": "Communipaw & Berry Lane",
+        "frequency": 3
+    },
+    {
+        "source": "Columbus Dr at Exchange Pl",
+        "target": "Essex Light Rail",
+        "frequency": 3
+    },
+    {
+        "source": "Columbus Dr at Exchange Pl",
+        "target": "Fairmount Ave",
+        "frequency": 3
+    },
+    {
+        "source": "Columbus Dr at Exchange Pl",
+        "target": "Glenwood Ave",
+        "frequency": 1
+    },
+    {
+        "source": "Columbus Dr at Exchange Pl",
+        "target": "Grove St PATH",
+        "frequency": 5
+    },
+    {
+        "source": "Columbus Dr at Exchange Pl",
+        "target": "Hamilton Park",
+        "frequency": 10
+    },
+    {
+        "source": "Columbus Dr at Exchange Pl",
+        "target": "Harborside",
+        "frequency": 16
+    },
+    {
+        "source": "Columbus Dr at Exchange Pl",
+        "target": "Hilltop",
+        "frequency": 5
+    },
+    {
+        "source": "Columbus Dr at Exchange Pl",
+        "target": "Hoboken Ave at Monmouth St",
+        "frequency": 7
+    },
+    {
+        "source": "Columbus Dr at Exchange Pl",
+        "target": "JC Medical Center",
+        "frequency": 4
+    },
+    {
+        "source": "Columbus Dr at Exchange Pl",
+        "target": "Jersey & 3rd",
+        "frequency": 3
+    },
+    {
+        "source": "Columbus Dr at Exchange Pl",
+        "target": "Jersey & 6th St",
+        "frequency": 2
+    },
+    {
+        "source": "Columbus Dr at Exchange Pl",
+        "target": "Liberty Light Rail",
+        "frequency": 5
+    },
+    {
+        "source": "Columbus Dr at Exchange Pl",
+        "target": "Lincoln Park",
+        "frequency": 2
+    },
+    {
+        "source": "Columbus Dr at Exchange Pl",
+        "target": "Marin Light Rail",
+        "frequency": 11
+    },
+    {
+        "source": "Columbus Dr at Exchange Pl",
+        "target": "McGinley Square",
+        "frequency": 1
+    },
+    {
+        "source": "Columbus Dr at Exchange Pl",
+        "target": "Monmouth and 6th",
+        "frequency": 13
+    },
+    {
+        "source": "Columbus Dr at Exchange Pl",
+        "target": "Montgomery St",
+        "frequency": 1
+    },
+    {
+        "source": "Columbus Dr at Exchange Pl",
+        "target": "Morris Canal",
+        "frequency": 18
+    },
+    {
+        "source": "Columbus Dr at Exchange Pl",
+        "target": "Newark Ave",
+        "frequency": 3
+    },
+    {
+        "source": "Columbus Dr at Exchange Pl",
+        "target": "Newport PATH",
+        "frequency": 10
+    },
+    {
+        "source": "Columbus Dr at Exchange Pl",
+        "target": "Newport Pkwy",
+        "frequency": 33
+    },
+    {
+        "source": "Columbus Dr at Exchange Pl",
+        "target": "Paulus Hook",
+        "frequency": 4
+    },
+    {
+        "source": "Columbus Dr at Exchange Pl",
+        "target": "Riverview Park",
+        "frequency": 3
+    },
+    {
+        "source": "Columbus Dr at Exchange Pl",
+        "target": "Sip Ave",
+        "frequency": 3
+    },
+    {
+        "source": "Columbus Dr at Exchange Pl",
+        "target": "Van Vorst Park",
+        "frequency": 4
+    },
+    {
+        "source": "Columbus Dr at Exchange Pl",
+        "target": "Warren St",
+        "frequency": 4
+    },
+    {
+        "source": "Columbus Dr at Exchange Pl",
+        "target": "Washington St",
+        "frequency": 15
+    },
+    {
+        "source": "Columbus Dr at Exchange Pl",
+        "target": "York St",
+        "frequency": 5
+    },
+    {
+        "source": "Columbus Drive",
+        "target": "5 Corners Library",
+        "frequency": 1
+    },
+    {
+        "source": "Columbus Drive",
+        "target": "Baldwin at Montgomery",
+        "frequency": 2
+    },
+    {
+        "source": "Columbus Drive",
+        "target": "Bergen Ave",
+        "frequency": 1
+    },
+    {
+        "source": "Columbus Drive",
+        "target": "Brunswick & 6th",
+        "frequency": 6
+    },
+    {
+        "source": "Columbus Drive",
+        "target": "Brunswick St",
+        "frequency": 1
+    },
+    {
+        "source": "Columbus Drive",
+        "target": "City Hall",
+        "frequency": 1
+    },
+    {
+        "source": "Columbus Drive",
+        "target": "Columbus Dr at Exchange Pl",
+        "frequency": 9
+    },
+    {
+        "source": "Columbus Drive",
+        "target": "Columbus Drive",
+        "frequency": 64
+    },
+    {
+        "source": "Columbus Drive",
+        "target": "Dixon Mills",
+        "frequency": 1
+    },
+    {
+        "source": "Columbus Drive",
+        "target": "Essex Light Rail",
+        "frequency": 1
+    },
+    {
+        "source": "Columbus Drive",
+        "target": "Glenwood Ave",
+        "frequency": 1
+    },
+    {
+        "source": "Columbus Drive",
+        "target": "Grand St",
+        "frequency": 1
+    },
+    {
+        "source": "Columbus Drive",
+        "target": "Grove St PATH",
+        "frequency": 9
+    },
+    {
+        "source": "Columbus Drive",
+        "target": "Hamilton Park",
+        "frequency": 9
+    },
+    {
+        "source": "Columbus Drive",
+        "target": "Harborside",
+        "frequency": 6
+    },
+    {
+        "source": "Columbus Drive",
+        "target": "Heights Elevator",
+        "frequency": 5
+    },
+    {
+        "source": "Columbus Drive",
+        "target": "Hilltop",
+        "frequency": 1
+    },
+    {
+        "source": "Columbus Drive",
+        "target": "JC Medical Center",
+        "frequency": 13
+    },
+    {
+        "source": "Columbus Drive",
+        "target": "Jackson Square",
+        "frequency": 7
+    },
+    {
+        "source": "Columbus Drive",
+        "target": "Lafayette Park",
+        "frequency": 1
+    },
+    {
+        "source": "Columbus Drive",
+        "target": "Liberty Light Rail",
+        "frequency": 3
+    },
+    {
+        "source": "Columbus Drive",
+        "target": "Lincoln Park",
+        "frequency": 2
+    },
+    {
+        "source": "Columbus Drive",
+        "target": "Manila & 1st",
+        "frequency": 4
+    },
+    {
+        "source": "Columbus Drive",
+        "target": "Marin Light Rail",
+        "frequency": 4
+    },
+    {
+        "source": "Columbus Drive",
+        "target": "McGinley Square",
+        "frequency": 2
+    },
+    {
+        "source": "Columbus Drive",
+        "target": "Monmouth and 6th",
+        "frequency": 3
+    },
+    {
+        "source": "Columbus Drive",
+        "target": "Montgomery St",
+        "frequency": 10
+    },
+    {
+        "source": "Columbus Drive",
+        "target": "Morris Canal",
+        "frequency": 3
+    },
+    {
+        "source": "Columbus Drive",
+        "target": "Newark Ave",
+        "frequency": 2
+    },
+    {
+        "source": "Columbus Drive",
+        "target": "Newport PATH",
+        "frequency": 18
+    },
+    {
+        "source": "Columbus Drive",
+        "target": "Newport Pkwy",
+        "frequency": 18
+    },
+    {
+        "source": "Columbus Drive",
+        "target": "Paulus Hook",
+        "frequency": 1
+    },
+    {
+        "source": "Columbus Drive",
+        "target": "Riverview Park",
+        "frequency": 2
+    },
+    {
+        "source": "Columbus Drive",
+        "target": "Union St",
+        "frequency": 3
+    },
+    {
+        "source": "Columbus Drive",
+        "target": "Van Vorst Park",
+        "frequency": 1
+    },
+    {
+        "source": "Columbus Drive",
+        "target": "Warren St",
+        "frequency": 14
+    },
+    {
+        "source": "Columbus Drive",
+        "target": "Washington St",
+        "frequency": 9
+    },
+    {
+        "source": "Columbus Drive",
+        "target": "York St",
+        "frequency": 5
+    },
+    {
+        "source": "Communipaw & Berry Lane",
+        "target": "Astor Place",
+        "frequency": 6
+    },
+    {
+        "source": "Communipaw & Berry Lane",
+        "target": "Baldwin at Montgomery",
+        "frequency": 2
+    },
+    {
+        "source": "Communipaw & Berry Lane",
+        "target": "Brunswick St",
+        "frequency": 2
+    },
+    {
+        "source": "Communipaw & Berry Lane",
+        "target": "Columbus Dr at Exchange Pl",
+        "frequency": 2
+    },
+    {
+        "source": "Communipaw & Berry Lane",
+        "target": "Columbus Drive",
+        "frequency": 1
+    },
+    {
+        "source": "Communipaw & Berry Lane",
+        "target": "Communipaw & Berry Lane",
+        "frequency": 3
+    },
+    {
+        "source": "Communipaw & Berry Lane",
+        "target": "Grand St",
+        "frequency": 2
+    },
+    {
+        "source": "Communipaw & Berry Lane",
+        "target": "Grove St PATH",
+        "frequency": 1
+    },
+    {
+        "source": "Communipaw & Berry Lane",
+        "target": "Hamilton Park",
+        "frequency": 1
+    },
+    {
+        "source": "Communipaw & Berry Lane",
+        "target": "Harborside",
+        "frequency": 2
+    },
+    {
+        "source": "Communipaw & Berry Lane",
+        "target": "JC Medical Center",
+        "frequency": 4
+    },
+    {
+        "source": "Communipaw & Berry Lane",
+        "target": "Jackson Square",
+        "frequency": 2
+    },
+    {
+        "source": "Communipaw & Berry Lane",
+        "target": "Jersey & 3rd",
+        "frequency": 1
+    },
+    {
+        "source": "Communipaw & Berry Lane",
+        "target": "Lafayette Park",
+        "frequency": 1
+    },
+    {
+        "source": "Communipaw & Berry Lane",
+        "target": "Liberty Light Rail",
+        "frequency": 1
+    },
+    {
+        "source": "Communipaw & Berry Lane",
+        "target": "Manila & 1st",
+        "frequency": 1
+    },
+    {
+        "source": "Communipaw & Berry Lane",
+        "target": "Marin Light Rail",
+        "frequency": 4
+    },
+    {
+        "source": "Communipaw & Berry Lane",
+        "target": "Morris Canal",
+        "frequency": 1
+    },
+    {
+        "source": "Communipaw & Berry Lane",
+        "target": "Newport PATH",
+        "frequency": 1
+    },
+    {
+        "source": "Dey St",
+        "target": "5 Corners Library",
+        "frequency": 1
+    },
+    {
+        "source": "Dey St",
+        "target": "Columbus Dr at Exchange Pl",
+        "frequency": 4
+    },
+    {
+        "source": "Dey St",
+        "target": "Dey St",
+        "frequency": 19
+    },
+    {
+        "source": "Dey St",
+        "target": "Dixon Mills",
+        "frequency": 9
+    },
+    {
+        "source": "Dey St",
+        "target": "Fairmount Ave",
+        "frequency": 1
+    },
+    {
+        "source": "Dey St",
+        "target": "Hoboken Ave at Monmouth St",
+        "frequency": 1
+    },
+    {
+        "source": "Dey St",
+        "target": "Journal Square",
+        "frequency": 3
+    },
+    {
+        "source": "Dey St",
+        "target": "Leonard Gordon Park",
+        "frequency": 2
+    },
+    {
+        "source": "Dey St",
+        "target": "Liberty Light Rail",
+        "frequency": 3
+    },
+    {
+        "source": "Dey St",
+        "target": "Lincoln Park",
+        "frequency": 4
+    },
+    {
+        "source": "Dey St",
+        "target": "Marin Light Rail",
+        "frequency": 1
+    },
+    {
+        "source": "Dey St",
+        "target": "McGinley Square",
+        "frequency": 1
+    },
+    {
+        "source": "Dey St",
+        "target": "Montgomery St",
+        "frequency": 1
+    },
+    {
+        "source": "Dey St",
+        "target": "Pershing Field",
+        "frequency": 5
+    },
+    {
+        "source": "Dey St",
+        "target": "Riverview Park",
+        "frequency": 4
+    },
+    {
+        "source": "Dey St",
+        "target": "Sip Ave",
+        "frequency": 3
+    },
+    {
+        "source": "Dixon Mills",
+        "target": "Brunswick & 6th",
+        "frequency": 1
+    },
+    {
+        "source": "Dixon Mills",
+        "target": "Brunswick St",
+        "frequency": 3
+    },
+    {
+        "source": "Dixon Mills",
+        "target": "Christ Hospital",
+        "frequency": 4
+    },
+    {
+        "source": "Dixon Mills",
+        "target": "City Hall",
+        "frequency": 3
+    },
+    {
+        "source": "Dixon Mills",
+        "target": "Columbus Dr at Exchange Pl",
+        "frequency": 3
+    },
+    {
+        "source": "Dixon Mills",
+        "target": "Columbus Drive",
+        "frequency": 2
+    },
+    {
+        "source": "Dixon Mills",
+        "target": "Dey St",
+        "frequency": 3
+    },
+    {
+        "source": "Dixon Mills",
+        "target": "Dixon Mills",
+        "frequency": 19
+    },
+    {
+        "source": "Dixon Mills",
+        "target": "Grand St",
+        "frequency": 3
+    },
+    {
+        "source": "Dixon Mills",
+        "target": "Grove St PATH",
+        "frequency": 22
+    },
+    {
+        "source": "Dixon Mills",
+        "target": "Hamilton Park",
+        "frequency": 2
+    },
+    {
+        "source": "Dixon Mills",
+        "target": "Harborside",
+        "frequency": 15
+    },
+    {
+        "source": "Dixon Mills",
+        "target": "JC Medical Center",
+        "frequency": 3
+    },
+    {
+        "source": "Dixon Mills",
+        "target": "Jersey & 3rd",
+        "frequency": 6
+    },
+    {
+        "source": "Dixon Mills",
+        "target": "Journal Square",
+        "frequency": 1
+    },
+    {
+        "source": "Dixon Mills",
+        "target": "Liberty Light Rail",
+        "frequency": 1
+    },
+    {
+        "source": "Dixon Mills",
+        "target": "Manila & 1st",
+        "frequency": 2
+    },
+    {
+        "source": "Dixon Mills",
+        "target": "Monmouth and 6th",
+        "frequency": 4
+    },
+    {
+        "source": "Dixon Mills",
+        "target": "Montgomery St",
+        "frequency": 1
+    },
+    {
+        "source": "Dixon Mills",
+        "target": "Morris Canal",
+        "frequency": 1
+    },
+    {
+        "source": "Dixon Mills",
+        "target": "Newark Ave",
+        "frequency": 1
+    },
+    {
+        "source": "Dixon Mills",
+        "target": "Newport Pkwy",
+        "frequency": 4
+    },
+    {
+        "source": "Dixon Mills",
+        "target": "Pershing Field",
+        "frequency": 9
+    },
+    {
+        "source": "Dixon Mills",
+        "target": "Van Vorst Park",
+        "frequency": 5
+    },
+    {
+        "source": "Dixon Mills",
+        "target": "Warren St",
+        "frequency": 3
+    },
+    {
+        "source": "Dixon Mills",
+        "target": "York St",
+        "frequency": 1
+    },
+    {
+        "source": "Essex Light Rail",
+        "target": "Brunswick St",
+        "frequency": 2
+    },
+    {
+        "source": "Essex Light Rail",
+        "target": "City Hall",
+        "frequency": 4
+    },
+    {
+        "source": "Essex Light Rail",
+        "target": "Columbus Dr at Exchange Pl",
+        "frequency": 3
+    },
+    {
+        "source": "Essex Light Rail",
+        "target": "Columbus Drive",
+        "frequency": 2
+    },
+    {
+        "source": "Essex Light Rail",
+        "target": "Essex Light Rail",
+        "frequency": 33
+    },
+    {
+        "source": "Essex Light Rail",
+        "target": "Grand St",
+        "frequency": 3
+    },
+    {
+        "source": "Essex Light Rail",
+        "target": "Grove St PATH",
+        "frequency": 9
+    },
+    {
+        "source": "Essex Light Rail",
+        "target": "Harborside",
+        "frequency": 1
+    },
+    {
+        "source": "Essex Light Rail",
+        "target": "JC Medical Center",
+        "frequency": 3
+    },
+    {
+        "source": "Essex Light Rail",
+        "target": "Jersey & 6th St",
+        "frequency": 5
+    },
+    {
+        "source": "Essex Light Rail",
+        "target": "Liberty Light Rail",
+        "frequency": 4
+    },
+    {
+        "source": "Essex Light Rail",
+        "target": "Marin Light Rail",
+        "frequency": 18
+    },
+    {
+        "source": "Essex Light Rail",
+        "target": "McGinley Square",
+        "frequency": 1
+    },
+    {
+        "source": "Essex Light Rail",
+        "target": "Morris Canal",
+        "frequency": 9
+    },
+    {
+        "source": "Essex Light Rail",
+        "target": "Newark Ave",
+        "frequency": 3
+    },
+    {
+        "source": "Essex Light Rail",
+        "target": "Newport PATH",
+        "frequency": 7
+    },
+    {
+        "source": "Essex Light Rail",
+        "target": "Newport Pkwy",
+        "frequency": 7
+    },
+    {
+        "source": "Essex Light Rail",
+        "target": "Paulus Hook",
+        "frequency": 2
+    },
+    {
+        "source": "Essex Light Rail",
+        "target": "Van Vorst Park",
+        "frequency": 3
+    },
+    {
+        "source": "Essex Light Rail",
+        "target": "Warren St",
+        "frequency": 3
+    },
+    {
+        "source": "Essex Light Rail",
+        "target": "Washington St",
+        "frequency": 5
+    },
+    {
+        "source": "Essex Light Rail",
+        "target": "York St",
+        "frequency": 1
+    },
+    {
+        "source": "Fairmount Ave",
+        "target": "5 Corners Library",
+        "frequency": 4
+    },
+    {
+        "source": "Fairmount Ave",
+        "target": "Astor Place",
+        "frequency": 1
+    },
+    {
+        "source": "Fairmount Ave",
+        "target": "Baldwin at Montgomery",
+        "frequency": 2
+    },
+    {
+        "source": "Fairmount Ave",
+        "target": "Bergen Ave",
+        "frequency": 1
+    },
+    {
+        "source": "Fairmount Ave",
+        "target": "Brunswick & 6th",
+        "frequency": 2
+    },
+    {
+        "source": "Fairmount Ave",
+        "target": "Brunswick St",
+        "frequency": 2
+    },
+    {
+        "source": "Fairmount Ave",
+        "target": "Columbus Dr at Exchange Pl",
+        "frequency": 4
+    },
+    {
+        "source": "Fairmount Ave",
+        "target": "Columbus Drive",
+        "frequency": 1
+    },
+    {
+        "source": "Fairmount Ave",
+        "target": "Dixon Mills",
+        "frequency": 3
+    },
+    {
+        "source": "Fairmount Ave",
+        "target": "Fairmount Ave",
+        "frequency": 18
+    },
+    {
+        "source": "Fairmount Ave",
+        "target": "Glenwood Ave",
+        "frequency": 2
+    },
+    {
+        "source": "Fairmount Ave",
+        "target": "Grove St PATH",
+        "frequency": 3
+    },
+    {
+        "source": "Fairmount Ave",
+        "target": "Hamilton Park",
+        "frequency": 6
+    },
+    {
+        "source": "Fairmount Ave",
+        "target": "Hilltop",
+        "frequency": 1
+    },
+    {
+        "source": "Fairmount Ave",
+        "target": "Journal Square",
+        "frequency": 1
+    },
+    {
+        "source": "Fairmount Ave",
+        "target": "Lafayette Park",
+        "frequency": 1
+    },
+    {
+        "source": "Fairmount Ave",
+        "target": "Liberty Light Rail",
+        "frequency": 1
+    },
+    {
+        "source": "Fairmount Ave",
+        "target": "Lincoln Park",
+        "frequency": 5
+    },
+    {
+        "source": "Fairmount Ave",
+        "target": "Marin Light Rail",
+        "frequency": 17
+    },
+    {
+        "source": "Fairmount Ave",
+        "target": "McGinley Square",
+        "frequency": 4
+    },
+    {
+        "source": "Fairmount Ave",
+        "target": "Monmouth and 6th",
+        "frequency": 3
+    },
+    {
+        "source": "Fairmount Ave",
+        "target": "Montgomery St",
+        "frequency": 2
+    },
+    {
+        "source": "Fairmount Ave",
+        "target": "Morris Canal",
+        "frequency": 3
+    },
+    {
+        "source": "Fairmount Ave",
+        "target": "Newark Ave",
+        "frequency": 2
+    },
+    {
+        "source": "Fairmount Ave",
+        "target": "Newport PATH",
+        "frequency": 1
+    },
+    {
+        "source": "Fairmount Ave",
+        "target": "Newport Pkwy",
+        "frequency": 1
+    },
+    {
+        "source": "Fairmount Ave",
+        "target": "Riverview Park",
+        "frequency": 1
+    },
+    {
+        "source": "Fairmount Ave",
+        "target": "Sip Ave",
+        "frequency": 31
+    },
+    {
+        "source": "Fairmount Ave",
+        "target": "Washington St",
+        "frequency": 1
+    },
+    {
+        "source": "Glenwood Ave",
+        "target": "Astor Place",
+        "frequency": 3
+    },
+    {
+        "source": "Glenwood Ave",
+        "target": "Columbus Dr at Exchange Pl",
+        "frequency": 1
+    },
+    {
+        "source": "Glenwood Ave",
+        "target": "Columbus Drive",
+        "frequency": 1
+    },
+    {
+        "source": "Glenwood Ave",
+        "target": "Fairmount Ave",
+        "frequency": 7
+    },
+    {
+        "source": "Glenwood Ave",
+        "target": "Glenwood Ave",
+        "frequency": 6
+    },
+    {
+        "source": "Glenwood Ave",
+        "target": "Hamilton Park",
+        "frequency": 7
+    },
+    {
+        "source": "Glenwood Ave",
+        "target": "Harborside",
+        "frequency": 2
+    },
+    {
+        "source": "Glenwood Ave",
+        "target": "Heights Elevator",
+        "frequency": 1
+    },
+    {
+        "source": "Glenwood Ave",
+        "target": "Jackson Square",
+        "frequency": 1
+    },
+    {
+        "source": "Glenwood Ave",
+        "target": "Journal Square",
+        "frequency": 1
+    },
+    {
+        "source": "Glenwood Ave",
+        "target": "Liberty Light Rail",
+        "frequency": 2
+    },
+    {
+        "source": "Glenwood Ave",
+        "target": "Lincoln Park",
+        "frequency": 3
+    },
+    {
+        "source": "Glenwood Ave",
+        "target": "Manila & 1st",
+        "frequency": 1
+    },
+    {
+        "source": "Glenwood Ave",
+        "target": "Marin Light Rail",
+        "frequency": 5
+    },
+    {
+        "source": "Glenwood Ave",
+        "target": "McGinley Square",
+        "frequency": 5
+    },
+    {
+        "source": "Glenwood Ave",
+        "target": "Newport Pkwy",
+        "frequency": 19
+    },
+    {
+        "source": "Glenwood Ave",
+        "target": "Paulus Hook",
+        "frequency": 3
+    },
+    {
+        "source": "Glenwood Ave",
+        "target": "Sip Ave",
+        "frequency": 8
+    },
+    {
+        "source": "Glenwood Ave",
+        "target": "Union St",
+        "frequency": 2
+    },
+    {
+        "source": "Grand St",
+        "target": "Baldwin at Montgomery",
+        "frequency": 1
+    },
+    {
+        "source": "Grand St",
+        "target": "Bergen Ave",
+        "frequency": 1
+    },
+    {
+        "source": "Grand St",
+        "target": "Brunswick & 6th",
+        "frequency": 2
+    },
+    {
+        "source": "Grand St",
+        "target": "Brunswick St",
+        "frequency": 1
+    },
+    {
+        "source": "Grand St",
+        "target": "Christ Hospital",
+        "frequency": 1
+    },
+    {
+        "source": "Grand St",
+        "target": "City Hall",
+        "frequency": 5
+    },
+    {
+        "source": "Grand St",
+        "target": "Columbus Dr at Exchange Pl",
+        "frequency": 3
+    },
+    {
+        "source": "Grand St",
+        "target": "Columbus Drive",
+        "frequency": 4
+    },
+    {
+        "source": "Grand St",
+        "target": "Essex Light Rail",
+        "frequency": 4
+    },
+    {
+        "source": "Grand St",
+        "target": "Glenwood Ave",
+        "frequency": 1
+    },
+    {
+        "source": "Grand St",
+        "target": "Grand St",
+        "frequency": 22
+    },
+    {
+        "source": "Grand St",
+        "target": "Grove St PATH",
+        "frequency": 9
+    },
+    {
+        "source": "Grand St",
+        "target": "Hamilton Park",
+        "frequency": 2
+    },
+    {
+        "source": "Grand St",
+        "target": "Harborside",
+        "frequency": 5
+    },
+    {
+        "source": "Grand St",
+        "target": "JC Medical Center",
+        "frequency": 1
+    },
+    {
+        "source": "Grand St",
+        "target": "Jersey & 3rd",
+        "frequency": 2
+    },
+    {
+        "source": "Grand St",
+        "target": "Jersey & 6th St",
+        "frequency": 1
+    },
+    {
+        "source": "Grand St",
+        "target": "Liberty Light Rail",
+        "frequency": 3
+    },
+    {
+        "source": "Grand St",
+        "target": "Manila & 1st",
+        "frequency": 2
+    },
+    {
+        "source": "Grand St",
+        "target": "Marin Light Rail",
+        "frequency": 5
+    },
+    {
+        "source": "Grand St",
+        "target": "Morris Canal",
+        "frequency": 4
+    },
+    {
+        "source": "Grand St",
+        "target": "Newark Ave",
+        "frequency": 3
+    },
+    {
+        "source": "Grand St",
+        "target": "Newport PATH",
+        "frequency": 3
+    },
+    {
+        "source": "Grand St",
+        "target": "Newport Pkwy",
+        "frequency": 9
+    },
+    {
+        "source": "Grand St",
+        "target": "Paulus Hook",
+        "frequency": 4
+    },
+    {
+        "source": "Grand St",
+        "target": "Van Vorst Park",
+        "frequency": 8
+    },
+    {
+        "source": "Grand St",
+        "target": "Warren St",
+        "frequency": 4
+    },
+    {
+        "source": "Grove St PATH",
+        "target": "5 Corners Library",
+        "frequency": 1
+    },
+    {
+        "source": "Grove St PATH",
+        "target": "Baldwin at Montgomery",
+        "frequency": 13
+    },
+    {
+        "source": "Grove St PATH",
+        "target": "Bergen Ave",
+        "frequency": 3
+    },
+    {
+        "source": "Grove St PATH",
+        "target": "Brunswick & 6th",
+        "frequency": 7
+    },
+    {
+        "source": "Grove St PATH",
+        "target": "Brunswick St",
+        "frequency": 2
+    },
+    {
+        "source": "Grove St PATH",
+        "target": "City Hall",
+        "frequency": 6
+    },
+    {
+        "source": "Grove St PATH",
+        "target": "Columbus Dr at Exchange Pl",
+        "frequency": 9
+    },
+    {
+        "source": "Grove St PATH",
+        "target": "Columbus Drive",
+        "frequency": 2
+    },
+    {
+        "source": "Grove St PATH",
+        "target": "Dixon Mills",
+        "frequency": 17
+    },
+    {
+        "source": "Grove St PATH",
+        "target": "Essex Light Rail",
+        "frequency": 2
+    },
+    {
+        "source": "Grove St PATH",
+        "target": "Fairmount Ave",
+        "frequency": 1
+    },
+    {
+        "source": "Grove St PATH",
+        "target": "Glenwood Ave",
+        "frequency": 2
+    },
+    {
+        "source": "Grove St PATH",
+        "target": "Grand St",
+        "frequency": 6
+    },
+    {
+        "source": "Grove St PATH",
+        "target": "Grove St PATH",
+        "frequency": 15
+    },
+    {
+        "source": "Grove St PATH",
+        "target": "Hamilton Park",
+        "frequency": 27
+    },
+    {
+        "source": "Grove St PATH",
+        "target": "Harborside",
+        "frequency": 10
+    },
+    {
+        "source": "Grove St PATH",
+        "target": "Heights Elevator",
+        "frequency": 1
+    },
+    {
+        "source": "Grove St PATH",
+        "target": "Hilltop",
+        "frequency": 3
+    },
+    {
+        "source": "Grove St PATH",
+        "target": "JC Medical Center",
+        "frequency": 20
+    },
+    {
+        "source": "Grove St PATH",
+        "target": "Jackson Square",
+        "frequency": 11
+    },
+    {
+        "source": "Grove St PATH",
+        "target": "Jersey & 3rd",
+        "frequency": 7
+    },
+    {
+        "source": "Grove St PATH",
+        "target": "Jersey & 6th St",
+        "frequency": 8
+    },
+    {
+        "source": "Grove St PATH",
+        "target": "Lafayette Park",
+        "frequency": 6
+    },
+    {
+        "source": "Grove St PATH",
+        "target": "Liberty Light Rail",
+        "frequency": 11
+    },
+    {
+        "source": "Grove St PATH",
+        "target": "Lincoln Park",
+        "frequency": 1
+    },
+    {
+        "source": "Grove St PATH",
+        "target": "Manila & 1st",
+        "frequency": 4
+    },
+    {
+        "source": "Grove St PATH",
+        "target": "Marin Light Rail",
+        "frequency": 8
+    },
+    {
+        "source": "Grove St PATH",
+        "target": "McGinley Square",
+        "frequency": 4
+    },
+    {
+        "source": "Grove St PATH",
+        "target": "Monmouth and 6th",
+        "frequency": 7
+    },
+    {
+        "source": "Grove St PATH",
+        "target": "Montgomery St",
+        "frequency": 21
+    },
+    {
+        "source": "Grove St PATH",
+        "target": "Morris Canal",
+        "frequency": 8
+    },
+    {
+        "source": "Grove St PATH",
+        "target": "Newark Ave",
+        "frequency": 15
+    },
+    {
+        "source": "Grove St PATH",
+        "target": "Newport PATH",
+        "frequency": 3
+    },
+    {
+        "source": "Grove St PATH",
+        "target": "Newport Pkwy",
+        "frequency": 26
+    },
+    {
+        "source": "Grove St PATH",
+        "target": "Paulus Hook",
+        "frequency": 5
+    },
+    {
+        "source": "Grove St PATH",
+        "target": "Pershing Field",
+        "frequency": 6
+    },
+    {
+        "source": "Grove St PATH",
+        "target": "Riverview Park",
+        "frequency": 3
+    },
+    {
+        "source": "Grove St PATH",
+        "target": "Union St",
+        "frequency": 1
+    },
+    {
+        "source": "Grove St PATH",
+        "target": "Van Vorst Park",
+        "frequency": 14
+    },
+    {
+        "source": "Grove St PATH",
+        "target": "Warren St",
+        "frequency": 2
+    },
+    {
+        "source": "Grove St PATH",
+        "target": "Washington St",
+        "frequency": 3
+    },
+    {
+        "source": "Grove St PATH",
+        "target": "York St",
+        "frequency": 7
+    },
+    {
+        "source": "Hamilton Park",
+        "target": "Baldwin at Montgomery",
+        "frequency": 1
+    },
+    {
+        "source": "Hamilton Park",
+        "target": "Bergen Ave",
+        "frequency": 1
+    },
+    {
+        "source": "Hamilton Park",
+        "target": "Brunswick & 6th",
+        "frequency": 6
+    },
+    {
+        "source": "Hamilton Park",
+        "target": "Brunswick St",
+        "frequency": 2
+    },
+    {
+        "source": "Hamilton Park",
+        "target": "City Hall",
+        "frequency": 18
+    },
+    {
+        "source": "Hamilton Park",
+        "target": "Columbus Dr at Exchange Pl",
+        "frequency": 4
+    },
+    {
+        "source": "Hamilton Park",
+        "target": "Columbus Drive",
+        "frequency": 5
+    },
+    {
+        "source": "Hamilton Park",
+        "target": "Communipaw & Berry Lane",
+        "frequency": 5
+    },
+    {
+        "source": "Hamilton Park",
+        "target": "Dixon Mills",
+        "frequency": 2
+    },
+    {
+        "source": "Hamilton Park",
+        "target": "Essex Light Rail",
+        "frequency": 1
+    },
+    {
+        "source": "Hamilton Park",
+        "target": "Fairmount Ave",
+        "frequency": 4
+    },
+    {
+        "source": "Hamilton Park",
+        "target": "Glenwood Ave",
+        "frequency": 1
+    },
+    {
+        "source": "Hamilton Park",
+        "target": "Grand St",
+        "frequency": 3
+    },
+    {
+        "source": "Hamilton Park",
+        "target": "Grove St PATH",
+        "frequency": 25
+    },
+    {
+        "source": "Hamilton Park",
+        "target": "Hamilton Park",
+        "frequency": 77
+    },
+    {
+        "source": "Hamilton Park",
+        "target": "Harborside",
+        "frequency": 10
+    },
+    {
+        "source": "Hamilton Park",
+        "target": "Heights Elevator",
+        "frequency": 3
+    },
+    {
+        "source": "Hamilton Park",
+        "target": "Hilltop",
+        "frequency": 5
+    },
+    {
+        "source": "Hamilton Park",
+        "target": "Hoboken Ave at Monmouth St",
+        "frequency": 3
+    },
+    {
+        "source": "Hamilton Park",
+        "target": "JC Medical Center",
+        "frequency": 6
+    },
+    {
+        "source": "Hamilton Park",
+        "target": "Jersey & 3rd",
+        "frequency": 9
+    },
+    {
+        "source": "Hamilton Park",
+        "target": "Jersey & 6th St",
+        "frequency": 5
+    },
+    {
+        "source": "Hamilton Park",
+        "target": "Liberty Light Rail",
+        "frequency": 4
+    },
+    {
+        "source": "Hamilton Park",
+        "target": "Lincoln Park",
+        "frequency": 2
+    },
+    {
+        "source": "Hamilton Park",
+        "target": "Manila & 1st",
+        "frequency": 12
+    },
+    {
+        "source": "Hamilton Park",
+        "target": "Marin Light Rail",
+        "frequency": 6
+    },
+    {
+        "source": "Hamilton Park",
+        "target": "McGinley Square",
+        "frequency": 6
+    },
+    {
+        "source": "Hamilton Park",
+        "target": "Monmouth and 6th",
+        "frequency": 3
+    },
+    {
+        "source": "Hamilton Park",
+        "target": "Montgomery St",
+        "frequency": 7
+    },
+    {
+        "source": "Hamilton Park",
+        "target": "Morris Canal",
+        "frequency": 3
+    },
+    {
+        "source": "Hamilton Park",
+        "target": "Newark Ave",
+        "frequency": 20
+    },
+    {
+        "source": "Hamilton Park",
+        "target": "Newport PATH",
+        "frequency": 18
+    },
+    {
+        "source": "Hamilton Park",
+        "target": "Newport Pkwy",
+        "frequency": 24
+    },
+    {
+        "source": "Hamilton Park",
+        "target": "Paulus Hook",
+        "frequency": 4
+    },
+    {
+        "source": "Hamilton Park",
+        "target": "Sip Ave",
+        "frequency": 5
+    },
+    {
+        "source": "Hamilton Park",
+        "target": "Van Vorst Park",
+        "frequency": 20
+    },
+    {
+        "source": "Hamilton Park",
+        "target": "Warren St",
+        "frequency": 13
+    },
+    {
+        "source": "Hamilton Park",
+        "target": "Washington St",
+        "frequency": 3
+    },
+    {
+        "source": "Hamilton Park",
+        "target": "York St",
+        "frequency": 2
+    },
+    {
+        "source": "Harborside",
+        "target": "5 Corners Library",
+        "frequency": 1
+    },
+    {
+        "source": "Harborside",
+        "target": "Astor Place",
+        "frequency": 2
+    },
+    {
+        "source": "Harborside",
+        "target": "Baldwin at Montgomery",
+        "frequency": 5
+    },
+    {
+        "source": "Harborside",
+        "target": "Brunswick & 6th",
+        "frequency": 3
+    },
+    {
+        "source": "Harborside",
+        "target": "Brunswick St",
+        "frequency": 3
+    },
+    {
+        "source": "Harborside",
+        "target": "City Hall",
+        "frequency": 9
+    },
+    {
+        "source": "Harborside",
+        "target": "Columbus Dr at Exchange Pl",
+        "frequency": 12
+    },
+    {
+        "source": "Harborside",
+        "target": "Columbus Drive",
+        "frequency": 6
+    },
+    {
+        "source": "Harborside",
+        "target": "Dixon Mills",
+        "frequency": 12
+    },
+    {
+        "source": "Harborside",
+        "target": "Essex Light Rail",
+        "frequency": 3
+    },
+    {
+        "source": "Harborside",
+        "target": "Glenwood Ave",
+        "frequency": 1
+    },
+    {
+        "source": "Harborside",
+        "target": "Grand St",
+        "frequency": 3
+    },
+    {
+        "source": "Harborside",
+        "target": "Grove St PATH",
+        "frequency": 9
+    },
+    {
+        "source": "Harborside",
+        "target": "Hamilton Park",
+        "frequency": 9
+    },
+    {
+        "source": "Harborside",
+        "target": "Harborside",
+        "frequency": 104
+    },
+    {
+        "source": "Harborside",
+        "target": "Heights Elevator",
+        "frequency": 1
+    },
+    {
+        "source": "Harborside",
+        "target": "Hoboken Ave at Monmouth St",
+        "frequency": 1
+    },
+    {
+        "source": "Harborside",
+        "target": "JC Medical Center",
+        "frequency": 12
+    },
+    {
+        "source": "Harborside",
+        "target": "Jersey & 3rd",
+        "frequency": 6
+    },
+    {
+        "source": "Harborside",
+        "target": "Jersey & 6th St",
+        "frequency": 1
+    },
+    {
+        "source": "Harborside",
+        "target": "Liberty Light Rail",
+        "frequency": 24
+    },
+    {
+        "source": "Harborside",
+        "target": "Manila & 1st",
+        "frequency": 2
+    },
+    {
+        "source": "Harborside",
+        "target": "Marin Light Rail",
+        "frequency": 11
+    },
+    {
+        "source": "Harborside",
+        "target": "Monmouth and 6th",
+        "frequency": 4
+    },
+    {
+        "source": "Harborside",
+        "target": "Montgomery St",
+        "frequency": 8
+    },
+    {
+        "source": "Harborside",
+        "target": "Morris Canal",
+        "frequency": 25
+    },
+    {
+        "source": "Harborside",
+        "target": "Newark Ave",
+        "frequency": 14
+    },
+    {
+        "source": "Harborside",
+        "target": "Newport PATH",
+        "frequency": 12
+    },
+    {
+        "source": "Harborside",
+        "target": "Newport Pkwy",
+        "frequency": 33
+    },
+    {
+        "source": "Harborside",
+        "target": "Oakland Ave",
+        "frequency": 1
+    },
+    {
+        "source": "Harborside",
+        "target": "Paulus Hook",
+        "frequency": 12
+    },
+    {
+        "source": "Harborside",
+        "target": "Union St",
+        "frequency": 2
+    },
+    {
+        "source": "Harborside",
+        "target": "Van Vorst Park",
+        "frequency": 5
+    },
+    {
+        "source": "Harborside",
+        "target": "Warren St",
+        "frequency": 4
+    },
+    {
+        "source": "Harborside",
+        "target": "Washington St",
+        "frequency": 10
+    },
+    {
+        "source": "Heights Elevator",
+        "target": "5 Corners Library",
+        "frequency": 1
+    },
+    {
+        "source": "Heights Elevator",
+        "target": "Baldwin at Montgomery",
+        "frequency": 2
+    },
+    {
+        "source": "Heights Elevator",
+        "target": "Brunswick & 6th",
+        "frequency": 4
+    },
+    {
+        "source": "Heights Elevator",
+        "target": "Brunswick St",
+        "frequency": 3
+    },
+    {
+        "source": "Heights Elevator",
+        "target": "Christ Hospital",
+        "frequency": 3
+    },
+    {
+        "source": "Heights Elevator",
+        "target": "City Hall",
+        "frequency": 1
+    },
+    {
+        "source": "Heights Elevator",
+        "target": "Communipaw & Berry Lane",
+        "frequency": 3
+    },
+    {
+        "source": "Heights Elevator",
+        "target": "Essex Light Rail",
+        "frequency": 3
+    },
+    {
+        "source": "Heights Elevator",
+        "target": "Glenwood Ave",
+        "frequency": 2
+    },
+    {
+        "source": "Heights Elevator",
+        "target": "Grove St PATH",
+        "frequency": 3
+    },
+    {
+        "source": "Heights Elevator",
+        "target": "Hamilton Park",
+        "frequency": 2
+    },
+    {
+        "source": "Heights Elevator",
+        "target": "Harborside",
+        "frequency": 1
+    },
+    {
+        "source": "Heights Elevator",
+        "target": "Heights Elevator",
+        "frequency": 28
+    },
+    {
+        "source": "Heights Elevator",
+        "target": "Hilltop",
+        "frequency": 1
+    },
+    {
+        "source": "Heights Elevator",
+        "target": "Hoboken Ave at Monmouth St",
+        "frequency": 2
+    },
+    {
+        "source": "Heights Elevator",
+        "target": "JC Medical Center",
+        "frequency": 1
+    },
+    {
+        "source": "Heights Elevator",
+        "target": "Journal Square",
+        "frequency": 1
+    },
+    {
+        "source": "Heights Elevator",
+        "target": "Liberty Light Rail",
+        "frequency": 1
+    },
+    {
+        "source": "Heights Elevator",
+        "target": "Marin Light Rail",
+        "frequency": 1
+    },
+    {
+        "source": "Heights Elevator",
+        "target": "Morris Canal",
+        "frequency": 2
+    },
+    {
+        "source": "Heights Elevator",
+        "target": "Newark Ave",
+        "frequency": 2
+    },
+    {
+        "source": "Heights Elevator",
+        "target": "Newport Pkwy",
+        "frequency": 4
+    },
+    {
+        "source": "Heights Elevator",
+        "target": "Oakland Ave",
+        "frequency": 3
+    },
+    {
+        "source": "Heights Elevator",
+        "target": "Paulus Hook",
+        "frequency": 2
+    },
+    {
+        "source": "Heights Elevator",
+        "target": "Pershing Field",
+        "frequency": 1
+    },
+    {
+        "source": "Heights Elevator",
+        "target": "Riverview Park",
+        "frequency": 3
+    },
+    {
+        "source": "Hilltop",
+        "target": "5 Corners Library",
+        "frequency": 3
+    },
+    {
+        "source": "Hilltop",
+        "target": "Astor Place",
+        "frequency": 1
+    },
+    {
+        "source": "Hilltop",
+        "target": "Baldwin at Montgomery",
+        "frequency": 5
+    },
+    {
+        "source": "Hilltop",
+        "target": "Bergen Ave",
+        "frequency": 2
+    },
+    {
+        "source": "Hilltop",
+        "target": "Brunswick & 6th",
+        "frequency": 3
+    },
+    {
+        "source": "Hilltop",
+        "target": "Brunswick St",
+        "frequency": 2
+    },
+    {
+        "source": "Hilltop",
+        "target": "Christ Hospital",
+        "frequency": 1
+    },
+    {
+        "source": "Hilltop",
+        "target": "Columbus Dr at Exchange Pl",
+        "frequency": 7
+    },
+    {
+        "source": "Hilltop",
+        "target": "Communipaw & Berry Lane",
+        "frequency": 1
+    },
+    {
+        "source": "Hilltop",
+        "target": "Dey St",
+        "frequency": 1
+    },
+    {
+        "source": "Hilltop",
+        "target": "Dixon Mills",
+        "frequency": 1
+    },
+    {
+        "source": "Hilltop",
+        "target": "Fairmount Ave",
+        "frequency": 2
+    },
+    {
+        "source": "Hilltop",
+        "target": "Grove St PATH",
+        "frequency": 1
+    },
+    {
+        "source": "Hilltop",
+        "target": "Hamilton Park",
+        "frequency": 6
+    },
+    {
+        "source": "Hilltop",
+        "target": "Harborside",
+        "frequency": 2
+    },
+    {
+        "source": "Hilltop",
+        "target": "Heights Elevator",
+        "frequency": 1
+    },
+    {
+        "source": "Hilltop",
+        "target": "Hilltop",
+        "frequency": 16
+    },
+    {
+        "source": "Hilltop",
+        "target": "Hoboken Ave at Monmouth St",
+        "frequency": 1
+    },
+    {
+        "source": "Hilltop",
+        "target": "JC Medical Center",
+        "frequency": 8
+    },
+    {
+        "source": "Hilltop",
+        "target": "Jersey & 6th St",
+        "frequency": 2
+    },
+    {
+        "source": "Hilltop",
+        "target": "Journal Square",
+        "frequency": 16
+    },
+    {
+        "source": "Hilltop",
+        "target": "Lincoln Park",
+        "frequency": 2
+    },
+    {
+        "source": "Hilltop",
+        "target": "Manila & 1st",
+        "frequency": 1
+    },
+    {
+        "source": "Hilltop",
+        "target": "McGinley Square",
+        "frequency": 2
+    },
+    {
+        "source": "Hilltop",
+        "target": "Monmouth and 6th",
+        "frequency": 3
+    },
+    {
+        "source": "Hilltop",
+        "target": "Montgomery St",
+        "frequency": 2
+    },
+    {
+        "source": "Hilltop",
+        "target": "Morris Canal",
+        "frequency": 2
+    },
+    {
+        "source": "Hilltop",
+        "target": "Newark Ave",
+        "frequency": 5
+    },
+    {
+        "source": "Hilltop",
+        "target": "Newport PATH",
+        "frequency": 10
+    },
+    {
+        "source": "Hilltop",
+        "target": "Newport Pkwy",
+        "frequency": 4
+    },
+    {
+        "source": "Hilltop",
+        "target": "Oakland Ave",
+        "frequency": 2
+    },
+    {
+        "source": "Hilltop",
+        "target": "Paulus Hook",
+        "frequency": 1
+    },
+    {
+        "source": "Hilltop",
+        "target": "Pershing Field",
+        "frequency": 3
+    },
+    {
+        "source": "Hilltop",
+        "target": "Sip Ave",
+        "frequency": 7
+    },
+    {
+        "source": "Hilltop",
+        "target": "Van Vorst Park",
+        "frequency": 4
+    },
+    {
+        "source": "Hilltop",
+        "target": "Washington St",
+        "frequency": 6
+    },
+    {
+        "source": "Hoboken Ave at Monmouth St",
+        "target": "Astor Place",
+        "frequency": 2
+    },
+    {
+        "source": "Hoboken Ave at Monmouth St",
+        "target": "Baldwin at Montgomery",
+        "frequency": 2
+    },
+    {
+        "source": "Hoboken Ave at Monmouth St",
+        "target": "Bergen Ave",
+        "frequency": 1
+    },
+    {
+        "source": "Hoboken Ave at Monmouth St",
+        "target": "Brunswick & 6th",
+        "frequency": 1
+    },
+    {
+        "source": "Hoboken Ave at Monmouth St",
+        "target": "Christ Hospital",
+        "frequency": 1
+    },
+    {
+        "source": "Hoboken Ave at Monmouth St",
+        "target": "Columbus Dr at Exchange Pl",
+        "frequency": 2
+    },
+    {
+        "source": "Hoboken Ave at Monmouth St",
+        "target": "Columbus Drive",
+        "frequency": 1
+    },
+    {
+        "source": "Hoboken Ave at Monmouth St",
+        "target": "Communipaw & Berry Lane",
+        "frequency": 1
+    },
+    {
+        "source": "Hoboken Ave at Monmouth St",
+        "target": "Dey St",
+        "frequency": 1
+    },
+    {
+        "source": "Hoboken Ave at Monmouth St",
+        "target": "Glenwood Ave",
+        "frequency": 1
+    },
+    {
+        "source": "Hoboken Ave at Monmouth St",
+        "target": "Grand St",
+        "frequency": 1
+    },
+    {
+        "source": "Hoboken Ave at Monmouth St",
+        "target": "Grove St PATH",
+        "frequency": 2
+    },
+    {
+        "source": "Hoboken Ave at Monmouth St",
+        "target": "Hamilton Park",
+        "frequency": 4
+    },
+    {
+        "source": "Hoboken Ave at Monmouth St",
+        "target": "Hoboken Ave at Monmouth St",
+        "frequency": 78
+    },
+    {
+        "source": "Hoboken Ave at Monmouth St",
+        "target": "JC Medical Center",
+        "frequency": 3
+    },
+    {
+        "source": "Hoboken Ave at Monmouth St",
+        "target": "Jackson Square",
+        "frequency": 1
+    },
+    {
+        "source": "Hoboken Ave at Monmouth St",
+        "target": "Jersey & 6th St",
+        "frequency": 1
+    },
+    {
+        "source": "Hoboken Ave at Monmouth St",
+        "target": "Liberty Light Rail",
+        "frequency": 2
+    },
+    {
+        "source": "Hoboken Ave at Monmouth St",
+        "target": "Marin Light Rail",
+        "frequency": 2
+    },
+    {
+        "source": "Hoboken Ave at Monmouth St",
+        "target": "Monmouth and 6th",
+        "frequency": 1
+    },
+    {
+        "source": "Hoboken Ave at Monmouth St",
+        "target": "Newport PATH",
+        "frequency": 2
+    },
+    {
+        "source": "Hoboken Ave at Monmouth St",
+        "target": "Newport Pkwy",
+        "frequency": 3
+    },
+    {
+        "source": "Hoboken Ave at Monmouth St",
+        "target": "Oakland Ave",
+        "frequency": 21
+    },
+    {
+        "source": "Hoboken Ave at Monmouth St",
+        "target": "Paulus Hook",
+        "frequency": 2
+    },
+    {
+        "source": "Hoboken Ave at Monmouth St",
+        "target": "Pershing Field",
+        "frequency": 2
+    },
+    {
+        "source": "Hoboken Ave at Monmouth St",
+        "target": "Van Vorst Park",
+        "frequency": 2
+    },
+    {
+        "source": "Hoboken Ave at Monmouth St",
+        "target": "Warren St",
+        "frequency": 5
+    },
+    {
+        "source": "Hoboken Ave at Monmouth St",
+        "target": "Washington St",
+        "frequency": 2
+    },
+    {
+        "source": "JC Medical Center",
+        "target": "Astor Place",
+        "frequency": 1
+    },
+    {
+        "source": "JC Medical Center",
+        "target": "Baldwin at Montgomery",
+        "frequency": 7
+    },
+    {
+        "source": "JC Medical Center",
+        "target": "Bergen Ave",
+        "frequency": 2
+    },
+    {
+        "source": "JC Medical Center",
+        "target": "Brunswick & 6th",
+        "frequency": 3
+    },
+    {
+        "source": "JC Medical Center",
+        "target": "Brunswick St",
+        "frequency": 2
+    },
+    {
+        "source": "JC Medical Center",
+        "target": "City Hall",
+        "frequency": 10
+    },
+    {
+        "source": "JC Medical Center",
+        "target": "Columbus Dr at Exchange Pl",
+        "frequency": 6
+    },
+    {
+        "source": "JC Medical Center",
+        "target": "Columbus Drive",
+        "frequency": 17
+    },
+    {
+        "source": "JC Medical Center",
+        "target": "Communipaw & Berry Lane",
+        "frequency": 3
+    },
+    {
+        "source": "JC Medical Center",
+        "target": "Essex Light Rail",
+        "frequency": 4
+    },
+    {
+        "source": "JC Medical Center",
+        "target": "Grand St",
+        "frequency": 4
+    },
+    {
+        "source": "JC Medical Center",
+        "target": "Grove St PATH",
+        "frequency": 16
+    },
+    {
+        "source": "JC Medical Center",
+        "target": "Hamilton Park",
+        "frequency": 3
+    },
+    {
+        "source": "JC Medical Center",
+        "target": "Harborside",
+        "frequency": 9
+    },
+    {
+        "source": "JC Medical Center",
+        "target": "Hilltop",
+        "frequency": 11
+    },
+    {
+        "source": "JC Medical Center",
+        "target": "Hoboken Ave at Monmouth St",
+        "frequency": 3
+    },
+    {
+        "source": "JC Medical Center",
+        "target": "JC Medical Center",
+        "frequency": 43
+    },
+    {
+        "source": "JC Medical Center",
+        "target": "Jackson Square",
+        "frequency": 1
+    },
+    {
+        "source": "JC Medical Center",
+        "target": "Jersey & 3rd",
+        "frequency": 7
+    },
+    {
+        "source": "JC Medical Center",
+        "target": "Jersey & 6th St",
+        "frequency": 1
+    },
+    {
+        "source": "JC Medical Center",
+        "target": "Lafayette Park",
+        "frequency": 6
+    },
+    {
+        "source": "JC Medical Center",
+        "target": "Liberty Light Rail",
+        "frequency": 12
+    },
+    {
+        "source": "JC Medical Center",
+        "target": "Lincoln Park",
+        "frequency": 1
+    },
+    {
+        "source": "JC Medical Center",
+        "target": "Manila & 1st",
+        "frequency": 11
+    },
+    {
+        "source": "JC Medical Center",
+        "target": "Marin Light Rail",
+        "frequency": 7
+    },
+    {
+        "source": "JC Medical Center",
+        "target": "Montgomery St",
+        "frequency": 4
+    },
+    {
+        "source": "JC Medical Center",
+        "target": "Morris Canal",
+        "frequency": 2
+    },
+    {
+        "source": "JC Medical Center",
+        "target": "Newark Ave",
+        "frequency": 8
+    },
+    {
+        "source": "JC Medical Center",
+        "target": "Newport PATH",
+        "frequency": 5
+    },
+    {
+        "source": "JC Medical Center",
+        "target": "Newport Pkwy",
+        "frequency": 13
+    },
+    {
+        "source": "JC Medical Center",
+        "target": "Oakland Ave",
+        "frequency": 2
+    },
+    {
+        "source": "JC Medical Center",
+        "target": "Paulus Hook",
+        "frequency": 4
+    },
+    {
+        "source": "JC Medical Center",
+        "target": "Sip Ave",
+        "frequency": 1
+    },
+    {
+        "source": "JC Medical Center",
+        "target": "Van Vorst Park",
+        "frequency": 8
+    },
+    {
+        "source": "JC Medical Center",
+        "target": "Warren St",
+        "frequency": 16
+    },
+    {
+        "source": "JC Medical Center",
+        "target": "Washington St",
+        "frequency": 4
+    },
+    {
+        "source": "JC Medical Center",
+        "target": "York St",
+        "frequency": 1
+    },
+    {
+        "source": "Jackson Square",
+        "target": "City Hall",
+        "frequency": 3
+    },
+    {
+        "source": "Jackson Square",
+        "target": "Columbus Drive",
+        "frequency": 9
+    },
+    {
+        "source": "Jackson Square",
+        "target": "Communipaw & Berry Lane",
+        "frequency": 1
+    },
+    {
+        "source": "Jackson Square",
+        "target": "Essex Light Rail",
+        "frequency": 1
+    },
+    {
+        "source": "Jackson Square",
+        "target": "Fairmount Ave",
+        "frequency": 1
+    },
+    {
+        "source": "Jackson Square",
+        "target": "Grove St PATH",
+        "frequency": 16
+    },
+    {
+        "source": "Jackson Square",
+        "target": "Hilltop",
+        "frequency": 1
+    },
+    {
+        "source": "Jackson Square",
+        "target": "Jackson Square",
+        "frequency": 4
+    },
+    {
+        "source": "Jackson Square",
+        "target": "Liberty Light Rail",
+        "frequency": 1
+    },
+    {
+        "source": "Jackson Square",
+        "target": "Lincoln Park",
+        "frequency": 1
+    },
+    {
+        "source": "Jackson Square",
+        "target": "Manila & 1st",
+        "frequency": 1
+    },
+    {
+        "source": "Jackson Square",
+        "target": "Monmouth and 6th",
+        "frequency": 1
+    },
+    {
+        "source": "Jackson Square",
+        "target": "Montgomery St",
+        "frequency": 3
+    },
+    {
+        "source": "Jackson Square",
+        "target": "Sip Ave",
+        "frequency": 9
+    },
+    {
+        "source": "Jackson Square",
+        "target": "Union St",
+        "frequency": 8
+    },
+    {
+        "source": "Jackson Square",
+        "target": "Warren St",
+        "frequency": 2
+    },
+    {
+        "source": "Jackson Square",
+        "target": "Washington St",
+        "frequency": 1
+    },
+    {
+        "source": "Jersey & 3rd",
+        "target": "Baldwin at Montgomery",
+        "frequency": 1
+    },
+    {
+        "source": "Jersey & 3rd",
+        "target": "Brunswick & 6th",
+        "frequency": 3
+    },
+    {
+        "source": "Jersey & 3rd",
+        "target": "City Hall",
+        "frequency": 3
+    },
+    {
+        "source": "Jersey & 3rd",
+        "target": "Columbus Drive",
+        "frequency": 1
+    },
+    {
+        "source": "Jersey & 3rd",
+        "target": "Dey St",
+        "frequency": 1
+    },
+    {
+        "source": "Jersey & 3rd",
+        "target": "Dixon Mills",
+        "frequency": 2
+    },
+    {
+        "source": "Jersey & 3rd",
+        "target": "Grove St PATH",
+        "frequency": 6
+    },
+    {
+        "source": "Jersey & 3rd",
+        "target": "Hamilton Park",
+        "frequency": 14
+    },
+    {
+        "source": "Jersey & 3rd",
+        "target": "Harborside",
+        "frequency": 9
+    },
+    {
+        "source": "Jersey & 3rd",
+        "target": "JC Medical Center",
+        "frequency": 8
+    },
+    {
+        "source": "Jersey & 3rd",
+        "target": "Jersey & 3rd",
+        "frequency": 16
+    },
+    {
+        "source": "Jersey & 3rd",
+        "target": "Jersey & 6th St",
+        "frequency": 5
+    },
+    {
+        "source": "Jersey & 3rd",
+        "target": "Liberty Light Rail",
+        "frequency": 8
+    },
+    {
+        "source": "Jersey & 3rd",
+        "target": "Manila & 1st",
+        "frequency": 2
+    },
+    {
+        "source": "Jersey & 3rd",
+        "target": "Monmouth and 6th",
+        "frequency": 7
+    },
+    {
+        "source": "Jersey & 3rd",
+        "target": "Montgomery St",
+        "frequency": 2
+    },
+    {
+        "source": "Jersey & 3rd",
+        "target": "Newark Ave",
+        "frequency": 4
+    },
+    {
+        "source": "Jersey & 3rd",
+        "target": "Newport PATH",
+        "frequency": 5
+    },
+    {
+        "source": "Jersey & 3rd",
+        "target": "Newport Pkwy",
+        "frequency": 4
+    },
+    {
+        "source": "Jersey & 3rd",
+        "target": "Paulus Hook",
+        "frequency": 4
+    },
+    {
+        "source": "Jersey & 3rd",
+        "target": "Sip Ave",
+        "frequency": 1
+    },
+    {
+        "source": "Jersey & 3rd",
+        "target": "Van Vorst Park",
+        "frequency": 1
+    },
+    {
+        "source": "Jersey & 3rd",
+        "target": "Warren St",
+        "frequency": 4
+    },
+    {
+        "source": "Jersey & 3rd",
+        "target": "Washington St",
+        "frequency": 3
+    },
+    {
+        "source": "Jersey & 6th St",
+        "target": "5 Corners Library",
+        "frequency": 2
+    },
+    {
+        "source": "Jersey & 6th St",
+        "target": "Bergen Ave",
+        "frequency": 1
+    },
+    {
+        "source": "Jersey & 6th St",
+        "target": "Brunswick & 6th",
+        "frequency": 5
+    },
+    {
+        "source": "Jersey & 6th St",
+        "target": "Brunswick St",
+        "frequency": 1
+    },
+    {
+        "source": "Jersey & 6th St",
+        "target": "City Hall",
+        "frequency": 2
+    },
+    {
+        "source": "Jersey & 6th St",
+        "target": "Columbus Dr at Exchange Pl",
+        "frequency": 4
+    },
+    {
+        "source": "Jersey & 6th St",
+        "target": "Columbus Drive",
+        "frequency": 3
+    },
+    {
+        "source": "Jersey & 6th St",
+        "target": "Grand St",
+        "frequency": 3
+    },
+    {
+        "source": "Jersey & 6th St",
+        "target": "Grove St PATH",
+        "frequency": 11
+    },
+    {
+        "source": "Jersey & 6th St",
+        "target": "Hamilton Park",
+        "frequency": 3
+    },
+    {
+        "source": "Jersey & 6th St",
+        "target": "Jersey & 3rd",
+        "frequency": 3
+    },
+    {
+        "source": "Jersey & 6th St",
+        "target": "Jersey & 6th St",
+        "frequency": 33
+    },
+    {
+        "source": "Jersey & 6th St",
+        "target": "Liberty Light Rail",
+        "frequency": 3
+    },
+    {
+        "source": "Jersey & 6th St",
+        "target": "Manila & 1st",
+        "frequency": 4
+    },
+    {
+        "source": "Jersey & 6th St",
+        "target": "Monmouth and 6th",
+        "frequency": 7
+    },
+    {
+        "source": "Jersey & 6th St",
+        "target": "Montgomery St",
+        "frequency": 1
+    },
+    {
+        "source": "Jersey & 6th St",
+        "target": "Morris Canal",
+        "frequency": 3
+    },
+    {
+        "source": "Jersey & 6th St",
+        "target": "Newark Ave",
+        "frequency": 8
+    },
+    {
+        "source": "Jersey & 6th St",
+        "target": "Newport PATH",
+        "frequency": 1
+    },
+    {
+        "source": "Jersey & 6th St",
+        "target": "Newport Pkwy",
+        "frequency": 3
+    },
+    {
+        "source": "Jersey & 6th St",
+        "target": "Riverview Park",
+        "frequency": 1
+    },
+    {
+        "source": "Jersey & 6th St",
+        "target": "Union St",
+        "frequency": 1
+    },
+    {
+        "source": "Jersey & 6th St",
+        "target": "Van Vorst Park",
+        "frequency": 4
+    },
+    {
+        "source": "Jersey & 6th St",
+        "target": "Warren St",
+        "frequency": 2
+    },
+    {
+        "source": "Jersey & 6th St",
+        "target": "Washington St",
+        "frequency": 1
+    },
+    {
+        "source": "Jersey & 6th St",
+        "target": "York St",
+        "frequency": 2
+    },
+    {
+        "source": "Journal Square",
+        "target": "5 Corners Library",
+        "frequency": 1
+    },
+    {
+        "source": "Journal Square",
+        "target": "Astor Place",
+        "frequency": 3
+    },
+    {
+        "source": "Journal Square",
+        "target": "Baldwin at Montgomery",
+        "frequency": 2
+    },
+    {
+        "source": "Journal Square",
+        "target": "Bergen Ave",
+        "frequency": 3
+    },
+    {
+        "source": "Journal Square",
+        "target": "Brunswick & 6th",
+        "frequency": 1
+    },
+    {
+        "source": "Journal Square",
+        "target": "Christ Hospital",
+        "frequency": 1
+    },
+    {
+        "source": "Journal Square",
+        "target": "City Hall",
+        "frequency": 1
+    },
+    {
+        "source": "Journal Square",
+        "target": "Dey St",
+        "frequency": 1
+    },
+    {
+        "source": "Journal Square",
+        "target": "Dixon Mills",
+        "frequency": 1
+    },
+    {
+        "source": "Journal Square",
+        "target": "Glenwood Ave",
+        "frequency": 1
+    },
+    {
+        "source": "Journal Square",
+        "target": "Hamilton Park",
+        "frequency": 4
+    },
+    {
+        "source": "Journal Square",
+        "target": "Harborside",
+        "frequency": 1
+    },
+    {
+        "source": "Journal Square",
+        "target": "Heights Elevator",
+        "frequency": 1
+    },
+    {
+        "source": "Journal Square",
+        "target": "Hilltop",
+        "frequency": 20
+    },
+    {
+        "source": "Journal Square",
+        "target": "JC Medical Center",
+        "frequency": 3
+    },
+    {
+        "source": "Journal Square",
+        "target": "Journal Square",
+        "frequency": 8
+    },
+    {
+        "source": "Journal Square",
+        "target": "Leonard Gordon Park",
+        "frequency": 5
+    },
+    {
+        "source": "Journal Square",
+        "target": "Manila & 1st",
+        "frequency": 3
+    },
+    {
+        "source": "Journal Square",
+        "target": "McGinley Square",
+        "frequency": 2
+    },
+    {
+        "source": "Journal Square",
+        "target": "Newark Ave",
+        "frequency": 1
+    },
+    {
+        "source": "Journal Square",
+        "target": "Newport PATH",
+        "frequency": 2
+    },
+    {
+        "source": "Journal Square",
+        "target": "Oakland Ave",
+        "frequency": 3
+    },
+    {
+        "source": "Journal Square",
+        "target": "Pershing Field",
+        "frequency": 2
+    },
+    {
+        "source": "Journal Square",
+        "target": "Sip Ave",
+        "frequency": 3
+    },
+    {
+        "source": "Journal Square",
+        "target": "Van Vorst Park",
+        "frequency": 2
+    },
+    {
+        "source": "Journal Square",
+        "target": "Warren St",
+        "frequency": 1
+    },
+    {
+        "source": "Lafayette Park",
+        "target": "Baldwin at Montgomery",
+        "frequency": 1
+    },
+    {
+        "source": "Lafayette Park",
+        "target": "Brunswick St",
+        "frequency": 1
+    },
+    {
+        "source": "Lafayette Park",
+        "target": "City Hall",
+        "frequency": 1
+    },
+    {
+        "source": "Lafayette Park",
+        "target": "Grove St PATH",
+        "frequency": 5
+    },
+    {
+        "source": "Lafayette Park",
+        "target": "Hamilton Park",
+        "frequency": 1
+    },
+    {
+        "source": "Lafayette Park",
+        "target": "Heights Elevator",
+        "frequency": 1
+    },
+    {
+        "source": "Lafayette Park",
+        "target": "JC Medical Center",
+        "frequency": 8
+    },
+    {
+        "source": "Lafayette Park",
+        "target": "Jersey & 3rd",
+        "frequency": 2
+    },
+    {
+        "source": "Lafayette Park",
+        "target": "Lafayette Park",
+        "frequency": 5
+    },
+    {
+        "source": "Lafayette Park",
+        "target": "Lincoln Park",
+        "frequency": 1
+    },
+    {
+        "source": "Lafayette Park",
+        "target": "Newport PATH",
+        "frequency": 1
+    },
+    {
+        "source": "Lafayette Park",
+        "target": "Paulus Hook",
+        "frequency": 2
+    },
+    {
+        "source": "Lafayette Park",
+        "target": "Sip Ave",
+        "frequency": 1
+    },
+    {
+        "source": "Lafayette Park",
+        "target": "Van Vorst Park",
+        "frequency": 1
+    },
+    {
+        "source": "Leonard Gordon Park",
+        "target": "Baldwin at Montgomery",
+        "frequency": 1
+    },
+    {
+        "source": "Leonard Gordon Park",
+        "target": "Bergen Ave",
+        "frequency": 4
+    },
+    {
+        "source": "Leonard Gordon Park",
+        "target": "Dey St",
+        "frequency": 1
+    },
+    {
+        "source": "Leonard Gordon Park",
+        "target": "Grove St PATH",
+        "frequency": 2
+    },
+    {
+        "source": "Leonard Gordon Park",
+        "target": "Journal Square",
+        "frequency": 4
+    },
+    {
+        "source": "Leonard Gordon Park",
+        "target": "Leonard Gordon Park",
+        "frequency": 2
+    },
+    {
+        "source": "Leonard Gordon Park",
+        "target": "Oakland Ave",
+        "frequency": 1
+    },
+    {
+        "source": "Leonard Gordon Park",
+        "target": "Pershing Field",
+        "frequency": 1
+    },
+    {
+        "source": "Leonard Gordon Park",
+        "target": "Sip Ave",
+        "frequency": 2
+    },
+    {
+        "source": "Leonard Gordon Park",
+        "target": "Washington St",
+        "frequency": 2
+    },
+    {
+        "source": "Liberty Light Rail",
+        "target": "Astor Place",
+        "frequency": 2
+    },
+    {
+        "source": "Liberty Light Rail",
+        "target": "Baldwin at Montgomery",
+        "frequency": 3
+    },
+    {
+        "source": "Liberty Light Rail",
+        "target": "Bergen Ave",
+        "frequency": 3
+    },
+    {
+        "source": "Liberty Light Rail",
+        "target": "Brunswick & 6th",
+        "frequency": 1
+    },
+    {
+        "source": "Liberty Light Rail",
+        "target": "Christ Hospital",
+        "frequency": 1
+    },
+    {
+        "source": "Liberty Light Rail",
+        "target": "City Hall",
+        "frequency": 13
+    },
+    {
+        "source": "Liberty Light Rail",
+        "target": "Columbus Dr at Exchange Pl",
+        "frequency": 11
+    },
+    {
+        "source": "Liberty Light Rail",
+        "target": "Columbus Drive",
+        "frequency": 1
+    },
+    {
+        "source": "Liberty Light Rail",
+        "target": "Communipaw & Berry Lane",
+        "frequency": 8
+    },
+    {
+        "source": "Liberty Light Rail",
+        "target": "Dey St",
+        "frequency": 3
+    },
+    {
+        "source": "Liberty Light Rail",
+        "target": "Dixon Mills",
+        "frequency": 1
+    },
+    {
+        "source": "Liberty Light Rail",
+        "target": "Essex Light Rail",
+        "frequency": 5
+    },
+    {
+        "source": "Liberty Light Rail",
+        "target": "Fairmount Ave",
+        "frequency": 3
+    },
+    {
+        "source": "Liberty Light Rail",
+        "target": "Glenwood Ave",
+        "frequency": 3
+    },
+    {
+        "source": "Liberty Light Rail",
+        "target": "Grand St",
+        "frequency": 4
+    },
+    {
+        "source": "Liberty Light Rail",
+        "target": "Grove St PATH",
+        "frequency": 11
+    },
+    {
+        "source": "Liberty Light Rail",
+        "target": "Hamilton Park",
+        "frequency": 1
+    },
+    {
+        "source": "Liberty Light Rail",
+        "target": "Harborside",
+        "frequency": 6
+    },
+    {
+        "source": "Liberty Light Rail",
+        "target": "Heights Elevator",
+        "frequency": 1
+    },
+    {
+        "source": "Liberty Light Rail",
+        "target": "Hilltop",
+        "frequency": 1
+    },
+    {
+        "source": "Liberty Light Rail",
+        "target": "Hoboken Ave at Monmouth St",
+        "frequency": 2
+    },
+    {
+        "source": "Liberty Light Rail",
+        "target": "JC Medical Center",
+        "frequency": 13
+    },
+    {
+        "source": "Liberty Light Rail",
+        "target": "Jersey & 3rd",
+        "frequency": 7
+    },
+    {
+        "source": "Liberty Light Rail",
+        "target": "Jersey & 6th St",
+        "frequency": 2
+    },
+    {
+        "source": "Liberty Light Rail",
+        "target": "Lafayette Park",
+        "frequency": 1
+    },
+    {
+        "source": "Liberty Light Rail",
+        "target": "Liberty Light Rail",
+        "frequency": 141
+    },
+    {
+        "source": "Liberty Light Rail",
+        "target": "Marin Light Rail",
+        "frequency": 14
+    },
+    {
+        "source": "Liberty Light Rail",
+        "target": "McGinley Square",
+        "frequency": 6
+    },
+    {
+        "source": "Liberty Light Rail",
+        "target": "Monmouth and 6th",
+        "frequency": 2
+    },
+    {
+        "source": "Liberty Light Rail",
+        "target": "Montgomery St",
+        "frequency": 3
+    },
+    {
+        "source": "Liberty Light Rail",
+        "target": "Morris Canal",
+        "frequency": 15
+    },
+    {
+        "source": "Liberty Light Rail",
+        "target": "Newark Ave",
+        "frequency": 6
+    },
+    {
+        "source": "Liberty Light Rail",
+        "target": "Newport PATH",
+        "frequency": 1
+    },
+    {
+        "source": "Liberty Light Rail",
+        "target": "Newport Pkwy",
+        "frequency": 12
+    },
+    {
+        "source": "Liberty Light Rail",
+        "target": "Paulus Hook",
+        "frequency": 21
+    },
+    {
+        "source": "Liberty Light Rail",
+        "target": "Sip Ave",
+        "frequency": 1
+    },
+    {
+        "source": "Liberty Light Rail",
+        "target": "Van Vorst Park",
+        "frequency": 5
+    },
+    {
+        "source": "Liberty Light Rail",
+        "target": "Warren St",
+        "frequency": 3
+    },
+    {
+        "source": "Liberty Light Rail",
+        "target": "Washington St",
+        "frequency": 7
+    },
+    {
+        "source": "Liberty Light Rail",
+        "target": "York St",
+        "frequency": 3
+    },
+    {
+        "source": "Lincoln Park",
+        "target": "Astor Place",
+        "frequency": 3
+    },
+    {
+        "source": "Lincoln Park",
+        "target": "Baldwin at Montgomery",
+        "frequency": 1
+    },
+    {
+        "source": "Lincoln Park",
+        "target": "Bergen Ave",
+        "frequency": 13
+    },
+    {
+        "source": "Lincoln Park",
+        "target": "City Hall",
+        "frequency": 2
+    },
+    {
+        "source": "Lincoln Park",
+        "target": "Dey St",
+        "frequency": 4
+    },
+    {
+        "source": "Lincoln Park",
+        "target": "Fairmount Ave",
+        "frequency": 5
+    },
+    {
+        "source": "Lincoln Park",
+        "target": "Glenwood Ave",
+        "frequency": 6
+    },
+    {
+        "source": "Lincoln Park",
+        "target": "Grove St PATH",
+        "frequency": 2
+    },
+    {
+        "source": "Lincoln Park",
+        "target": "Hilltop",
+        "frequency": 1
+    },
+    {
+        "source": "Lincoln Park",
+        "target": "Jackson Square",
+        "frequency": 1
+    },
+    {
+        "source": "Lincoln Park",
+        "target": "Lafayette Park",
+        "frequency": 1
+    },
+    {
+        "source": "Lincoln Park",
+        "target": "Liberty Light Rail",
+        "frequency": 1
+    },
+    {
+        "source": "Lincoln Park",
+        "target": "Lincoln Park",
+        "frequency": 33
+    },
+    {
+        "source": "Lincoln Park",
+        "target": "McGinley Square",
+        "frequency": 4
+    },
+    {
+        "source": "Lincoln Park",
+        "target": "Montgomery St",
+        "frequency": 2
+    },
+    {
+        "source": "Lincoln Park",
+        "target": "Newark Ave",
+        "frequency": 3
+    },
+    {
+        "source": "Lincoln Park",
+        "target": "Sip Ave",
+        "frequency": 8
+    },
+    {
+        "source": "Lincoln Park",
+        "target": "Union St",
+        "frequency": 5
+    },
+    {
+        "source": "Manila & 1st",
+        "target": "5 Corners Library",
+        "frequency": 2
+    },
+    {
+        "source": "Manila & 1st",
+        "target": "Baldwin at Montgomery",
+        "frequency": 5
+    },
+    {
+        "source": "Manila & 1st",
+        "target": "Brunswick & 6th",
+        "frequency": 4
+    },
+    {
+        "source": "Manila & 1st",
+        "target": "Brunswick St",
+        "frequency": 3
+    },
+    {
+        "source": "Manila & 1st",
+        "target": "Christ Hospital",
+        "frequency": 1
+    },
+    {
+        "source": "Manila & 1st",
+        "target": "City Hall",
+        "frequency": 3
+    },
+    {
+        "source": "Manila & 1st",
+        "target": "Columbus Dr at Exchange Pl",
+        "frequency": 3
+    },
+    {
+        "source": "Manila & 1st",
+        "target": "Communipaw & Berry Lane",
+        "frequency": 1
+    },
+    {
+        "source": "Manila & 1st",
+        "target": "Dixon Mills",
+        "frequency": 1
+    },
+    {
+        "source": "Manila & 1st",
+        "target": "Grand St",
+        "frequency": 1
+    },
+    {
+        "source": "Manila & 1st",
+        "target": "Grove St PATH",
+        "frequency": 6
+    },
+    {
+        "source": "Manila & 1st",
+        "target": "Hamilton Park",
+        "frequency": 22
+    },
+    {
+        "source": "Manila & 1st",
+        "target": "Harborside",
+        "frequency": 5
+    },
+    {
+        "source": "Manila & 1st",
+        "target": "Heights Elevator",
+        "frequency": 2
+    },
+    {
+        "source": "Manila & 1st",
+        "target": "JC Medical Center",
+        "frequency": 3
+    },
+    {
+        "source": "Manila & 1st",
+        "target": "Jersey & 3rd",
+        "frequency": 6
+    },
+    {
+        "source": "Manila & 1st",
+        "target": "Jersey & 6th St",
+        "frequency": 12
+    },
+    {
+        "source": "Manila & 1st",
+        "target": "Manila & 1st",
+        "frequency": 8
+    },
+    {
+        "source": "Manila & 1st",
+        "target": "Monmouth and 6th",
+        "frequency": 2
+    },
+    {
+        "source": "Manila & 1st",
+        "target": "Montgomery St",
+        "frequency": 1
+    },
+    {
+        "source": "Manila & 1st",
+        "target": "Morris Canal",
+        "frequency": 2
+    },
+    {
+        "source": "Manila & 1st",
+        "target": "Newark Ave",
+        "frequency": 5
+    },
+    {
+        "source": "Manila & 1st",
+        "target": "Newport Pkwy",
+        "frequency": 7
+    },
+    {
+        "source": "Manila & 1st",
+        "target": "Paulus Hook",
+        "frequency": 1
+    },
+    {
+        "source": "Manila & 1st",
+        "target": "Sip Ave",
+        "frequency": 3
+    },
+    {
+        "source": "Manila & 1st",
+        "target": "Warren St",
+        "frequency": 3
+    },
+    {
+        "source": "Marin Light Rail",
+        "target": "Baldwin at Montgomery",
+        "frequency": 1
+    },
+    {
+        "source": "Marin Light Rail",
+        "target": "Brunswick & 6th",
+        "frequency": 3
+    },
+    {
+        "source": "Marin Light Rail",
+        "target": "Brunswick St",
+        "frequency": 1
+    },
+    {
+        "source": "Marin Light Rail",
+        "target": "City Hall",
+        "frequency": 23
+    },
+    {
+        "source": "Marin Light Rail",
+        "target": "Columbus Dr at Exchange Pl",
+        "frequency": 4
+    },
+    {
+        "source": "Marin Light Rail",
+        "target": "Columbus Drive",
+        "frequency": 6
+    },
+    {
+        "source": "Marin Light Rail",
+        "target": "Essex Light Rail",
+        "frequency": 20
+    },
+    {
+        "source": "Marin Light Rail",
+        "target": "Fairmount Ave",
+        "frequency": 16
+    },
+    {
+        "source": "Marin Light Rail",
+        "target": "Glenwood Ave",
+        "frequency": 5
+    },
+    {
+        "source": "Marin Light Rail",
+        "target": "Grand St",
+        "frequency": 12
+    },
+    {
+        "source": "Marin Light Rail",
+        "target": "Grove St PATH",
+        "frequency": 26
+    },
+    {
+        "source": "Marin Light Rail",
+        "target": "Hamilton Park",
+        "frequency": 8
+    },
+    {
+        "source": "Marin Light Rail",
+        "target": "Harborside",
+        "frequency": 14
+    },
+    {
+        "source": "Marin Light Rail",
+        "target": "Heights Elevator",
+        "frequency": 4
+    },
+    {
+        "source": "Marin Light Rail",
+        "target": "Hoboken Ave at Monmouth St",
+        "frequency": 5
+    },
+    {
+        "source": "Marin Light Rail",
+        "target": "JC Medical Center",
+        "frequency": 6
+    },
+    {
+        "source": "Marin Light Rail",
+        "target": "Jersey & 3rd",
+        "frequency": 1
+    },
+    {
+        "source": "Marin Light Rail",
+        "target": "Liberty Light Rail",
+        "frequency": 15
+    },
+    {
+        "source": "Marin Light Rail",
+        "target": "Manila & 1st",
+        "frequency": 1
+    },
+    {
+        "source": "Marin Light Rail",
+        "target": "Marin Light Rail",
+        "frequency": 148
+    },
+    {
+        "source": "Marin Light Rail",
+        "target": "McGinley Square",
+        "frequency": 2
+    },
+    {
+        "source": "Marin Light Rail",
+        "target": "Montgomery St",
+        "frequency": 5
+    },
+    {
+        "source": "Marin Light Rail",
+        "target": "Morris Canal",
+        "frequency": 15
+    },
+    {
+        "source": "Marin Light Rail",
+        "target": "Newark Ave",
+        "frequency": 12
+    },
+    {
+        "source": "Marin Light Rail",
+        "target": "Newport PATH",
+        "frequency": 6
+    },
+    {
+        "source": "Marin Light Rail",
+        "target": "Newport Pkwy",
+        "frequency": 11
+    },
+    {
+        "source": "Marin Light Rail",
+        "target": "Oakland Ave",
+        "frequency": 1
+    },
+    {
+        "source": "Marin Light Rail",
+        "target": "Paulus Hook",
+        "frequency": 9
+    },
+    {
+        "source": "Marin Light Rail",
+        "target": "Union St",
+        "frequency": 2
+    },
+    {
+        "source": "Marin Light Rail",
+        "target": "Van Vorst Park",
+        "frequency": 14
+    },
+    {
+        "source": "Marin Light Rail",
+        "target": "Warren St",
+        "frequency": 6
+    },
+    {
+        "source": "Marin Light Rail",
+        "target": "Washington St",
+        "frequency": 9
+    },
+    {
+        "source": "Marin Light Rail",
+        "target": "York St",
+        "frequency": 5
+    },
+    {
+        "source": "McGinley Square",
+        "target": "Astor Place",
+        "frequency": 9
+    },
+    {
+        "source": "McGinley Square",
+        "target": "Baldwin at Montgomery",
+        "frequency": 14
+    },
+    {
+        "source": "McGinley Square",
+        "target": "Bergen Ave",
+        "frequency": 22
+    },
+    {
+        "source": "McGinley Square",
+        "target": "City Hall",
+        "frequency": 3
+    },
+    {
+        "source": "McGinley Square",
+        "target": "Columbus Dr at Exchange Pl",
+        "frequency": 3
+    },
+    {
+        "source": "McGinley Square",
+        "target": "Columbus Drive",
+        "frequency": 1
+    },
+    {
+        "source": "McGinley Square",
+        "target": "Communipaw & Berry Lane",
+        "frequency": 4
+    },
+    {
+        "source": "McGinley Square",
+        "target": "Dixon Mills",
+        "frequency": 2
+    },
+    {
+        "source": "McGinley Square",
+        "target": "Fairmount Ave",
+        "frequency": 2
+    },
+    {
+        "source": "McGinley Square",
+        "target": "Glenwood Ave",
+        "frequency": 2
+    },
+    {
+        "source": "McGinley Square",
+        "target": "Grand St",
+        "frequency": 1
+    },
+    {
+        "source": "McGinley Square",
+        "target": "Grove St PATH",
+        "frequency": 6
+    },
+    {
+        "source": "McGinley Square",
+        "target": "Hamilton Park",
+        "frequency": 6
+    },
+    {
+        "source": "McGinley Square",
+        "target": "Heights Elevator",
+        "frequency": 5
+    },
+    {
+        "source": "McGinley Square",
+        "target": "Hilltop",
+        "frequency": 1
+    },
+    {
+        "source": "McGinley Square",
+        "target": "Jersey & 6th St",
+        "frequency": 1
+    },
+    {
+        "source": "McGinley Square",
+        "target": "Journal Square",
+        "frequency": 1
+    },
+    {
+        "source": "McGinley Square",
+        "target": "Leonard Gordon Park",
+        "frequency": 1
+    },
+    {
+        "source": "McGinley Square",
+        "target": "Liberty Light Rail",
+        "frequency": 7
+    },
+    {
+        "source": "McGinley Square",
+        "target": "Lincoln Park",
+        "frequency": 1
+    },
+    {
+        "source": "McGinley Square",
+        "target": "Marin Light Rail",
+        "frequency": 2
+    },
+    {
+        "source": "McGinley Square",
+        "target": "McGinley Square",
+        "frequency": 28
+    },
+    {
+        "source": "McGinley Square",
+        "target": "Morris Canal",
+        "frequency": 1
+    },
+    {
+        "source": "McGinley Square",
+        "target": "Newark Ave",
+        "frequency": 1
+    },
+    {
+        "source": "McGinley Square",
+        "target": "Newport Pkwy",
+        "frequency": 2
+    },
+    {
+        "source": "McGinley Square",
+        "target": "Paulus Hook",
+        "frequency": 11
+    },
+    {
+        "source": "McGinley Square",
+        "target": "Pershing Field",
+        "frequency": 3
+    },
+    {
+        "source": "McGinley Square",
+        "target": "Sip Ave",
+        "frequency": 69
+    },
+    {
+        "source": "McGinley Square",
+        "target": "Union St",
+        "frequency": 3
+    },
+    {
+        "source": "McGinley Square",
+        "target": "Warren St",
+        "frequency": 1
+    },
+    {
+        "source": "McGinley Square",
+        "target": "Washington St",
+        "frequency": 1
+    },
+    {
+        "source": "Monmouth and 6th",
+        "target": "5 Corners Library",
+        "frequency": 1
+    },
+    {
+        "source": "Monmouth and 6th",
+        "target": "Brunswick & 6th",
+        "frequency": 8
+    },
+    {
+        "source": "Monmouth and 6th",
+        "target": "Brunswick St",
+        "frequency": 2
+    },
+    {
+        "source": "Monmouth and 6th",
+        "target": "City Hall",
+        "frequency": 1
+    },
+    {
+        "source": "Monmouth and 6th",
+        "target": "Columbus Dr at Exchange Pl",
+        "frequency": 26
+    },
+    {
+        "source": "Monmouth and 6th",
+        "target": "Columbus Drive",
+        "frequency": 9
+    },
+    {
+        "source": "Monmouth and 6th",
+        "target": "Dixon Mills",
+        "frequency": 3
+    },
+    {
+        "source": "Monmouth and 6th",
+        "target": "Grand St",
+        "frequency": 3
+    },
+    {
+        "source": "Monmouth and 6th",
+        "target": "Grove St PATH",
+        "frequency": 7
+    },
+    {
+        "source": "Monmouth and 6th",
+        "target": "Hamilton Park",
+        "frequency": 3
+    },
+    {
+        "source": "Monmouth and 6th",
+        "target": "Hoboken Ave at Monmouth St",
+        "frequency": 1
+    },
+    {
+        "source": "Monmouth and 6th",
+        "target": "JC Medical Center",
+        "frequency": 1
+    },
+    {
+        "source": "Monmouth and 6th",
+        "target": "Jersey & 3rd",
+        "frequency": 8
+    },
+    {
+        "source": "Monmouth and 6th",
+        "target": "Jersey & 6th St",
+        "frequency": 8
+    },
+    {
+        "source": "Monmouth and 6th",
+        "target": "Liberty Light Rail",
+        "frequency": 2
+    },
+    {
+        "source": "Monmouth and 6th",
+        "target": "Manila & 1st",
+        "frequency": 2
+    },
+    {
+        "source": "Monmouth and 6th",
+        "target": "Monmouth and 6th",
+        "frequency": 25
+    },
+    {
+        "source": "Monmouth and 6th",
+        "target": "Montgomery St",
+        "frequency": 6
+    },
+    {
+        "source": "Monmouth and 6th",
+        "target": "Morris Canal",
+        "frequency": 4
+    },
+    {
+        "source": "Monmouth and 6th",
+        "target": "Newark Ave",
+        "frequency": 2
+    },
+    {
+        "source": "Monmouth and 6th",
+        "target": "Newport PATH",
+        "frequency": 3
+    },
+    {
+        "source": "Monmouth and 6th",
+        "target": "Newport Pkwy",
+        "frequency": 10
+    },
+    {
+        "source": "Monmouth and 6th",
+        "target": "Paulus Hook",
+        "frequency": 1
+    },
+    {
+        "source": "Monmouth and 6th",
+        "target": "Pershing Field",
+        "frequency": 1
+    },
+    {
+        "source": "Monmouth and 6th",
+        "target": "Sip Ave",
+        "frequency": 1
+    },
+    {
+        "source": "Monmouth and 6th",
+        "target": "Washington St",
+        "frequency": 7
+    },
+    {
+        "source": "Monmouth and 6th",
+        "target": "York St",
+        "frequency": 2
+    },
+    {
+        "source": "Montgomery St",
+        "target": "Baldwin at Montgomery",
+        "frequency": 2
+    },
+    {
+        "source": "Montgomery St",
+        "target": "Brunswick & 6th",
+        "frequency": 1
+    },
+    {
+        "source": "Montgomery St",
+        "target": "Brunswick St",
+        "frequency": 3
+    },
+    {
+        "source": "Montgomery St",
+        "target": "City Hall",
+        "frequency": 4
+    },
+    {
+        "source": "Montgomery St",
+        "target": "Columbus Dr at Exchange Pl",
+        "frequency": 5
+    },
+    {
+        "source": "Montgomery St",
+        "target": "Columbus Drive",
+        "frequency": 7
+    },
+    {
+        "source": "Montgomery St",
+        "target": "Dey St",
+        "frequency": 1
+    },
+    {
+        "source": "Montgomery St",
+        "target": "Dixon Mills",
+        "frequency": 4
+    },
+    {
+        "source": "Montgomery St",
+        "target": "Fairmount Ave",
+        "frequency": 1
+    },
+    {
+        "source": "Montgomery St",
+        "target": "Grand St",
+        "frequency": 4
+    },
+    {
+        "source": "Montgomery St",
+        "target": "Grove St PATH",
+        "frequency": 12
+    },
+    {
+        "source": "Montgomery St",
+        "target": "Hamilton Park",
+        "frequency": 4
+    },
+    {
+        "source": "Montgomery St",
+        "target": "Harborside",
+        "frequency": 8
+    },
+    {
+        "source": "Montgomery St",
+        "target": "Hilltop",
+        "frequency": 4
+    },
+    {
+        "source": "Montgomery St",
+        "target": "JC Medical Center",
+        "frequency": 2
+    },
+    {
+        "source": "Montgomery St",
+        "target": "Jersey & 3rd",
+        "frequency": 2
+    },
+    {
+        "source": "Montgomery St",
+        "target": "Jersey & 6th St",
+        "frequency": 4
+    },
+    {
+        "source": "Montgomery St",
+        "target": "Journal Square",
+        "frequency": 1
+    },
+    {
+        "source": "Montgomery St",
+        "target": "Lafayette Park",
+        "frequency": 1
+    },
+    {
+        "source": "Montgomery St",
+        "target": "Liberty Light Rail",
+        "frequency": 3
+    },
+    {
+        "source": "Montgomery St",
+        "target": "Lincoln Park",
+        "frequency": 1
+    },
+    {
+        "source": "Montgomery St",
+        "target": "Manila & 1st",
+        "frequency": 3
+    },
+    {
+        "source": "Montgomery St",
+        "target": "Marin Light Rail",
+        "frequency": 4
+    },
+    {
+        "source": "Montgomery St",
+        "target": "McGinley Square",
+        "frequency": 1
+    },
+    {
+        "source": "Montgomery St",
+        "target": "Monmouth and 6th",
+        "frequency": 4
+    },
+    {
+        "source": "Montgomery St",
+        "target": "Montgomery St",
+        "frequency": 8
+    },
+    {
+        "source": "Montgomery St",
+        "target": "Morris Canal",
+        "frequency": 3
+    },
+    {
+        "source": "Montgomery St",
+        "target": "Newark Ave",
+        "frequency": 6
+    },
+    {
+        "source": "Montgomery St",
+        "target": "Newport PATH",
+        "frequency": 3
+    },
+    {
+        "source": "Montgomery St",
+        "target": "Newport Pkwy",
+        "frequency": 21
+    },
+    {
+        "source": "Montgomery St",
+        "target": "Paulus Hook",
+        "frequency": 1
+    },
+    {
+        "source": "Montgomery St",
+        "target": "Pershing Field",
+        "frequency": 2
+    },
+    {
+        "source": "Montgomery St",
+        "target": "Union St",
+        "frequency": 1
+    },
+    {
+        "source": "Montgomery St",
+        "target": "Van Vorst Park",
+        "frequency": 7
+    },
+    {
+        "source": "Montgomery St",
+        "target": "Warren St",
+        "frequency": 18
+    },
+    {
+        "source": "Montgomery St",
+        "target": "Washington St",
+        "frequency": 15
+    },
+    {
+        "source": "Montgomery St",
+        "target": "York St",
+        "frequency": 5
+    },
+    {
+        "source": "Morris Canal",
+        "target": "Baldwin at Montgomery",
+        "frequency": 3
+    },
+    {
+        "source": "Morris Canal",
+        "target": "Brunswick & 6th",
+        "frequency": 5
+    },
+    {
+        "source": "Morris Canal",
+        "target": "Brunswick St",
+        "frequency": 1
+    },
+    {
+        "source": "Morris Canal",
+        "target": "City Hall",
+        "frequency": 6
+    },
+    {
+        "source": "Morris Canal",
+        "target": "Columbus Dr at Exchange Pl",
+        "frequency": 23
+    },
+    {
+        "source": "Morris Canal",
+        "target": "Columbus Drive",
+        "frequency": 5
+    },
+    {
+        "source": "Morris Canal",
+        "target": "Dixon Mills",
+        "frequency": 1
+    },
+    {
+        "source": "Morris Canal",
+        "target": "Essex Light Rail",
+        "frequency": 5
+    },
+    {
+        "source": "Morris Canal",
+        "target": "Grand St",
+        "frequency": 4
+    },
+    {
+        "source": "Morris Canal",
+        "target": "Grove St PATH",
+        "frequency": 11
+    },
+    {
+        "source": "Morris Canal",
+        "target": "Hamilton Park",
+        "frequency": 5
+    },
+    {
+        "source": "Morris Canal",
+        "target": "Harborside",
+        "frequency": 15
+    },
+    {
+        "source": "Morris Canal",
+        "target": "Heights Elevator",
+        "frequency": 1
+    },
+    {
+        "source": "Morris Canal",
+        "target": "JC Medical Center",
+        "frequency": 7
+    },
+    {
+        "source": "Morris Canal",
+        "target": "Jersey & 6th St",
+        "frequency": 1
+    },
+    {
+        "source": "Morris Canal",
+        "target": "Lafayette Park",
+        "frequency": 1
+    },
+    {
+        "source": "Morris Canal",
+        "target": "Liberty Light Rail",
+        "frequency": 13
+    },
+    {
+        "source": "Morris Canal",
+        "target": "Manila & 1st",
+        "frequency": 2
+    },
+    {
+        "source": "Morris Canal",
+        "target": "Marin Light Rail",
+        "frequency": 30
+    },
+    {
+        "source": "Morris Canal",
+        "target": "Monmouth and 6th",
+        "frequency": 4
+    },
+    {
+        "source": "Morris Canal",
+        "target": "Montgomery St",
+        "frequency": 3
+    },
+    {
+        "source": "Morris Canal",
+        "target": "Morris Canal",
+        "frequency": 109
+    },
+    {
+        "source": "Morris Canal",
+        "target": "Newark Ave",
+        "frequency": 5
+    },
+    {
+        "source": "Morris Canal",
+        "target": "Newport PATH",
+        "frequency": 15
+    },
+    {
+        "source": "Morris Canal",
+        "target": "Newport Pkwy",
+        "frequency": 19
+    },
+    {
+        "source": "Morris Canal",
+        "target": "Paulus Hook",
+        "frequency": 10
+    },
+    {
+        "source": "Morris Canal",
+        "target": "Van Vorst Park",
+        "frequency": 1
+    },
+    {
+        "source": "Morris Canal",
+        "target": "Warren St",
+        "frequency": 7
+    },
+    {
+        "source": "Morris Canal",
+        "target": "Washington St",
+        "frequency": 8
+    },
+    {
+        "source": "Morris Canal",
+        "target": "York St",
+        "frequency": 2
+    },
+    {
+        "source": "Newark Ave",
+        "target": "5 Corners Library",
+        "frequency": 1
+    },
+    {
+        "source": "Newark Ave",
+        "target": "Astor Place",
+        "frequency": 1
+    },
+    {
+        "source": "Newark Ave",
+        "target": "Baldwin at Montgomery",
+        "frequency": 2
+    },
+    {
+        "source": "Newark Ave",
+        "target": "Brunswick & 6th",
+        "frequency": 5
+    },
+    {
+        "source": "Newark Ave",
+        "target": "Brunswick St",
+        "frequency": 5
+    },
+    {
+        "source": "Newark Ave",
+        "target": "Christ Hospital",
+        "frequency": 2
+    },
+    {
+        "source": "Newark Ave",
+        "target": "City Hall",
+        "frequency": 5
+    },
+    {
+        "source": "Newark Ave",
+        "target": "Columbus Drive",
+        "frequency": 2
+    },
+    {
+        "source": "Newark Ave",
+        "target": "Dixon Mills",
+        "frequency": 1
+    },
+    {
+        "source": "Newark Ave",
+        "target": "Essex Light Rail",
+        "frequency": 2
+    },
+    {
+        "source": "Newark Ave",
+        "target": "Grand St",
+        "frequency": 2
+    },
+    {
+        "source": "Newark Ave",
+        "target": "Grove St PATH",
+        "frequency": 25
+    },
+    {
+        "source": "Newark Ave",
+        "target": "Hamilton Park",
+        "frequency": 15
+    },
+    {
+        "source": "Newark Ave",
+        "target": "Harborside",
+        "frequency": 4
+    },
+    {
+        "source": "Newark Ave",
+        "target": "Hilltop",
+        "frequency": 4
+    },
+    {
+        "source": "Newark Ave",
+        "target": "JC Medical Center",
+        "frequency": 25
+    },
+    {
+        "source": "Newark Ave",
+        "target": "Jersey & 3rd",
+        "frequency": 2
+    },
+    {
+        "source": "Newark Ave",
+        "target": "Jersey & 6th St",
+        "frequency": 9
+    },
+    {
+        "source": "Newark Ave",
+        "target": "Lafayette Park",
+        "frequency": 4
+    },
+    {
+        "source": "Newark Ave",
+        "target": "Leonard Gordon Park",
+        "frequency": 2
+    },
+    {
+        "source": "Newark Ave",
+        "target": "Liberty Light Rail",
+        "frequency": 6
+    },
+    {
+        "source": "Newark Ave",
+        "target": "Lincoln Park",
+        "frequency": 1
+    },
+    {
+        "source": "Newark Ave",
+        "target": "Manila & 1st",
+        "frequency": 1
+    },
+    {
+        "source": "Newark Ave",
+        "target": "Marin Light Rail",
+        "frequency": 7
+    },
+    {
+        "source": "Newark Ave",
+        "target": "McGinley Square",
+        "frequency": 2
+    },
+    {
+        "source": "Newark Ave",
+        "target": "Monmouth and 6th",
+        "frequency": 5
+    },
+    {
+        "source": "Newark Ave",
+        "target": "Montgomery St",
+        "frequency": 1
+    },
+    {
+        "source": "Newark Ave",
+        "target": "Morris Canal",
+        "frequency": 5
+    },
+    {
+        "source": "Newark Ave",
+        "target": "Newark Ave",
+        "frequency": 22
+    },
+    {
+        "source": "Newark Ave",
+        "target": "Newport PATH",
+        "frequency": 3
+    },
+    {
+        "source": "Newark Ave",
+        "target": "Newport Pkwy",
+        "frequency": 10
+    },
+    {
+        "source": "Newark Ave",
+        "target": "Paulus Hook",
+        "frequency": 7
+    },
+    {
+        "source": "Newark Ave",
+        "target": "Riverview Park",
+        "frequency": 4
+    },
+    {
+        "source": "Newark Ave",
+        "target": "Sip Ave",
+        "frequency": 1
+    },
+    {
+        "source": "Newark Ave",
+        "target": "Van Vorst Park",
+        "frequency": 7
+    },
+    {
+        "source": "Newark Ave",
+        "target": "Warren St",
+        "frequency": 1
+    },
+    {
+        "source": "Newark Ave",
+        "target": "York St",
+        "frequency": 4
+    },
+    {
+        "source": "Newport PATH",
+        "target": "5 Corners Library",
+        "frequency": 1
+    },
+    {
+        "source": "Newport PATH",
+        "target": "Astor Place",
+        "frequency": 1
+    },
+    {
+        "source": "Newport PATH",
+        "target": "Baldwin at Montgomery",
+        "frequency": 4
+    },
+    {
+        "source": "Newport PATH",
+        "target": "Bergen Ave",
+        "frequency": 1
+    },
+    {
+        "source": "Newport PATH",
+        "target": "Brunswick & 6th",
+        "frequency": 3
+    },
+    {
+        "source": "Newport PATH",
+        "target": "City Hall",
+        "frequency": 6
+    },
+    {
+        "source": "Newport PATH",
+        "target": "Columbus Dr at Exchange Pl",
+        "frequency": 3
+    },
+    {
+        "source": "Newport PATH",
+        "target": "Columbus Drive",
+        "frequency": 11
+    },
+    {
+        "source": "Newport PATH",
+        "target": "Communipaw & Berry Lane",
+        "frequency": 1
+    },
+    {
+        "source": "Newport PATH",
+        "target": "Essex Light Rail",
+        "frequency": 6
+    },
+    {
+        "source": "Newport PATH",
+        "target": "Fairmount Ave",
+        "frequency": 1
+    },
+    {
+        "source": "Newport PATH",
+        "target": "Grand St",
+        "frequency": 4
+    },
+    {
+        "source": "Newport PATH",
+        "target": "Grove St PATH",
+        "frequency": 12
+    },
+    {
+        "source": "Newport PATH",
+        "target": "Hamilton Park",
+        "frequency": 8
+    },
+    {
+        "source": "Newport PATH",
+        "target": "Harborside",
+        "frequency": 14
+    },
+    {
+        "source": "Newport PATH",
+        "target": "Heights Elevator",
+        "frequency": 2
+    },
+    {
+        "source": "Newport PATH",
+        "target": "Hilltop",
+        "frequency": 1
+    },
+    {
+        "source": "Newport PATH",
+        "target": "Hoboken Ave at Monmouth St",
+        "frequency": 3
+    },
+    {
+        "source": "Newport PATH",
+        "target": "JC Medical Center",
+        "frequency": 6
+    },
+    {
+        "source": "Newport PATH",
+        "target": "Jersey & 3rd",
+        "frequency": 6
+    },
+    {
+        "source": "Newport PATH",
+        "target": "Jersey & 6th St",
+        "frequency": 3
+    },
+    {
+        "source": "Newport PATH",
+        "target": "Liberty Light Rail",
+        "frequency": 3
+    },
+    {
+        "source": "Newport PATH",
+        "target": "Manila & 1st",
+        "frequency": 4
+    },
+    {
+        "source": "Newport PATH",
+        "target": "Marin Light Rail",
+        "frequency": 11
+    },
+    {
+        "source": "Newport PATH",
+        "target": "McGinley Square",
+        "frequency": 2
+    },
+    {
+        "source": "Newport PATH",
+        "target": "Monmouth and 6th",
+        "frequency": 4
+    },
+    {
+        "source": "Newport PATH",
+        "target": "Montgomery St",
+        "frequency": 2
+    },
+    {
+        "source": "Newport PATH",
+        "target": "Morris Canal",
+        "frequency": 9
+    },
+    {
+        "source": "Newport PATH",
+        "target": "Newark Ave",
+        "frequency": 5
+    },
+    {
+        "source": "Newport PATH",
+        "target": "Newport PATH",
+        "frequency": 28
+    },
+    {
+        "source": "Newport PATH",
+        "target": "Newport Pkwy",
+        "frequency": 56
+    },
+    {
+        "source": "Newport PATH",
+        "target": "Paulus Hook",
+        "frequency": 20
+    },
+    {
+        "source": "Newport PATH",
+        "target": "Pershing Field",
+        "frequency": 1
+    },
+    {
+        "source": "Newport PATH",
+        "target": "Riverview Park",
+        "frequency": 4
+    },
+    {
+        "source": "Newport PATH",
+        "target": "Sip Ave",
+        "frequency": 3
+    },
+    {
+        "source": "Newport PATH",
+        "target": "Van Vorst Park",
+        "frequency": 1
+    },
+    {
+        "source": "Newport PATH",
+        "target": "Warren St",
+        "frequency": 6
+    },
+    {
+        "source": "Newport PATH",
+        "target": "Washington St",
+        "frequency": 6
+    },
+    {
+        "source": "Newport PATH",
+        "target": "York St",
+        "frequency": 1
+    },
+    {
+        "source": "Newport Pkwy",
+        "target": "Astor Place",
+        "frequency": 1
+    },
+    {
+        "source": "Newport Pkwy",
+        "target": "Baldwin at Montgomery",
+        "frequency": 3
+    },
+    {
+        "source": "Newport Pkwy",
+        "target": "Brunswick & 6th",
+        "frequency": 7
+    },
+    {
+        "source": "Newport Pkwy",
+        "target": "Brunswick St",
+        "frequency": 9
+    },
+    {
+        "source": "Newport Pkwy",
+        "target": "City Hall",
+        "frequency": 9
+    },
+    {
+        "source": "Newport Pkwy",
+        "target": "Columbus Dr at Exchange Pl",
+        "frequency": 12
+    },
+    {
+        "source": "Newport Pkwy",
+        "target": "Columbus Drive",
+        "frequency": 14
+    },
+    {
+        "source": "Newport Pkwy",
+        "target": "Dixon Mills",
+        "frequency": 2
+    },
+    {
+        "source": "Newport Pkwy",
+        "target": "Essex Light Rail",
+        "frequency": 12
+    },
+    {
+        "source": "Newport Pkwy",
+        "target": "Fairmount Ave",
+        "frequency": 1
+    },
+    {
+        "source": "Newport Pkwy",
+        "target": "Glenwood Ave",
+        "frequency": 18
+    },
+    {
+        "source": "Newport Pkwy",
+        "target": "Grand St",
+        "frequency": 9
+    },
+    {
+        "source": "Newport Pkwy",
+        "target": "Grove St PATH",
+        "frequency": 29
+    },
+    {
+        "source": "Newport Pkwy",
+        "target": "Hamilton Park",
+        "frequency": 28
+    },
+    {
+        "source": "Newport Pkwy",
+        "target": "Harborside",
+        "frequency": 41
+    },
+    {
+        "source": "Newport Pkwy",
+        "target": "Heights Elevator",
+        "frequency": 8
+    },
+    {
+        "source": "Newport Pkwy",
+        "target": "Hilltop",
+        "frequency": 2
+    },
+    {
+        "source": "Newport Pkwy",
+        "target": "Hoboken Ave at Monmouth St",
+        "frequency": 3
+    },
+    {
+        "source": "Newport Pkwy",
+        "target": "JC Medical Center",
+        "frequency": 12
+    },
+    {
+        "source": "Newport Pkwy",
+        "target": "Jersey & 3rd",
+        "frequency": 2
+    },
+    {
+        "source": "Newport Pkwy",
+        "target": "Jersey & 6th St",
+        "frequency": 8
+    },
+    {
+        "source": "Newport Pkwy",
+        "target": "Journal Square",
+        "frequency": 2
+    },
+    {
+        "source": "Newport Pkwy",
+        "target": "Lafayette Park",
+        "frequency": 1
+    },
+    {
+        "source": "Newport Pkwy",
+        "target": "Liberty Light Rail",
+        "frequency": 9
+    },
+    {
+        "source": "Newport Pkwy",
+        "target": "Manila & 1st",
+        "frequency": 13
+    },
+    {
+        "source": "Newport Pkwy",
+        "target": "Marin Light Rail",
+        "frequency": 21
+    },
+    {
+        "source": "Newport Pkwy",
+        "target": "McGinley Square",
+        "frequency": 1
+    },
+    {
+        "source": "Newport Pkwy",
+        "target": "Monmouth and 6th",
+        "frequency": 6
+    },
+    {
+        "source": "Newport Pkwy",
+        "target": "Montgomery St",
+        "frequency": 26
+    },
+    {
+        "source": "Newport Pkwy",
+        "target": "Morris Canal",
+        "frequency": 32
+    },
+    {
+        "source": "Newport Pkwy",
+        "target": "Newark Ave",
+        "frequency": 7
+    },
+    {
+        "source": "Newport Pkwy",
+        "target": "Newport PATH",
+        "frequency": 39
+    },
+    {
+        "source": "Newport Pkwy",
+        "target": "Newport Pkwy",
+        "frequency": 177
+    },
+    {
+        "source": "Newport Pkwy",
+        "target": "Oakland Ave",
+        "frequency": 1
+    },
+    {
+        "source": "Newport Pkwy",
+        "target": "Paulus Hook",
+        "frequency": 25
+    },
+    {
+        "source": "Newport Pkwy",
+        "target": "Pershing Field",
+        "frequency": 11
+    },
+    {
+        "source": "Newport Pkwy",
+        "target": "Riverview Park",
+        "frequency": 1
+    },
+    {
+        "source": "Newport Pkwy",
+        "target": "Sip Ave",
+        "frequency": 3
+    },
+    {
+        "source": "Newport Pkwy",
+        "target": "Van Vorst Park",
+        "frequency": 13
+    },
+    {
+        "source": "Newport Pkwy",
+        "target": "Warren St",
+        "frequency": 24
+    },
+    {
+        "source": "Newport Pkwy",
+        "target": "Washington St",
+        "frequency": 34
+    },
+    {
+        "source": "Newport Pkwy",
+        "target": "York St",
+        "frequency": 6
+    },
+    {
+        "source": "Oakland Ave",
+        "target": "Brunswick St",
+        "frequency": 1
+    },
+    {
+        "source": "Oakland Ave",
+        "target": "Christ Hospital",
+        "frequency": 3
+    },
+    {
+        "source": "Oakland Ave",
+        "target": "Columbus Dr at Exchange Pl",
+        "frequency": 3
+    },
+    {
+        "source": "Oakland Ave",
+        "target": "Harborside",
+        "frequency": 1
+    },
+    {
+        "source": "Oakland Ave",
+        "target": "Heights Elevator",
+        "frequency": 1
+    },
+    {
+        "source": "Oakland Ave",
+        "target": "Hoboken Ave at Monmouth St",
+        "frequency": 20
+    },
+    {
+        "source": "Oakland Ave",
+        "target": "JC Medical Center",
+        "frequency": 1
+    },
+    {
+        "source": "Oakland Ave",
+        "target": "Journal Square",
+        "frequency": 2
+    },
+    {
+        "source": "Oakland Ave",
+        "target": "Leonard Gordon Park",
+        "frequency": 1
+    },
+    {
+        "source": "Oakland Ave",
+        "target": "Liberty Light Rail",
+        "frequency": 6
+    },
+    {
+        "source": "Oakland Ave",
+        "target": "Marin Light Rail",
+        "frequency": 1
+    },
+    {
+        "source": "Oakland Ave",
+        "target": "Newark Ave",
+        "frequency": 13
+    },
+    {
+        "source": "Oakland Ave",
+        "target": "Newport Pkwy",
+        "frequency": 2
+    },
+    {
+        "source": "Oakland Ave",
+        "target": "Oakland Ave",
+        "frequency": 17
+    },
+    {
+        "source": "Oakland Ave",
+        "target": "Pershing Field",
+        "frequency": 2
+    },
+    {
+        "source": "Oakland Ave",
+        "target": "Riverview Park",
+        "frequency": 2
+    },
+    {
+        "source": "Oakland Ave",
+        "target": "Sip Ave",
+        "frequency": 12
+    },
+    {
+        "source": "Oakland Ave",
+        "target": "Van Vorst Park",
+        "frequency": 1
+    },
+    {
+        "source": "Oakland Ave",
+        "target": "Washington St",
+        "frequency": 1
+    },
+    {
+        "source": "Paulus Hook",
+        "target": "5 Corners Library",
+        "frequency": 1
+    },
+    {
+        "source": "Paulus Hook",
+        "target": "Baldwin at Montgomery",
+        "frequency": 7
+    },
+    {
+        "source": "Paulus Hook",
+        "target": "Bergen Ave",
+        "frequency": 5
+    },
+    {
+        "source": "Paulus Hook",
+        "target": "Brunswick & 6th",
+        "frequency": 3
+    },
+    {
+        "source": "Paulus Hook",
+        "target": "Brunswick St",
+        "frequency": 2
+    },
+    {
+        "source": "Paulus Hook",
+        "target": "City Hall",
+        "frequency": 2
+    },
+    {
+        "source": "Paulus Hook",
+        "target": "Columbus Dr at Exchange Pl",
+        "frequency": 5
+    },
+    {
+        "source": "Paulus Hook",
+        "target": "Columbus Drive",
+        "frequency": 5
+    },
+    {
+        "source": "Paulus Hook",
+        "target": "Communipaw & Berry Lane",
+        "frequency": 1
+    },
+    {
+        "source": "Paulus Hook",
+        "target": "Dixon Mills",
+        "frequency": 2
+    },
+    {
+        "source": "Paulus Hook",
+        "target": "Essex Light Rail",
+        "frequency": 9
+    },
+    {
+        "source": "Paulus Hook",
+        "target": "Glenwood Ave",
+        "frequency": 3
+    },
+    {
+        "source": "Paulus Hook",
+        "target": "Grand St",
+        "frequency": 6
+    },
+    {
+        "source": "Paulus Hook",
+        "target": "Grove St PATH",
+        "frequency": 8
+    },
+    {
+        "source": "Paulus Hook",
+        "target": "Hamilton Park",
+        "frequency": 6
+    },
+    {
+        "source": "Paulus Hook",
+        "target": "Harborside",
+        "frequency": 9
+    },
+    {
+        "source": "Paulus Hook",
+        "target": "Heights Elevator",
+        "frequency": 2
+    },
+    {
+        "source": "Paulus Hook",
+        "target": "JC Medical Center",
+        "frequency": 6
+    },
+    {
+        "source": "Paulus Hook",
+        "target": "Jersey & 3rd",
+        "frequency": 2
+    },
+    {
+        "source": "Paulus Hook",
+        "target": "Lafayette Park",
+        "frequency": 1
+    },
+    {
+        "source": "Paulus Hook",
+        "target": "Liberty Light Rail",
+        "frequency": 19
+    },
+    {
+        "source": "Paulus Hook",
+        "target": "Lincoln Park",
+        "frequency": 2
+    },
+    {
+        "source": "Paulus Hook",
+        "target": "Marin Light Rail",
+        "frequency": 10
+    },
+    {
+        "source": "Paulus Hook",
+        "target": "McGinley Square",
+        "frequency": 11
+    },
+    {
+        "source": "Paulus Hook",
+        "target": "Monmouth and 6th",
+        "frequency": 1
+    },
+    {
+        "source": "Paulus Hook",
+        "target": "Montgomery St",
+        "frequency": 6
+    },
+    {
+        "source": "Paulus Hook",
+        "target": "Morris Canal",
+        "frequency": 15
+    },
+    {
+        "source": "Paulus Hook",
+        "target": "Newark Ave",
+        "frequency": 4
+    },
+    {
+        "source": "Paulus Hook",
+        "target": "Newport PATH",
+        "frequency": 18
+    },
+    {
+        "source": "Paulus Hook",
+        "target": "Newport Pkwy",
+        "frequency": 19
+    },
+    {
+        "source": "Paulus Hook",
+        "target": "Paulus Hook",
+        "frequency": 70
+    },
+    {
+        "source": "Paulus Hook",
+        "target": "Sip Ave",
+        "frequency": 3
+    },
+    {
+        "source": "Paulus Hook",
+        "target": "Union St",
+        "frequency": 1
+    },
+    {
+        "source": "Paulus Hook",
+        "target": "Van Vorst Park",
+        "frequency": 2
+    },
+    {
+        "source": "Paulus Hook",
+        "target": "Warren St",
+        "frequency": 3
+    },
+    {
+        "source": "Paulus Hook",
+        "target": "Washington St",
+        "frequency": 8
+    },
+    {
+        "source": "Pershing Field",
+        "target": "5 Corners Library",
+        "frequency": 1
+    },
+    {
+        "source": "Pershing Field",
+        "target": "Astor Place",
+        "frequency": 1
+    },
+    {
+        "source": "Pershing Field",
+        "target": "Christ Hospital",
+        "frequency": 9
+    },
+    {
+        "source": "Pershing Field",
+        "target": "Communipaw & Berry Lane",
+        "frequency": 1
+    },
+    {
+        "source": "Pershing Field",
+        "target": "Dey St",
+        "frequency": 6
+    },
+    {
+        "source": "Pershing Field",
+        "target": "Dixon Mills",
+        "frequency": 11
+    },
+    {
+        "source": "Pershing Field",
+        "target": "Fairmount Ave",
+        "frequency": 1
+    },
+    {
+        "source": "Pershing Field",
+        "target": "Grand St",
+        "frequency": 1
+    },
+    {
+        "source": "Pershing Field",
+        "target": "Grove St PATH",
+        "frequency": 4
+    },
+    {
+        "source": "Pershing Field",
+        "target": "Hamilton Park",
+        "frequency": 1
+    },
+    {
+        "source": "Pershing Field",
+        "target": "Heights Elevator",
+        "frequency": 2
+    },
+    {
+        "source": "Pershing Field",
+        "target": "Hilltop",
+        "frequency": 3
+    },
+    {
+        "source": "Pershing Field",
+        "target": "Journal Square",
+        "frequency": 4
+    },
+    {
+        "source": "Pershing Field",
+        "target": "Leonard Gordon Park",
+        "frequency": 2
+    },
+    {
+        "source": "Pershing Field",
+        "target": "Liberty Light Rail",
+        "frequency": 2
+    },
+    {
+        "source": "Pershing Field",
+        "target": "Manila & 1st",
+        "frequency": 1
+    },
+    {
+        "source": "Pershing Field",
+        "target": "McGinley Square",
+        "frequency": 1
+    },
+    {
+        "source": "Pershing Field",
+        "target": "Montgomery St",
+        "frequency": 1
+    },
+    {
+        "source": "Pershing Field",
+        "target": "Newark Ave",
+        "frequency": 1
+    },
+    {
+        "source": "Pershing Field",
+        "target": "Newport Pkwy",
+        "frequency": 14
+    },
+    {
+        "source": "Pershing Field",
+        "target": "Oakland Ave",
+        "frequency": 3
+    },
+    {
+        "source": "Pershing Field",
+        "target": "Pershing Field",
+        "frequency": 69
+    },
+    {
+        "source": "Pershing Field",
+        "target": "Riverview Park",
+        "frequency": 2
+    },
+    {
+        "source": "Pershing Field",
+        "target": "Sip Ave",
+        "frequency": 16
+    },
+    {
+        "source": "Pershing Field",
+        "target": "Van Vorst Park",
+        "frequency": 1
+    },
+    {
+        "source": "Pershing Field",
+        "target": "Washington St",
+        "frequency": 1
+    },
+    {
+        "source": "Riverview Park",
+        "target": "5 Corners Library",
+        "frequency": 1
+    },
+    {
+        "source": "Riverview Park",
+        "target": "Brunswick & 6th",
+        "frequency": 1
+    },
+    {
+        "source": "Riverview Park",
+        "target": "Christ Hospital",
+        "frequency": 2
+    },
+    {
+        "source": "Riverview Park",
+        "target": "Columbus Dr at Exchange Pl",
+        "frequency": 4
+    },
+    {
+        "source": "Riverview Park",
+        "target": "Dey St",
+        "frequency": 3
+    },
+    {
+        "source": "Riverview Park",
+        "target": "Fairmount Ave",
+        "frequency": 3
+    },
+    {
+        "source": "Riverview Park",
+        "target": "Grove St PATH",
+        "frequency": 3
+    },
+    {
+        "source": "Riverview Park",
+        "target": "Hamilton Park",
+        "frequency": 1
+    },
+    {
+        "source": "Riverview Park",
+        "target": "Heights Elevator",
+        "frequency": 6
+    },
+    {
+        "source": "Riverview Park",
+        "target": "Hilltop",
+        "frequency": 2
+    },
+    {
+        "source": "Riverview Park",
+        "target": "Hoboken Ave at Monmouth St",
+        "frequency": 1
+    },
+    {
+        "source": "Riverview Park",
+        "target": "Jersey & 3rd",
+        "frequency": 1
+    },
+    {
+        "source": "Riverview Park",
+        "target": "Manila & 1st",
+        "frequency": 3
+    },
+    {
+        "source": "Riverview Park",
+        "target": "Newark Ave",
+        "frequency": 2
+    },
+    {
+        "source": "Riverview Park",
+        "target": "Newport PATH",
+        "frequency": 3
+    },
+    {
+        "source": "Riverview Park",
+        "target": "Newport Pkwy",
+        "frequency": 1
+    },
+    {
+        "source": "Riverview Park",
+        "target": "Oakland Ave",
+        "frequency": 2
+    },
+    {
+        "source": "Riverview Park",
+        "target": "Pershing Field",
+        "frequency": 4
+    },
+    {
+        "source": "Riverview Park",
+        "target": "Riverview Park",
+        "frequency": 10
+    },
+    {
+        "source": "Riverview Park",
+        "target": "Sip Ave",
+        "frequency": 1
+    },
+    {
+        "source": "Sip Ave",
+        "target": "5 Corners Library",
+        "frequency": 1
+    },
+    {
+        "source": "Sip Ave",
+        "target": "Astor Place",
+        "frequency": 46
+    },
+    {
+        "source": "Sip Ave",
+        "target": "Baldwin at Montgomery",
+        "frequency": 23
+    },
+    {
+        "source": "Sip Ave",
+        "target": "Bergen Ave",
+        "frequency": 127
+    },
+    {
+        "source": "Sip Ave",
+        "target": "Brunswick & 6th",
+        "frequency": 1
+    },
+    {
+        "source": "Sip Ave",
+        "target": "Brunswick St",
+        "frequency": 1
+    },
+    {
+        "source": "Sip Ave",
+        "target": "Christ Hospital",
+        "frequency": 14
+    },
+    {
+        "source": "Sip Ave",
+        "target": "Columbus Dr at Exchange Pl",
+        "frequency": 2
+    },
+    {
+        "source": "Sip Ave",
+        "target": "Columbus Drive",
+        "frequency": 3
+    },
+    {
+        "source": "Sip Ave",
+        "target": "Communipaw & Berry Lane",
+        "frequency": 9
+    },
+    {
+        "source": "Sip Ave",
+        "target": "Dey St",
+        "frequency": 3
+    },
+    {
+        "source": "Sip Ave",
+        "target": "Dixon Mills",
+        "frequency": 2
+    },
+    {
+        "source": "Sip Ave",
+        "target": "Fairmount Ave",
+        "frequency": 29
+    },
+    {
+        "source": "Sip Ave",
+        "target": "Glenwood Ave",
+        "frequency": 14
+    },
+    {
+        "source": "Sip Ave",
+        "target": "Grove St PATH",
+        "frequency": 5
+    },
+    {
+        "source": "Sip Ave",
+        "target": "Hamilton Park",
+        "frequency": 1
+    },
+    {
+        "source": "Sip Ave",
+        "target": "Heights Elevator",
+        "frequency": 4
+    },
+    {
+        "source": "Sip Ave",
+        "target": "Hilltop",
+        "frequency": 12
+    },
+    {
+        "source": "Sip Ave",
+        "target": "Hoboken Ave at Monmouth St",
+        "frequency": 1
+    },
+    {
+        "source": "Sip Ave",
+        "target": "JC Medical Center",
+        "frequency": 4
+    },
+    {
+        "source": "Sip Ave",
+        "target": "Jackson Square",
+        "frequency": 8
+    },
+    {
+        "source": "Sip Ave",
+        "target": "Journal Square",
+        "frequency": 1
+    },
+    {
+        "source": "Sip Ave",
+        "target": "Lafayette Park",
+        "frequency": 2
+    },
+    {
+        "source": "Sip Ave",
+        "target": "Leonard Gordon Park",
+        "frequency": 1
+    },
+    {
+        "source": "Sip Ave",
+        "target": "Liberty Light Rail",
+        "frequency": 1
+    },
+    {
+        "source": "Sip Ave",
+        "target": "Lincoln Park",
+        "frequency": 21
+    },
+    {
+        "source": "Sip Ave",
+        "target": "Marin Light Rail",
+        "frequency": 2
+    },
+    {
+        "source": "Sip Ave",
+        "target": "McGinley Square",
+        "frequency": 69
+    },
+    {
+        "source": "Sip Ave",
+        "target": "Monmouth and 6th",
+        "frequency": 1
+    },
+    {
+        "source": "Sip Ave",
+        "target": "Montgomery St",
+        "frequency": 2
+    },
+    {
+        "source": "Sip Ave",
+        "target": "Newark Ave",
+        "frequency": 3
+    },
+    {
+        "source": "Sip Ave",
+        "target": "Newport PATH",
+        "frequency": 6
+    },
+    {
+        "source": "Sip Ave",
+        "target": "Newport Pkwy",
+        "frequency": 2
+    },
+    {
+        "source": "Sip Ave",
+        "target": "Oakland Ave",
+        "frequency": 5
+    },
+    {
+        "source": "Sip Ave",
+        "target": "Paulus Hook",
+        "frequency": 5
+    },
+    {
+        "source": "Sip Ave",
+        "target": "Pershing Field",
+        "frequency": 12
+    },
+    {
+        "source": "Sip Ave",
+        "target": "Riverview Park",
+        "frequency": 3
+    },
+    {
+        "source": "Sip Ave",
+        "target": "Sip Ave",
+        "frequency": 43
+    },
+    {
+        "source": "Sip Ave",
+        "target": "Union St",
+        "frequency": 32
+    },
+    {
+        "source": "Sip Ave",
+        "target": "Washington St",
+        "frequency": 3
+    },
+    {
+        "source": "Sip Ave",
+        "target": "York St",
+        "frequency": 1
+    },
+    {
+        "source": "Union St",
+        "target": "Astor Place",
+        "frequency": 1
+    },
+    {
+        "source": "Union St",
+        "target": "Bergen Ave",
+        "frequency": 1
+    },
+    {
+        "source": "Union St",
+        "target": "Brunswick St",
+        "frequency": 1
+    },
+    {
+        "source": "Union St",
+        "target": "Columbus Dr at Exchange Pl",
+        "frequency": 1
+    },
+    {
+        "source": "Union St",
+        "target": "Columbus Drive",
+        "frequency": 5
+    },
+    {
+        "source": "Union St",
+        "target": "Communipaw & Berry Lane",
+        "frequency": 2
+    },
+    {
+        "source": "Union St",
+        "target": "Essex Light Rail",
+        "frequency": 1
+    },
+    {
+        "source": "Union St",
+        "target": "Fairmount Ave",
+        "frequency": 1
+    },
+    {
+        "source": "Union St",
+        "target": "Heights Elevator",
+        "frequency": 1
+    },
+    {
+        "source": "Union St",
+        "target": "JC Medical Center",
+        "frequency": 1
+    },
+    {
+        "source": "Union St",
+        "target": "Jackson Square",
+        "frequency": 10
+    },
+    {
+        "source": "Union St",
+        "target": "Jersey & 6th St",
+        "frequency": 1
+    },
+    {
+        "source": "Union St",
+        "target": "Leonard Gordon Park",
+        "frequency": 1
+    },
+    {
+        "source": "Union St",
+        "target": "Liberty Light Rail",
+        "frequency": 1
+    },
+    {
+        "source": "Union St",
+        "target": "Lincoln Park",
+        "frequency": 1
+    },
+    {
+        "source": "Union St",
+        "target": "Montgomery St",
+        "frequency": 1
+    },
+    {
+        "source": "Union St",
+        "target": "Newport PATH",
+        "frequency": 1
+    },
+    {
+        "source": "Union St",
+        "target": "Sip Ave",
+        "frequency": 26
+    },
+    {
+        "source": "Union St",
+        "target": "Union St",
+        "frequency": 4
+    },
+    {
+        "source": "Union St",
+        "target": "Van Vorst Park",
+        "frequency": 2
+    },
+    {
+        "source": "Union St",
+        "target": "Warren St",
+        "frequency": 1
+    },
+    {
+        "source": "Van Vorst Park",
+        "target": "Baldwin at Montgomery",
+        "frequency": 3
+    },
+    {
+        "source": "Van Vorst Park",
+        "target": "Bergen Ave",
+        "frequency": 1
+    },
+    {
+        "source": "Van Vorst Park",
+        "target": "Brunswick & 6th",
+        "frequency": 4
+    },
+    {
+        "source": "Van Vorst Park",
+        "target": "Brunswick St",
+        "frequency": 3
+    },
+    {
+        "source": "Van Vorst Park",
+        "target": "Christ Hospital",
+        "frequency": 2
+    },
+    {
+        "source": "Van Vorst Park",
+        "target": "City Hall",
+        "frequency": 20
+    },
+    {
+        "source": "Van Vorst Park",
+        "target": "Columbus Dr at Exchange Pl",
+        "frequency": 4
+    },
+    {
+        "source": "Van Vorst Park",
+        "target": "Columbus Drive",
+        "frequency": 4
+    },
+    {
+        "source": "Van Vorst Park",
+        "target": "Communipaw & Berry Lane",
+        "frequency": 2
+    },
+    {
+        "source": "Van Vorst Park",
+        "target": "Dixon Mills",
+        "frequency": 1
+    },
+    {
+        "source": "Van Vorst Park",
+        "target": "Essex Light Rail",
+        "frequency": 1
+    },
+    {
+        "source": "Van Vorst Park",
+        "target": "Glenwood Ave",
+        "frequency": 1
+    },
+    {
+        "source": "Van Vorst Park",
+        "target": "Grand St",
+        "frequency": 3
+    },
+    {
+        "source": "Van Vorst Park",
+        "target": "Grove St PATH",
+        "frequency": 20
+    },
+    {
+        "source": "Van Vorst Park",
+        "target": "Hamilton Park",
+        "frequency": 16
+    },
+    {
+        "source": "Van Vorst Park",
+        "target": "Harborside",
+        "frequency": 3
+    },
+    {
+        "source": "Van Vorst Park",
+        "target": "Heights Elevator",
+        "frequency": 1
+    },
+    {
+        "source": "Van Vorst Park",
+        "target": "Hoboken Ave at Monmouth St",
+        "frequency": 1
+    },
+    {
+        "source": "Van Vorst Park",
+        "target": "JC Medical Center",
+        "frequency": 7
+    },
+    {
+        "source": "Van Vorst Park",
+        "target": "Jersey & 3rd",
+        "frequency": 6
+    },
+    {
+        "source": "Van Vorst Park",
+        "target": "Liberty Light Rail",
+        "frequency": 8
+    },
+    {
+        "source": "Van Vorst Park",
+        "target": "Manila & 1st",
+        "frequency": 10
+    },
+    {
+        "source": "Van Vorst Park",
+        "target": "Marin Light Rail",
+        "frequency": 7
+    },
+    {
+        "source": "Van Vorst Park",
+        "target": "Monmouth and 6th",
+        "frequency": 3
+    },
+    {
+        "source": "Van Vorst Park",
+        "target": "Montgomery St",
+        "frequency": 2
+    },
+    {
+        "source": "Van Vorst Park",
+        "target": "Morris Canal",
+        "frequency": 1
+    },
+    {
+        "source": "Van Vorst Park",
+        "target": "Newark Ave",
+        "frequency": 3
+    },
+    {
+        "source": "Van Vorst Park",
+        "target": "Newport Pkwy",
+        "frequency": 12
+    },
+    {
+        "source": "Van Vorst Park",
+        "target": "Oakland Ave",
+        "frequency": 1
+    },
+    {
+        "source": "Van Vorst Park",
+        "target": "Paulus Hook",
+        "frequency": 5
+    },
+    {
+        "source": "Van Vorst Park",
+        "target": "Van Vorst Park",
+        "frequency": 52
+    },
+    {
+        "source": "Van Vorst Park",
+        "target": "Warren St",
+        "frequency": 8
+    },
+    {
+        "source": "Van Vorst Park",
+        "target": "York St",
+        "frequency": 2
+    },
+    {
+        "source": "Warren St",
+        "target": "Astor Place",
+        "frequency": 2
+    },
+    {
+        "source": "Warren St",
+        "target": "Baldwin at Montgomery",
+        "frequency": 4
+    },
+    {
+        "source": "Warren St",
+        "target": "Brunswick & 6th",
+        "frequency": 10
+    },
+    {
+        "source": "Warren St",
+        "target": "Brunswick St",
+        "frequency": 2
+    },
+    {
+        "source": "Warren St",
+        "target": "City Hall",
+        "frequency": 3
+    },
+    {
+        "source": "Warren St",
+        "target": "Columbus Dr at Exchange Pl",
+        "frequency": 8
+    },
+    {
+        "source": "Warren St",
+        "target": "Columbus Drive",
+        "frequency": 5
+    },
+    {
+        "source": "Warren St",
+        "target": "Dixon Mills",
+        "frequency": 5
+    },
+    {
+        "source": "Warren St",
+        "target": "Essex Light Rail",
+        "frequency": 6
+    },
+    {
+        "source": "Warren St",
+        "target": "Grand St",
+        "frequency": 3
+    },
+    {
+        "source": "Warren St",
+        "target": "Grove St PATH",
+        "frequency": 6
+    },
+    {
+        "source": "Warren St",
+        "target": "Hamilton Park",
+        "frequency": 8
+    },
+    {
+        "source": "Warren St",
+        "target": "Harborside",
+        "frequency": 3
+    },
+    {
+        "source": "Warren St",
+        "target": "Hilltop",
+        "frequency": 2
+    },
+    {
+        "source": "Warren St",
+        "target": "Hoboken Ave at Monmouth St",
+        "frequency": 1
+    },
+    {
+        "source": "Warren St",
+        "target": "JC Medical Center",
+        "frequency": 6
+    },
+    {
+        "source": "Warren St",
+        "target": "Jackson Square",
+        "frequency": 1
+    },
+    {
+        "source": "Warren St",
+        "target": "Jersey & 3rd",
+        "frequency": 1
+    },
+    {
+        "source": "Warren St",
+        "target": "Liberty Light Rail",
+        "frequency": 7
+    },
+    {
+        "source": "Warren St",
+        "target": "Lincoln Park",
+        "frequency": 2
+    },
+    {
+        "source": "Warren St",
+        "target": "Manila & 1st",
+        "frequency": 5
+    },
+    {
+        "source": "Warren St",
+        "target": "Marin Light Rail",
+        "frequency": 8
+    },
+    {
+        "source": "Warren St",
+        "target": "Montgomery St",
+        "frequency": 15
+    },
+    {
+        "source": "Warren St",
+        "target": "Morris Canal",
+        "frequency": 12
+    },
+    {
+        "source": "Warren St",
+        "target": "Newark Ave",
+        "frequency": 2
+    },
+    {
+        "source": "Warren St",
+        "target": "Newport PATH",
+        "frequency": 4
+    },
+    {
+        "source": "Warren St",
+        "target": "Newport Pkwy",
+        "frequency": 22
+    },
+    {
+        "source": "Warren St",
+        "target": "Paulus Hook",
+        "frequency": 7
+    },
+    {
+        "source": "Warren St",
+        "target": "Pershing Field",
+        "frequency": 2
+    },
+    {
+        "source": "Warren St",
+        "target": "Union St",
+        "frequency": 1
+    },
+    {
+        "source": "Warren St",
+        "target": "Van Vorst Park",
+        "frequency": 4
+    },
+    {
+        "source": "Warren St",
+        "target": "Warren St",
+        "frequency": 57
+    },
+    {
+        "source": "Warren St",
+        "target": "Washington St",
+        "frequency": 5
+    },
+    {
+        "source": "Warren St",
+        "target": "York St",
+        "frequency": 10
+    },
+    {
+        "source": "Washington St",
+        "target": "Brunswick & 6th",
+        "frequency": 1
+    },
+    {
+        "source": "Washington St",
+        "target": "Christ Hospital",
+        "frequency": 2
+    },
+    {
+        "source": "Washington St",
+        "target": "City Hall",
+        "frequency": 8
+    },
+    {
+        "source": "Washington St",
+        "target": "Columbus Dr at Exchange Pl",
+        "frequency": 13
+    },
+    {
+        "source": "Washington St",
+        "target": "Columbus Drive",
+        "frequency": 7
+    },
+    {
+        "source": "Washington St",
+        "target": "Dixon Mills",
+        "frequency": 2
+    },
+    {
+        "source": "Washington St",
+        "target": "Essex Light Rail",
+        "frequency": 3
+    },
+    {
+        "source": "Washington St",
+        "target": "Glenwood Ave",
+        "frequency": 1
+    },
+    {
+        "source": "Washington St",
+        "target": "Grand St",
+        "frequency": 5
+    },
+    {
+        "source": "Washington St",
+        "target": "Grove St PATH",
+        "frequency": 6
+    },
+    {
+        "source": "Washington St",
+        "target": "Hamilton Park",
+        "frequency": 4
+    },
+    {
+        "source": "Washington St",
+        "target": "Harborside",
+        "frequency": 13
+    },
+    {
+        "source": "Washington St",
+        "target": "Heights Elevator",
+        "frequency": 2
+    },
+    {
+        "source": "Washington St",
+        "target": "Hilltop",
+        "frequency": 1
+    },
+    {
+        "source": "Washington St",
+        "target": "Hoboken Ave at Monmouth St",
+        "frequency": 3
+    },
+    {
+        "source": "Washington St",
+        "target": "Jersey & 3rd",
+        "frequency": 3
+    },
+    {
+        "source": "Washington St",
+        "target": "Jersey & 6th St",
+        "frequency": 3
+    },
+    {
+        "source": "Washington St",
+        "target": "Liberty Light Rail",
+        "frequency": 3
+    },
+    {
+        "source": "Washington St",
+        "target": "Manila & 1st",
+        "frequency": 2
+    },
+    {
+        "source": "Washington St",
+        "target": "Marin Light Rail",
+        "frequency": 6
+    },
+    {
+        "source": "Washington St",
+        "target": "Monmouth and 6th",
+        "frequency": 5
+    },
+    {
+        "source": "Washington St",
+        "target": "Montgomery St",
+        "frequency": 11
+    },
+    {
+        "source": "Washington St",
+        "target": "Morris Canal",
+        "frequency": 10
+    },
+    {
+        "source": "Washington St",
+        "target": "Newark Ave",
+        "frequency": 2
+    },
+    {
+        "source": "Washington St",
+        "target": "Newport PATH",
+        "frequency": 13
+    },
+    {
+        "source": "Washington St",
+        "target": "Newport Pkwy",
+        "frequency": 37
+    },
+    {
+        "source": "Washington St",
+        "target": "Oakland Ave",
+        "frequency": 1
+    },
+    {
+        "source": "Washington St",
+        "target": "Paulus Hook",
+        "frequency": 7
+    },
+    {
+        "source": "Washington St",
+        "target": "Van Vorst Park",
+        "frequency": 4
+    },
+    {
+        "source": "Washington St",
+        "target": "Warren St",
+        "frequency": 5
+    },
+    {
+        "source": "Washington St",
+        "target": "Washington St",
+        "frequency": 65
+    },
+    {
+        "source": "York St",
+        "target": "Astor Place",
+        "frequency": 1
+    },
+    {
+        "source": "York St",
+        "target": "Baldwin at Montgomery",
+        "frequency": 2
+    },
+    {
+        "source": "York St",
+        "target": "Brunswick & 6th",
+        "frequency": 2
+    },
+    {
+        "source": "York St",
+        "target": "City Hall",
+        "frequency": 5
+    },
+    {
+        "source": "York St",
+        "target": "Columbus Dr at Exchange Pl",
+        "frequency": 1
+    },
+    {
+        "source": "York St",
+        "target": "Columbus Drive",
+        "frequency": 4
+    },
+    {
+        "source": "York St",
+        "target": "Dixon Mills",
+        "frequency": 2
+    },
+    {
+        "source": "York St",
+        "target": "Essex Light Rail",
+        "frequency": 2
+    },
+    {
+        "source": "York St",
+        "target": "Grove St PATH",
+        "frequency": 8
+    },
+    {
+        "source": "York St",
+        "target": "Hamilton Park",
+        "frequency": 1
+    },
+    {
+        "source": "York St",
+        "target": "Hoboken Ave at Monmouth St",
+        "frequency": 2
+    },
+    {
+        "source": "York St",
+        "target": "JC Medical Center",
+        "frequency": 1
+    },
+    {
+        "source": "York St",
+        "target": "Jersey & 3rd",
+        "frequency": 2
+    },
+    {
+        "source": "York St",
+        "target": "Liberty Light Rail",
+        "frequency": 3
+    },
+    {
+        "source": "York St",
+        "target": "Lincoln Park",
+        "frequency": 1
+    },
+    {
+        "source": "York St",
+        "target": "Manila & 1st",
+        "frequency": 2
+    },
+    {
+        "source": "York St",
+        "target": "Marin Light Rail",
+        "frequency": 3
+    },
+    {
+        "source": "York St",
+        "target": "Monmouth and 6th",
+        "frequency": 3
+    },
+    {
+        "source": "York St",
+        "target": "Montgomery St",
+        "frequency": 5
+    },
+    {
+        "source": "York St",
+        "target": "Morris Canal",
+        "frequency": 5
+    },
+    {
+        "source": "York St",
+        "target": "Newark Ave",
+        "frequency": 5
+    },
+    {
+        "source": "York St",
+        "target": "Newport PATH",
+        "frequency": 2
+    },
+    {
+        "source": "York St",
+        "target": "Newport Pkwy",
+        "frequency": 2
+    },
+    {
+        "source": "York St",
+        "target": "Paulus Hook",
+        "frequency": 1
+    },
+    {
+        "source": "York St",
+        "target": "Van Vorst Park",
+        "frequency": 3
+    },
+    {
+        "source": "York St",
+        "target": "York St",
+        "frequency": 22
+    }
+]
