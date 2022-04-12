@@ -67,3 +67,5 @@ map in html
 ### lab7_geomap_webpack/
 
 using geo libraries in JavaScript
+
+### Lab8
