@@ -29,6 +29,7 @@
         React.useEffect(() => {
             d3.csv(csvPath).then(data => {
                 data.forEach(d => {
+                    // age is converted to number, empty stuff will be converted ot 0, will remove in code beloww in Titanic()
                     d.Age = +d.Age;
                     d.Fare = +d.Fare;
                     d.SibSp = +d.SibSp;
@@ -42,6 +43,7 @@
         return dataAll;
     }
     function getAgeGroup( d ){
+        // group based on age
         if (d.Age < 10) {
             return "Age:[0, 10]"
         }
@@ -94,6 +96,7 @@
         const parents = tree.leaves().map( d => d.parent.data.name);
         const parentsCategories = parents.filter( (d, idx) => parents.indexOf(d) === idx );
         const color = d3.scaleOrdinal(d3.schemeDark2).domain(parentsCategories);
+        // descendants returns a list, first element is first layer, second element is second layer, etc.
         const firstLayer = tree.descendants()[0].children;
         
         return <svg width={width} height={height}>
@@ -116,6 +119,8 @@
                     <TreeMapText d={d} />
                 </g>
             })}
+            {/* this creates the dark lines separating the genders (first hierarchy) */}
+            {/* even if we comment out this part, the gap between the gender s is still larger an others, but this dark line here makes it more obvious */}
             {firstLayer.map( (d, idx) => {
                 return <g key={idx+"outerline"} transform={`translate(${d.x0}, ${d.y0})`}>
                     <rect width={d.x1-d.x0} height={d.y1-d.y0} stroke={"black"} fill={"none"}/>
@@ -158,11 +163,15 @@
         //data: a list of objects, loaded from backend
         //attributes: the attributes that define the hierarchy 
         let itemArr = [];
+        // if no attr specified, use original without cutting out any of the attributes
         if (attributes.length === 0){
             return null;
         }
         let groups = d3.groups( data, d => d[attributes[0]]);
+        // how many levels the tree has
         let levels = groups.map( d => d[0]);
+        // count number of surbibals
+        // filter gets the data items with survived is 1
         for (let i = 0; i < levels.length; i++) {
             let surviveRate = groups[i][1].filter( d => d.Survived == 1).length/groups[i][1].length;
             itemArr.push({name: levels[i], children: buildTree(groups[i][1], attributes.slice(1)),
@@ -180,15 +189,29 @@
                 Loading...
                 </p>
         }
+        //console.log("-------");
+        //console.log("raw", rawData);
+        // remove data items that don't have age which was converted to 0
         const data = rawData.filter( d => d.Age > 0); //remove those records whose age columns are empty.
         data.forEach(d => d.AgeGroup = getAgeGroup(d));
-
-        let attributes = ["Sex", "Pclass", "AgeGroup"];
+        //console.log("processed", data);
+        // -- can switch order here -- //
+        let attributes = ["Sex",  "Pclass","AgeGroup"];
+        //let attributes = ["Pclass","Sex",  "AgeGroup"];
+        console.log("groups");
+        console.log(d3.groups( data, d => d[attributes[0]]));
+        //console.log(groups.map( d => d[0]));
+        console.log("tree");
+        console.log(buildTree(data, attributes));
         let root = {name: "Passangers", children: buildTree(data, attributes),
             value: data.filter( d => d.Survived == 1).length/data.length};
+        console.log("root");
+        console.log(root);
         root = d3.hierarchy(root)
+        // sum caculates the size of rectangle at each level
             .sum(d => {
                 // console.log(d.children ? 0 : d.value);
+                // if it has children, then no need to represent it. If it doesn't then value will decide its size
                 return d.children ? 0 : d.value;
             });
         // console.log(root);
