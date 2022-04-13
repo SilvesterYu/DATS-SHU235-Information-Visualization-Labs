@@ -13,7 +13,6 @@ function useData(csvPath){
     return dataAll;
 }
 
-
 function Graph(props) {
     const { x, y, width, height, data} = props;
     const d3Selection = React.useRef();
