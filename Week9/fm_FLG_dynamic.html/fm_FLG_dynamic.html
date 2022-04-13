@@ -33,38 +33,42 @@
     
     function Graph(props) {
         const { x, y, width, height, data} = props;
-        // console.log(data);
-        // let node = d3.groups(data, d => d["end station id"], d => d['birth year'], d => d['gender'] );
-        // console.log(node);
-        // let rawLinks = [];
-        //     data.forEach( d => {
-        //         if (d["start station id"] && d["end station id"]) {
-        //             rawLinks.push({source: d["start station id"], target: d["end station id"]})
-        //         }
-        //     });
-        // console.log(rawLinks);
-        // let links = rawLinks.reduce( (acc, curr) => {
-        //         const idx = acc.findIndex( d => d.target === curr.target && d.source === curr.source 
-        //             || d.target === curr.source && d.source === curr.target );
-        //         if(idx === -1){
-        //             acc.push({source: curr.source, target: curr.target, value: 1});
-        //         } else {
-        //             acc[idx].value += 1;    
-        //         }
-        //         return acc;
-        //     }, []);
-        //     console.log(links);
-        //     let nodes = d3.groups(data, d => d["end station id"])
-        //     // console.log(nodes);
-        //         .map( d => {return {id: d[0], name: d[1][0]["end station name"], value:d[1].length}});
+        console.log(data);
+        let node = d3.groups(data, d => d["end station id"], d => d['birth year'], d => d['gender'] );
+        console.log(node);
+        let rawLinks = [];
+            data.forEach( d => {
+                if (d["start station id"] && d["end station id"]) {
+                    rawLinks.push({source: d["start station id"], target: d["end station id"]})
+                }
+            });
+        console.log(rawLinks);
+        let links = rawLinks.reduce( (acc, curr) => {
+                const idx = acc.findIndex( d => d.target === curr.target && d.source === curr.source 
+                    || d.target === curr.source && d.source === curr.target );
+                if(idx === -1){
+                    acc.push({source: curr.source, target: curr.target, value: 1});
+                } else {
+                    acc[idx].value += 1;    
+                }
+                return acc;
+            }, []);
+            console.log(links);
+            let nodes = d3.groups(data, d => d["end station id"])
+            // console.log(nodes);
+                .map( d => {return {id: d[0], name: d[1][0]["end station name"], value:d[1].length}});
 
         const d3Selection = React.useRef();
 
         React.useEffect( () => {
             Promise.all([d3.json('node.json'), d3.json("link.json")]).then((data) => {
-                // console.log(data);
+                console.log(data);
                 const nodes = data[0];
                 const links = data[1];
+                console.log("----");
+                console.log(nodes);
+                console.log(links);
+                cnsole.log("----");
                 const simulation = d3.forceSimulation(nodes);
                 simulation.force("link", d3.forceLink(links).id(d => d.station_name).distance( d => 500/d.frequency))
                     .force("charge", d3.forceManyBody())

@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Titanic Passanger Dataset</title>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="https://d3js.org/d3-path.v2.min.js"></script>
+    <script src="https://d3js.org/d3-shape.v2.min.js"></script>
+    <script src="https://d3js.org/topojson.v1.min.js"></script>
+    <script src="https://d3js.org/d3-array.v2.min.js"></script>
+    <script src="https://d3js.org/d3-geo.v2.min.js"></script>
+    <script src="https://d3js.org/d3-geo-projection.v3.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v2.min.js"></script> 
+    <script src="https://unpkg.com/react/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone/babel.js"></script>
+    
+</head>
+<body>
+    <h1>What sorts of people were more likely to survive?</h1>
+    <p>The sinking of the Titanic is one of the most infamous shipwrecks in history. On April 15, 1912, during her maiden voyage, the widely considered “unsinkable” RMS Titanic sank after colliding with an iceberg. Unfortunately, there weren’t enough lifeboats for everyone onboard, resulting in the death of 1502 out of 2224 passengers and crew. 
+    <br>
+    <br>While there was some element of luck involved in surviving, it seems some groups of people were more likely to survive than others. This visualization is built to answer the question: “what sorts of people were more likely to survive?” using passenger data (ie name, age, gender, socio-economic class, etc).</p>
+    <h2>A visualization on the Titanic Dataset</h2>
+    <div id="root"></div> 
+    <script type="text/babel">
+    const WIDTH = 1000;
+    const HEIGHT = 600;
+    const margin = { top: 20, right: 40, bottom: 20, left: 40 };
+    const csvUrl = "https://gist.githubusercontent.com/hogwild/2ac0f0b665b4295e0574c85c12bec092/raw/8cee439ac896703d2c95cb805f44bf07d74e933b/titanic.csv";
+    // const mapUrl = "https://unpkg.com/world-atlas@2.0.2/countries-110m.json";
+    function useMap(jsonPath) {
+        const [data, setData] = React.useState(null);
+        React.useEffect(() => {
+            d3.json(jsonPath).then(topoJsonData => {
+                setData(
+                    topojson.feature(topoJsonData, topoJsonData.objects.countries),
+                  )});
+        }, []);
+        return data;
+    }
+    function useData(csvPath){
+        const [dataAll, setData] = React.useState(null);
+        React.useEffect(() => {
+            d3.csv(csvPath).then(data => {
+                data.forEach(d => {
+                    d.Age = +d.Age;
+                    d.Fare = +d.Fare;
+                    d.SibSp = +d.SibSp;
+                    d.Parch = +d.Parch;
+                    d.Survived = +d.Survived;
+                    d.Pclass = "Class: " + d.Pclass;
+                });
+                setData(data);
+            });
+        }, []);
+        return dataAll;
+    }
+    function getAgeGroup( d ){
+        if (d.Age < 10) {
+            return "Age:[0, 10]"
+        }
+        if (10 <= d.Age && d.Age < 20) {
+            return "Age:[10, 20]"
+        }
+        if (20 <= d.Age && d.Age < 30) {
+            return "Age:[20, 30]"
+        }
+        if (30 <= d.Age && d.Age < 40) {
+            return "Age:[30, 40]"
+        }
+        if (40 <= d.Age && d.Age < 50) {
+            return "Age:[40, 50]"
+        }
+        if (50 <= d.Age && d.Age < 60) {
+            return "Age:[50, 60]"
+        }
+        if (60 <= d.Age && d.Age < 70) {
+            return "Age:[60, 70]"
+        }
+        if (70 <= d.Age && d.Age <= 80) {
+            return "Age:[70, 80]"
+        }
+    }
+    function getTree( data, attrs ) {
+        const getLevels = (attr) => {
+            const attrArray = data.map(d => d[attr]);
+            const levels = attrArray.filter( (d, idx) => attrArray.indexOf(d) === idx).sort();
+            return levels.map( d => {return {"name": d, "attr": attr}});
+        };
+        const levels = attrs.map( d => getLevels(d));
+        // console.log(levels);
+        const getJsonTree = function( data, levels ) {
+            let itemArr = [];
+            if(levels.length === 0) {
+                //itemArr.push(data);
+                return null;
+            }
+            const currentLevel = levels[0];
+            for (let i = 0; i < currentLevel.length; i++) {
+                let node = currentLevel[i];
+                let newData = data.filter(d => d[currentLevel[0].attr] === currentLevel[i].name)
+                if (newData.length > 0){
+                    let newNode = {};
+                    newNode.points = newData;
+                    newNode.name = node.name;
+                    newNode.attr = node.attr;
+                    newNode.value = newData.filter( d => d.Survived === 1).length/newData.length; //survival rate 
+                    let children = getJsonTree(newData, levels.slice(1));
+                    if (children) {
+                        newNode.children = children;
+                    }
+                    itemArr.push(newNode);
+                }
+            }
+            return itemArr;
+        };
+        return getJsonTree(data, levels);
+    }
+    function ScatterPlot(props) {
+        const { width, height, data, selectedCell, setSelectedCell, attributes } = props;
+        const margin = { top: 20, right: 40, bottom: 20, left: 40, gap: 40 };
+        const innerWidth = width - margin.left - margin.right;
+        const innerHeight = height - margin.top - margin.bottom;
+        const xScale = d3.scaleLinear().range([0, innerWidth])
+            .domain([0, d3.max(data, d => d.Fare)]).nice();
+        const yScale = d3.scaleLinear().range([(innerHeight-margin.gap)/2, 0])
+            .domain([0, d3.max(data, d => d.Age)]).nice();
+        const colormap = d3.schemeCategory10;
+        const radius = 3;
+        const survived = data.filter( d => d.Survived === 1);
+        const perished = data.filter( d => d.Survived === 0);
+        const setColor = (d) => {
+            if(selectedCell){
+                // console.log(selectedCell);
+                if (selectedCell[0].PassengerId) {
+                    if (selectedCell[0].PassengerId === d.PassengerId) {
+                    return colormap[4]
+                    } else {
+                        return colormap[d.Survived] 
+                    }
+                }
+                for (let i = 0; i < selectedCell.length; i++){
+                    if (selectedCell[i].name !== d[selectedCell[i].attr]){
+                        return colormap[d.Survived]
+                    };
+                }
+                return colormap[4];
+            }
+            return colormap[d.Survived];
+        }
+        const onMouseEnter = (d) => {
+            const items = attributes.reverse().map( attr => {
+                return { "name": d[attr], "attr": attr, "PassengerId":d.PassengerId }
+            });
+            // console.log(d);
+            setSelectedCell(items);
+        }
+        //console.log(colormap[0]) 
+        return <svg width={width} height={height}>
+        <g transform={`translate(${margin.left}, ${margin.top})`}>
+            <line y1={innerHeight/2-margin.gap/2} x2={innerWidth} y2={innerHeight/2-margin.gap/2} stroke={"black"} strokeWidth={2}/> 
+            {xScale.ticks().map( (tick, idx) => {
+                return <g key={idx+'xtick'} transform={`translate(${xScale(tick)}, ${innerHeight/2})`}>
+                    <line y1={-10} y2={-margin.gap/2} stroke={"black"}/>
+                    <line y1={10} y2={margin.gap/2} stroke={"black"}/>
+                    <line y1={-margin.gap/2} y2={-innerHeight/2} stroke={"gray"} opacity={0.3}/>
+                    <line y1={margin.gap/2} y2={innerHeight/2} stroke={"gray"} opacity={0.3}/>
+                    <text style={{textAnchor:"middle"}} >
+                        {tick}
+                    </text>
+                </g>
+            })}
+            <text x={innerWidth+5} y={innerHeight/2+10}>{"Fare"}</text>
+            <text x={0} y={-5}>{"Age"}</text>
+            <text x={0} y={innerHeight+5}>{"Age"}</text>
+            <line y1={innerHeight/2+margin.gap/2} x2={innerWidth} y2={innerHeight/2+margin.gap/2} stroke={"black"} strokeWidth={2}/>
+            <line y2={innerHeight/2-margin.gap/2} stroke={"black"} strokeWidth={2} />
+            {yScale.ticks().map( (tick, idx) => {
+                return <g key={idx+'ytick-s'} transform={`translate(${0}, ${yScale(tick)})`}>
+                        <text style={{textAnchor:"end"}} x={-5} >
+                            {tick}
+                        </text>
+                        <line x1={-5} stroke={"black"} />
+                        <line x2={innerWidth} stroke={"gray"} opacity={0.3}/>
+                    </g>
+            })}
+            <line y1={innerHeight/2+margin.gap/2} y2={innerHeight} stroke={"black"} strokeWidth={2} />
+            {yScale.ticks().reverse().map( (tick, idx) => {
+                return <g key={idx+'ytick-p'} transform={`translate(${0}, ${innerHeight-yScale(tick)})`}>
+                        <text style={{textAnchor:"end"}} x={-5} >
+                            {tick}
+                        </text>
+                        <line x1={-5} stroke={"black"} />
+                        <line x2={innerWidth} stroke={"gray"} opacity={0.3}/>
+                        
+                    </g>
+            })}
+            {survived.map( (d, idx) => {
+                return <circle key={idx+"point"} cx={xScale(d.Fare)} cy={yScale(d.Age)} r={radius} stroke={"black"} fill={setColor(d)}
+                onMouseEnter={() => onMouseEnter(d)} onMouseOut={() => setSelectedCell(null)}/>
+            })}
+            
+            {perished.map( (d, idx) => {
+                return <circle key={idx+"point"} cx={xScale(d.Fare)} cy={innerHeight-yScale(d.Age)} r={radius} stroke={"black"} fill={setColor(d)}
+                onMouseEnter={() => onMouseEnter(d)} onMouseOut={() => setSelectedCell(null)}/>
+            })}
+            </g>
+        </svg>
+    }
+    function TreeMapText(props) {
+        const { d } = props;
+        return <foreignObject width={d.x1-d.x0} height={d.y1-d.y0}>
+            <div >
+                <p>{d.ancestors().reverse().slice(1).map((d, idx) => d.data.name)
+                    .join("\n")+"\nSurvived:"+d3.format(".0%")(d.value)}</p>
+            </div>
+            </foreignObject>
+    }
+    function TreeMap(props) {
+        const { width, height, tree, selectedCell, setSelectedCell } = props;
+        const margin = { top: 20, right: 40, bottom: 20, left: 40, gap: 40 };
+        const innerWidth = width - margin.left - margin.right;
+        const innerHeight = height - margin.top - margin.bottom;
+        const root = d3.treemap().size([innerWidth, innerHeight]).padding(2)
+            .round(true)(d3.hierarchy(tree).sum(d => d.children ? 0 : d.value))
+            .sort((a, b) => b.value - a.value);
+        const leaves = root.leaves();
+        // console.log(leaves[0].ancestors());
+        const parents = root.leaves().map( d => d.parent.data.name);
+        const parentsCategories = parents.filter( (d, idx) => parents.indexOf(d) === idx );
+        const color = d3.scaleOrdinal(d3.schemeDark2).domain(parentsCategories);
+        const firstLayer = root.descendants()[0].children;
+        const compareAncestors = (ancestors) => {
+            if(!selectedCell){
+                return false;
+            }
+            for(let i = 0; i < ancestors.length; i++){
+                if (selectedCell[i].name !== ancestors[i].name) {
+                    return false;
+                }
+            }
+            return true;
+        };
+        return <svg width={width} height={height}>
+        <g transform={`translate(${margin.left}, ${margin.right})`}>
+            {root.leaves().map( (d, idx) => {
+                const ancestors = d.ancestors().map(d => {return {"name":d.data.name, "attr":d.data.attr}}).slice(0, -1);
+                // console.log(ancestors);
+                return <g key={idx+"treemap"} transform={`translate(${d.x0}, ${d.y0})`} 
+                    onMouseOver={()=>setSelectedCell(ancestors)} onMouseOut={()=>setSelectedCell(null)}>
+                    <rect width={d.x1-d.x0} height={d.y1-d.y0} stroke={"none"} fill={selectedCell && compareAncestors(ancestors) ? "red":color(d.parent.data.name)} opacity={0.8}/>
+                    <TreeMapText d={d} />
+                </g>
+            })}
+            {firstLayer.map( (d, idx) => {
+                return <g key={idx+"outerline"} transform={`translate(${d.x0}, ${d.y0})`}>
+                    <rect width={d.x1-d.x0} height={d.y1-d.y0} stroke={"black"} fill={"none"}/>
+                    <text style={{fontSize:"6em"}} x={ (d.x1-d.x0)/2 } y={ (d.y1-d.y0)/2 } textAnchor={"middle"} opacity={0.3} 
+                    transform={`rotate(${(d.x1-d.x0)>(d.y1-d.y0)? 0: 90}, ${(d.x1-d.x0)/2}, ${(d.y1-d.y0)/2})`}>
+                        {d.data.name}
+                        </text>
+                    </g>
+            })}
+            </g>
+        </svg>
+    }
+    function Dropdown (props) {
+        const { options, id, selectedValue, onSelectedValueChange } = props;
+        return <select id={id} defaultValue={selectedValue} onChange={event => {console.log(event.target); onSelectedValueChange(event.target.value)}}>
+            {options.map( ({value, label}) => {
+                return <option key={label} value={value} >
+                    {label}
+                </option>
+            })}
+        </select>
+    }
+    const Titanic = () => {
+        const [firstAttr, setFirstAttr] = React.useState("Sex");
+        const [secondAttr, setSecondAttr] = React.useState("Pclass");
+        const [thirdAttr, setThirdAttr] = React.useState("null");
+        const [selectedCell, setSelectedCell] = React.useState(null);
+        // const [selectedPoint, setSelectedPoint] = React.useState(null);
+        // console.log(selectedCell);
+
+        const rawData = useData(csvUrl);
+        if (!rawData) {
+            return <p>
+                Loading...
+                </p>
+        }
+        const data = rawData.filter( d => d.Age > 0);//.forEach(d =>  d.AgeGroup = getAgeGroup(d));
+        data.forEach(d => d.AgeGroup = getAgeGroup(d));
+        //console.log(data.length, data.filter(d => d.Sex==="female").length, data.filter(d => d.Sex==="male").length )
+        const innerWidth = WIDTH - margin.left - margin.right;
+        const innerHeight = HEIGHT - margin.top - margin.bottom;
+        //console.log(getTree(data, ["Sex", "AgeGroup", "Pclass"]));
+        const attributes = [ firstAttr, secondAttr, thirdAttr ].filter( d => d !== "null");
+        // console.log(attributes);
+        const onFristAttrChange = ( attr ) => {
+            setFirstAttr(attr);
+        }
+        const onSecondAttrChange = ( attr ) => {
+            setSecondAttr(attr);
+        }
+        const onThirdAttrChange = ( attr ) => {
+            setThirdAttr(attr);
+        }
+        const tree_ = getTree(data, attributes);
+        const tree = {"name":"root", "children": tree_};
+        const options = [{value: "null", label: "None"},{value: "Sex", label: "Gender"}, {value: "Pclass", label: "Passenger class"},
+            {value: "AgeGroup", label: "Age"}];
+        return <div >
+           <ScatterPlot x={margin.left} y={margin.top} width={WIDTH} height={HEIGHT} data={data}
+                selectedCell={selectedCell} setSelectedCell={setSelectedCell} attributes={attributes}/>
+            <br />
+            <Dropdown options={options} id={"selector1"} selectedValue={firstAttr} onSelectedValueChange={onFristAttrChange}/>
+            <Dropdown options={options} id={"selector2"} selectedValue={secondAttr} onSelectedValueChange={onSecondAttrChange}/>
+            <Dropdown options={options} id={"selector3"} selectedValue={thirdAttr} onSelectedValueChange={onThirdAttrChange}/>
+            <TreeMap width={WIDTH} height={HEIGHT} tree={tree} selectedCell={selectedCell} setSelectedCell={setSelectedCell}/>
+        </div>
+    }
+    ReactDOM.render( <Titanic/>, document.getElementById('root'));
+    </script>
+    </body>
+    </html>

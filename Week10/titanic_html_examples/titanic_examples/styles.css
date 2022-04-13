@@ -1,0 +1,29 @@
+body {
+    font-family: monospace; 
+}
+
+div {
+    white-space: pre-wrap;
+}
+
+#selector1 {
+    position:relative;
+    font: "12px sans-serif";
+    border: "0px";
+    right: 300 px;
+    bottom: 0 px;
+}
+#selector2 {
+    position:relative;
+    font: "12px sans-serif";
+    border: "0px";
+    right: 300 px;
+    bottom: 0 px;
+}
+#selector3 {
+    position:relative;
+    font: "12px sans-serif";
+    border: "0px";
+    right: 300 px;
+    bottom: 0 px;
+}

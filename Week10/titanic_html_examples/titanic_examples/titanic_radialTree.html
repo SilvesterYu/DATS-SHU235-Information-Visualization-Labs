@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Titanic Passanger Dataset</title>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="https://d3js.org/d3-path.v2.min.js"></script>
+    <script src="https://d3js.org/d3-shape.v2.min.js"></script>
+    <script src="https://d3js.org/topojson.v1.min.js"></script>
+    <script src="https://d3js.org/d3-array.v2.min.js"></script>
+    <script src="https://d3js.org/d3-geo.v2.min.js"></script>
+    <script src="https://d3js.org/d3-geo-projection.v3.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v2.min.js"></script> 
+    <script src="https://unpkg.com/react/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone/babel.js"></script>
+    <link rel="stylesheet" href="styles.css" > 
+</head>
+<body>
+    <h1>A Radial Tree on the Titanic Dataset</h1>
+    <div id="root"></div> 
+    <script type="text/babel">
+    const WIDTH = 800;
+    const HEIGHT = 800;
+    const margin = { top: 20, right: 40, bottom: 20, left: 40 };
+    const csvUrl = "https://gist.githubusercontent.com/hogwild/2ac0f0b665b4295e0574c85c12bec092/raw/8cee439ac896703d2c95cb805f44bf07d74e933b/titanic.csv";
+    function useData(csvPath){
+        const [dataAll, setData] = React.useState(null);
+        React.useEffect(() => {
+            d3.csv(csvPath).then(data => {
+                data.forEach(d => {
+                    d.Age = +d.Age;
+                    d.Fare = +d.Fare;
+                    d.SibSp = +d.SibSp;
+                    d.Parch = +d.Parch;
+                    d.Survived = d.Survived === "1"?"Survived":"Perished";
+                    d.Pclass = "Class: " + d.Pclass;
+                });
+                setData(data);
+            });
+        }, []);
+        return dataAll;
+    }
+    function getAgeGroup( d ){
+        if (d.Age < 10) {
+            return "Age:[0, 10]"
+        }
+        if (10 <= d.Age && d.Age < 20) {
+            return "Age:[10, 20]"
+        }
+        if (20 <= d.Age && d.Age < 30) {
+            return "Age:[20, 30]"
+        }
+        if (30 <= d.Age && d.Age < 40) {
+            return "Age:[30, 40]"
+        }
+        if (40 <= d.Age && d.Age < 50) {
+            return "Age:[40, 50]"
+        }
+        if (50 <= d.Age && d.Age < 60) {
+            return "Age:[50, 60]"
+        }
+        if (60 <= d.Age && d.Age < 70) {
+            return "Age:[60, 70]"
+        }
+        if (70 <= d.Age && d.Age <= 80) {
+            return "Age:[70, 80]"
+        }
+    }
+    function TreeText(props) {
+        const { d } = props;
+        const divStyle = {
+                        position: "absolute",
+                        textAlign: "left",
+                        width: "35px",
+                        height: "15px",
+                        padding: "1px",
+                        font: "6px sans-serif",
+                        backgroundColor: "orange",
+                        border: "0px",
+                        borderRadius: "2px",
+                        pointerEvents: "none",
+                        left: `${0}px`,
+                        top: `${0}px`
+                    };
+        if(!d.children){ //To avoid clutter, for leaves, we do not show the name.
+            return <g></g> 
+        }
+        return <foreignObject width={200} height={100}>
+            <div style={divStyle} >
+                <p>{d.data.name}</p>
+            </div>
+            </foreignObject>
+    }
+    function TidyTree(props) {
+        const { width, height, root, selectedCell, setSelectedCell } = props;
+        const margin = { top: 20, right: 40, bottom: 20, left: 40, gap: 40 };
+        const innerWidth = width - margin.left - margin.right;
+        const innerHeight = height - margin.top - margin.bottom;
+        const radius = d3.min([innerHeight, innerWidth]) / 2 - 50;
+        const tree = d3.tree().size([2 * Math.PI, radius])
+            .separation((a, b) => (a.parant == b.parent ? 1 : 2)/ a.depth)(root);
+        const nodes = root.descendants();
+        const links = root.links();
+        // console.log(nodes);
+        return <svg width={width} height={height}>
+        <g transform={`translate(${innerWidth/2}, ${innerWidth/2})`}>
+            {links.map( d => {
+               return  <path d={d3.linkRadial().angle(d=>d.x).radius(d=>d.y)(d)} fill={"none"} 
+                stroke={"black"} strokeLinejoin={"round"}/>
+            })}
+            {nodes.map( d => {
+               return <g key={d.x+d.y+"circle"} 
+               transform={`rotate(${d.x*180/Math.PI-90})translate(${d.y}, 0)`}>
+                <circle  r={1.5} fill={"steelblue"} />
+                <TreeText d={d} />
+                </g>
+            })}
+        </g>
+        </svg>}
+    
+    function getChildren(data) {
+        let itemArr = [];
+        for (let i = 0; i < data.length; i++) {
+            if (Array.isArray(data[i][1])) {
+                let node = { name: data[i][0], children: getChildren(data[i][1])};
+                itemArr.push(node);
+            } else {
+                let node = { name: data[i].Name };
+                itemArr.push(node);
+            }
+        }
+        return itemArr;
+    }; 
+    
+    const Titanic = () => {
+        const rawData = useData(csvUrl);
+        if (!rawData) {
+            return <p>
+                Loading...
+                </p>
+        }
+        // const data = Array.from(d3.groups(rawData, d => d.Sex, d => d.Survived), ([name, children]) => ({name, children}));
+        const data = rawData.filter( d => d.Age > 0); //remove those records whose age columns are empty.
+        data.forEach(d => d.AgeGroup = getAgeGroup(d));
+        //let attributes = ["Sex", "AgeGroup", "Pclass"];
+
+        const groupedData = d3.groups(data, d => d.Sex, d => d.AgeGroup, d => d.Pclass);
+        // console.log(groupedData);
+        let root = {name: "Passangers", children: getChildren(groupedData)};
+        root = d3.hierarchy(root)
+            .sort((a, b) => d3.ascending(a.data.name, b.data.name));
+        return <div >
+          <TidyTree width={WIDTH} height={HEIGHT} root={root}/>
+        </div>
+    }
+    ReactDOM.render( <Titanic/>, document.getElementById('root'));
+    </script>
+    </body>
+    </html>

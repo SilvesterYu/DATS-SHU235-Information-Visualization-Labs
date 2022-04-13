@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Titanic Passanger Dataset</title>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="https://d3js.org/d3-path.v2.min.js"></script>
+    <script src="https://d3js.org/d3-shape.v2.min.js"></script>
+    <script src="https://d3js.org/topojson.v1.min.js"></script>
+    <script src="https://d3js.org/d3-array.v2.min.js"></script>
+    <script src="https://d3js.org/d3-geo.v2.min.js"></script>
+    <script src="https://d3js.org/d3-geo-projection.v3.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v2.min.js"></script> 
+    <script src="https://unpkg.com/react/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone/babel.js"></script>
+    <link rel="stylesheet" href="styles.css" > 
+</head>
+<body>
+    <h1>A visualization on the Titanic Dataset</h1>
+    <p></p>
+    <div id="root"></div> 
+    <script type="text/babel">
+    const WIDTH = 1000;
+    const HEIGHT = 600;
+    const margin = { top: 20, right: 40, bottom: 20, left: 40 };
+    const csvUrl = "https://gist.githubusercontent.com/hogwild/2ac0f0b665b4295e0574c85c12bec092/raw/8cee439ac896703d2c95cb805f44bf07d74e933b/titanic.csv";
+    function useData(csvPath){
+        const [dataAll, setData] = React.useState(null);
+        React.useEffect(() => {
+            d3.csv(csvPath).then(data => {
+                data.forEach(d => {
+                    d.Age = +d.Age;
+                    d.Fare = +d.Fare;
+                    d.SibSp = +d.SibSp;
+                    d.Parch = +d.Parch;
+                    d.Survived = +d.Survived;
+                    d.Pclass = "Class: " + d.Pclass;
+                });
+                setData(data);
+            });
+        }, []);
+        return dataAll;
+    }
+    function getAgeGroup( d ){
+        if (d.Age < 10) {
+            return "Age:[0, 10]"
+        }
+        if (10 <= d.Age && d.Age < 20) {
+            return "Age:[10, 20]"
+        }
+        if (20 <= d.Age && d.Age < 30) {
+            return "Age:[20, 30]"
+        }
+        if (30 <= d.Age && d.Age < 40) {
+            return "Age:[30, 40]"
+        }
+        if (40 <= d.Age && d.Age < 50) {
+            return "Age:[40, 50]"
+        }
+        if (50 <= d.Age && d.Age < 60) {
+            return "Age:[50, 60]"
+        }
+        if (60 <= d.Age && d.Age < 70) {
+            return "Age:[60, 70]"
+        }
+        if (70 <= d.Age && d.Age <= 80) {
+            return "Age:[70, 80]"
+        }
+    }
+   
+    function TreeMapText(props) {
+        const { d } = props;
+        return <foreignObject width={d.x1-d.x0} height={d.y1-d.y0}>
+            <div >
+                <p>{d.ancestors().reverse().slice(1).map((d, idx) => d.data.name)
+                    .join("\n")+"\nSurvived:"+d3.format(".0%")(d.value)}</p>
+            </div>
+            </foreignObject>
+    }
+
+    function TreeMap(props) {
+        const { width, height, root, selectedNode, setSelectedNode, setTooltipX, setTooltipY } = props;
+        const margin = { top: 20, right: 40, bottom: 20, left: 40, gap: 40 };
+        const innerWidth = width - margin.left - margin.right;
+        const innerHeight = height - margin.top - margin.bottom;
+
+        const tree = d3.treemap().tile(d3.treemapSquarify).size([innerWidth, innerHeight]).padding(2)
+            .round(true)(root).sort((a, b) => b.value - a.value);;
+
+
+        // const leaves = tree.leaves();
+        // console.log(leaves);
+
+        const parents = tree.leaves().map( d => d.parent.data.name);
+        const parentsCategories = parents.filter( (d, idx) => parents.indexOf(d) === idx );
+        const color = d3.scaleOrdinal(d3.schemeDark2).domain(parentsCategories);
+        const firstLayer = tree.descendants()[0].children;
+        
+        return <svg width={width} height={height}>
+        <g transform={`translate(${margin.left}, ${margin.right})`}>
+            {tree.leaves().map( (d, idx) => {
+                return <g key={idx+"treemap"} transform={`translate(${d.x0}, ${d.y0})`} 
+                        onMouseOver={(event)=> {
+                            console.log("selected")
+                            setSelectedNode(d);
+                            setTooltipX(event.pageX);
+                            setTooltipY(event.pageY);
+                        }} 
+                        onMouseOut={()=> {
+                            setSelectedNode(null);
+                            setTooltipX(null);
+                            setTooltipY(null);
+                        }}>
+                    <rect width={d.x1-d.x0} height={d.y1-d.y0} stroke={"none"} 
+                        fill={selectedNode && d.data.group[0].PassengerId === selectedNode.data.group[0].PassengerId ? "red" : color(d.parent.data.name)} opacity={0.8} />
+                    <TreeMapText d={d} />
+                </g>
+            })}
+            {firstLayer.map( (d, idx) => {
+                return <g key={idx+"outerline"} transform={`translate(${d.x0}, ${d.y0})`}>
+                    <rect width={d.x1-d.x0} height={d.y1-d.y0} stroke={"black"} fill={"none"}/>
+                    <text style={{fontSize:"6em"}} x={ (d.x1-d.x0)/2 } y={ (d.y1-d.y0)/2 } textAnchor={"middle"} opacity={0.3} 
+                    transform={`rotate(${(d.x1-d.x0)>(d.y1-d.y0)? 0: 90}, ${(d.x1-d.x0)/2}, ${(d.y1-d.y0)/2})`}>
+                        {d.data.name}
+                        </text>
+                </g>
+            })}
+            </g>
+        </svg>
+    }
+
+    function Tooltip(props) {
+        const {d, left, top} = props;
+        //console.log(d);
+        if (left === null) {
+            return <div></div>;
+        } else {
+            const divStyle = {
+                position: "absolute",
+                textAlign: "left",
+                width: "100px",
+                height: "80px",
+                font: "12px sans-serif",
+                background: "lightblue",
+                border: "0px",
+                borderRadius: "8px",
+                pointerEvents: "none",
+                left: `${left}px`,
+                top: `${top}px`
+            };
+            return <div style={divStyle} >
+                <p>{d.ancestors().reverse().slice(1).map((d, idx) => d.data.name)
+                    .join("\n")+"\nSurvived:"+d3.format(".0%")(d.value)}</p>
+                </div>
+        };  
+    }
+    function buildTree(data, attributes) {
+        //data: a list of objects, loaded from backend
+        //attributes: the attributes that define the hierarchy 
+        let itemArr = [];
+        if (attributes.length === 0){
+            return null;
+        }
+        let groups = d3.groups( data, d => d[attributes[0]]);
+        let levels = groups.map( d => d[0]);
+        for (let i = 0; i < levels.length; i++) {
+            let surviveRate = groups[i][1].filter( d => d.Survived == 1).length/groups[i][1].length;
+            itemArr.push({name: levels[i], children: buildTree(groups[i][1], attributes.slice(1)),
+                 value: surviveRate, group: groups[i][1]});
+        } 
+        return itemArr;
+    }
+    const Titanic = () => {
+        const [tooltipX, setTooltipX] = React.useState(null);
+        const [tooltipY, setTooltipY] = React.useState(null);
+        const [selectedNode, setSelectedNode] = React.useState(null);
+        const rawData = useData(csvUrl);
+        if (!rawData) {
+            return <p>
+                Loading...
+                </p>
+        }
+        const data = rawData.filter( d => d.Age > 0); //remove those records whose age columns are empty.
+        data.forEach(d => d.AgeGroup = getAgeGroup(d));
+
+        let attributes = ["Sex", "Pclass", "AgeGroup"];
+        let root = {name: "Passangers", children: buildTree(data, attributes),
+            value: data.filter( d => d.Survived == 1).length/data.length};
+        root = d3.hierarchy(root)
+            .sum(d => {
+                // console.log(d.children ? 0 : d.value);
+                return d.children ? 0 : d.value;
+            });
+        // console.log(root);
+        //console.log("node selected", selectedNode);
+        return <div >
+            <TreeMap width={WIDTH} height={HEIGHT} root={root} selectedNode={selectedNode} 
+                setSelectedNode={setSelectedNode} setTooltipX={setTooltipX} setTooltipY={setTooltipY}/>
+            <Tooltip d={selectedNode} left={tooltipX} top={tooltipY}/>
+        </div>
+    }
+    ReactDOM.render( <Titanic/>, document.getElementById('root'));
+    </script>
+    </body>
+    </html>
