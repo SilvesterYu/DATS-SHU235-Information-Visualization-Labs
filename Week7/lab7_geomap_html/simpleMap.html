@@ -42,6 +42,7 @@
                 setData(data);
             });
         }, []);
+        console.log(dataAll);
         return dataAll;
     }
 
@@ -91,9 +92,14 @@
             };
         const income_grp = rawData.map(d => d.income_grp);
         const incomeLevels = income_grp.filter((a, b) => income_grp.indexOf(a) === b);
+        console.log("888");
+        console.log(incomeLevels.length);
+        console.log(incomeLevels);
+        console.log("888");
         const colormap =  d3.scaleOrdinal(d3.schemeOranges[incomeLevels.length])
             .domain(incomeLevels);
-        console.log(incomeLevels);
+        console.log("999");
+        console.log(colormap);
         return <svg width={WIDTH} height={HEIGHT}>
             <WorldMap map={map} data={rawData} colormap={colormap}/>
             <Legend x={50} y={HEIGHT/2} colormap={colormap} incomeLevels={incomeLevels} />
