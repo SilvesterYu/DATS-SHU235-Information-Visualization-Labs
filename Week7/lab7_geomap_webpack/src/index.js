@@ -61,7 +61,7 @@ function Geomap() {
     const incomeLevels = income_grp.filter((a, b) => income_grp.indexOf(a) === b).sort().reverse();
     console.log(incomeLevels);
     // -- for discrete colormap, just specify the levels we need -- //
-    const colormap = scaleSequential(schemeOranges[incomeLevels.length])
+    const colormap = scaleOrdinal(schemeOranges[incomeLevels.length])
             .domain(incomeLevels);
 
     return <svg width={WIDTH} height={HEIGHT}>
