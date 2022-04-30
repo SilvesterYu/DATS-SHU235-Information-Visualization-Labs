@@ -12,7 +12,7 @@ import { feature } from "topojson-client";
 
 
 const mapUrl = "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json";
-const csvUrl = "https://gist.githubusercontent.com/hogwild/1cd42bbfecfc53ed264e9801d82c0977/raw/ae784b8e93d146903f3fac15b47659863389a35f/worldCountries.csv";
+const csvUrl = "./downloaded.csv";
 
 function useMap(jsonPath) {
     const [data, setData] = React.useState(null);
