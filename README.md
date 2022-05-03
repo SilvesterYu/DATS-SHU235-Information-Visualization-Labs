@@ -70,6 +70,8 @@ using geo libraries in JavaScript
 
 ### Lab8
 
+Citibike interactive map. Point map.
+
 ### Lab9
 
 ### Lab 10
